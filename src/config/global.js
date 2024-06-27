@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Programación y algoritmia básica',
+    descripcionCurso:
+      'El componente formativo en algoritmia enseña la definición y aplicación de algoritmos para resolver problemas de manera eficaz. Incluye el pensamiento algorítmico, fases de diseño, ejemplos prácticos, y herramientas como pseudocódigo y diagramas de flujo, proporcionando una base sólida para la programación y la optimización de procesos computacionales.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,27 +36,174 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Introducción a la algoritmia',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Pensamiento algorítmico',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Solución de problemas y programación',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Análisis del problema (entenderlo)',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo:
+              'Desarrollo de la creatividad: elementos, modelos, fases y sus objetivos',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Lógica matemática',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Componentes de la lógica matemática',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Ejercicios de lógica proposicional',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Metodología de algoritmos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Análisis',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Diseño',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Pruebas de escritorio o trazas',
+            hash: 't_3_3',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Diagramas de flujo',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        numero: '5',
+        titulo: 'Uso de identificadores y palabras reservadas',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        numero: '6',
+        titulo: 'Operadores y jerarquía en los operadores',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema7',
+        numero: '7',
+        titulo: 'Estructuras de control secuencial',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '7.1',
+            titulo: 'Estructura condicional',
+            hash: 't_7_1',
+          },
+          {
+            numero: '7.2',
+            titulo: 'Estructuras de iteración o repetitivas',
+            hash: 't_7_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema8',
+        numero: '8',
+        titulo: 'Estructura de datos',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema9',
+        numero: '9',
+        titulo: 'Conceptos básicos de programación',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema10',
+        numero: '10',
+        titulo: 'Sintaxis del lenguaje JavaScript',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '10.1',
+            titulo: 'Tipos de datos, operadores y orden de evaluación',
+            hash: 't_10_1',
+          },
+          {
+            numero: '10.2',
+            titulo: 'Expresiones y comentarios',
+            hash: 't_10_2',
+          },
+          {
+            numero: '10.3',
+            titulo: 'Estructuras de selección',
+            hash: 't_10_3',
+          },
+          {
+            numero: '10.4',
+            titulo: 'Estructuras de repetición',
+            hash: 't_10_4',
+          },
+          {
+            numero: '10.5',
+            titulo: 'Estructuras de datos',
+            hash: 't_10_5',
+          },
+          {
+            numero: '10.6',
+            titulo: 'Estructuras de salto',
+            hash: 't_10_6',
+          },
+          {
+            numero: '10.7',
+            titulo: 'Métodos de ordenamiento y búsqueda',
+            hash: 't_10_7',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema11',
+        numero: '11',
+        titulo: 'Depuración y fallas de sintaxis',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema12',
+        numero: '12',
+        titulo: 'Manejo de errores y excepciones',
         desarrolloContenidos: true,
       },
     ],
