@@ -18,7 +18,7 @@
                 .col-12
                   .p-4.bg-c14
                     .row.align-items-center
-                      .col-auto
+                      .col-md-auto.mb-4.mb-md-0
                         figure
                           img(src='@/assets/curso/tema5/img1.svg', style='width: 70px', alt='').m-auto
                       .col

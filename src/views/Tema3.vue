@@ -171,7 +171,7 @@
       .col-lg-6
         .p-4.bg-c6
           .row.align-items-center
-            .col-lg
+            .col-lg.mb-4.mb-lg-0
               p #[b.txt-c4 Ejemplo:]
               p.text-white.mb-0 El cliente pide que se desarrolle un programa de computadora que le solicite al usuario un número, luego el sistema debe mostrar en pantalla el número digitado.
             .col-lg-auto
@@ -299,7 +299,7 @@
           figure.d-flex.justify-content-end
             img(src='@/assets/curso/tema3/img14.svg', style="width: 110px" alt='')
     p.mb-5 #[b.txt-c1 Ejecutando línea a línea el algoritmo del ejemplo anterior, se va llenando la tabla:]
-    .tarjeta.tarjeta--gris.p-5.mb-5
+    .tarjeta.tarjeta--gris.p-4.p-lg-5.mb-5
       PasosB.color-primario
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-12

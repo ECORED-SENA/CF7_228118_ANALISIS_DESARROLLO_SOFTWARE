@@ -306,7 +306,7 @@
     p.mb-5 Otro punto importante en la fase de análisis del problema es determinar cuál es la información disponible, por lo tanto:
     .row.justify-content-center.mb-4
       .col-md-10.col-lg-4.mb-4.mb-lg-0
-        .p-4.bg-c8
+        .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
               figure
@@ -314,7 +314,7 @@
             .col
               p.text-white.mb-0 ¿Qué información es importante y necesaria para resolver el problema?
       .col-md-10.col-lg-4.mb-4.mb-lg-0
-        .p-4.bg-c8
+        .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
               figure
@@ -322,7 +322,7 @@
             .col
               p.text-white.mb-0 ¿Qué información no es importante y se puede prescindir?
       .col-md-10.col-lg-4
-        .p-4.bg-c8
+        .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
               figure
@@ -331,7 +331,7 @@
               p.text-white.mb-0 ¿Cuáles son los datos de entrada conocidos?
     .row.justify-content-center.mb-5
       .col-md-10.col-lg-4.mb-4.mb-lg-0
-        .p-4.bg-c8
+        .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
               figure
@@ -339,7 +339,7 @@
             .col
               p.text-white.mb-0 ¿Cuál es la incógnita o qué se debe calcular?
       .col-md-10.col-lg-4.mb-4.mb-lg-0
-        .p-4.bg-c8
+        .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
               figure
@@ -347,7 +347,7 @@
             .col
               p.text-white.mb-0 ¿Los datos se pueden agrupar en categorías?
       .col-md-10.col-lg-4
-        .p-4.bg-c8
+        .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
               figure

@@ -553,7 +553,7 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Solución
-    .tarjeta.tarjeta--gris.p-5.mb-5
+    .tarjeta.tarjeta--gris.p-4.p-lg-5.mb-5
       PasosB.color-primario
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-lg-6.mb-4.mb-lg-0
@@ -673,7 +673,7 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Solución
-    .tarjeta.tarjeta--gris.p-5
+    .tarjeta.tarjeta--gris.p-4.p-lg-5
       PasosB.color-primario
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-lg-6.mb-4.mb-lg-0
