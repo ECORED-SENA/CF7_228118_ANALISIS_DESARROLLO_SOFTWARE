@@ -254,32 +254,296 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Introducción a la algoritmia',
+      referencia:
+        'Magic Markers. (2015). ¿Qué es un algoritmo? [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=U3CGMyjzlvM',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Introducción a la algoritmia',
+      referencia:
+        'Calderón, J. P. (2015). Fundamentos de lógica matemática. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=9zYDaZhS7Ac',
+    },
+    {
+      tema: 'Diagramas de flujo',
+      referencia:
+        'Material_Audiovisual_100319633. (6 de enero de 2021). App Diagrams.net (básico para diagramas de flujo). [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/jdnqmFpqTvo',
+    },
+    {
+      tema: 'Diagramas de flujo',
+      referencia:
+        'Enrique Olivares. (23 de febrero de 2016). Introducción a utilizar el programa DIA para diagramas de flujo a nivel bachillerato. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/DnRx9D7QWg8',
+    },
+    {
+      tema: 'Diagramas de flujo',
+      referencia:
+        'DiscoDurodeRoer. (27 de abril de 2015). Ejercicios PseInt - Básicos #1 - Empezando por lo básico. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/DHIi4dcaMEc',
+    },
+    {
+      tema: 'Diagramas de flujo',
+      referencia:
+        'Insituto de Informática Uach. (08 de septiembre de 2020). Cómo descargar Draw.io 2 para dibujar diagramas de flujo. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=encz3h8TLWA',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia:
+        'Framebits. (19 de enero de 2020). Descargar e instalar Node Js en Windows 10.',
+      tipo: 'Video',
+      link: 'https://youtu.be/v0x1Ku5Tgac',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia:
+        'Code Compadre. (30 de junio de 2020). How to Download and Install Visual Studio Code for Windows 10.',
+      tipo: 'Video',
+      link: 'https://youtu.be/KpzkPlh_HsU',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia:
+        'VideoMarketingViral. (11 de enero de 2020). Descargar Google Chrome para PC 2021 (WINDOWS 7/8/10).',
+      tipo: 'Video',
+      link: 'https://youtu.be/V-M2rMBhgKc',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia: 'MDN. (2021). Array - JavaScript.',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia: 'MDN. (2021). Expresiones y operadores - JavaScript',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia: 'MDN. (2021). Funciones - JavaScript.',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia: 'MDN. (2021). Array.prototype.find() - JavaScript.',
+      tipo: 'Documentación técnica',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/find',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia:
+        'Choque, R. C. (10 de mayo de 2020). Cómo usar la consola de Google Chrome para JavaScript. [Video] YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/Hf3n-p3VYx4',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia:
+        'Autodidacta, F. (11 de mayo de 2017). Depurar o hacer debug a JavaScript con Google Chrome. [Video] YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/I388w3wDkjc',
+    },
+    {
+      tema: 'Entornos de codificación e instalación JavaScript',
+      referencia:
+        'Framebits. (19 de enero de 2020). Descargar e instalar Node Js en Windows 10.',
+      tipo: 'Video',
+      link: 'https://youtu.be/v0x1Ku5Tgac',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Algoritmos',
+      significado:
+        'conjunto ordenado y finito de operaciones que permite hallar la solución de un problema.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Compilación',
+      significado:
+        'proceso de traducción del código fuente de un programa a un lenguaje de bajo nivel ejecutable.',
+    },
+    {
+      termino: 'Depuración',
+      significado:
+        'proceso de identificar y corregir errores o fallos en un programa informático.',
+    },
+    {
+      termino: 'Diseño',
+      significado:
+        'proceso de planificar la solución a un problema a través de un algoritmo.',
+    },
+    {
+      termino: 'Flujo',
+      significado:
+        'secuencia de pasos que determina el orden en que se ejecutan las instrucciones de un programa.',
+    },
+    {
+      termino: 'Modularidad',
+      significado:
+        'propiedad de un sistema que permite dividirlo en partes más pequeñas y manejables.',
+    },
+    {
+      termino: 'Optimización',
+      significado:
+        'mejora del rendimiento o eficiencia de un programa mediante la reducción de recursos utilizados o el aumento de la velocidad de ejecución.',
+    },
+    {
+      termino: 'Programación',
+      significado:
+        'proceso de crear <i>software</i> escribiendo, probando, depurando y manteniendo el código fuente en un lenguaje de programación.',
+    },
+    {
+      termino: 'Pseudocódigo',
+      significado:
+        'forma simplificada de representar un algoritmo utilizando expresiones del lenguaje natural.',
+    },
+    {
+      termino: 'Variables',
+      significado:
+        'elementos que almacenan datos que pueden cambiar durante la ejecución de un programa.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Autodidacta, F. (11 de mayo de 2017). Depurar o hacer debug a JavaScript con Google Chrome. [Video]. ',
+      link: 'https://www.youtube.com/watch?v=I388w3wDkjc&t=192s',
+    },
+    {
+      referencia:
+        'Choque, R. C. (10 de mayo de 2020). Cómo usar la consola de Google Chrome para JavaScript. [Video]. ',
+      link: 'https://www.youtube.com/watch?v=Hf3n-p3VYx4',
+    },
+    {
+      referencia:
+        'Eduteka.org. (2008). Sembrando las semillas para una sociedad más creativa. Dr. Mitchel Resnick. [Traducción]. Universidad ICESI. ',
+      link: 'http://www.eduteka.org/ScratchResnickCreatividad.php',
+    },
+    {
+      referencia:
+        'Framebits. (19 de enero de 2020). Descargar e instalar Node Js en Windows 10. [Video]. ',
+      link: 'https://youtu.be/v0x1Ku5Tgac',
+    },
+    {
+      referencia:
+        'López, J. (2009). Algoritmos y programación (guía para docentes). ',
+      link:
+        'https://libros.metabiblioteca.org/bitstream/001/169/8/AlgoritmosProgramacion.pdf',
+    },
+    {
+      referencia:
+        'López, J. (2009). Algoritmos y programación (guía para docentes). ',
       link: '',
+    },
+    {
+      referencia:
+        'López, J., C. (2009). Educación básica algoritmos y programación. Guía para docentes. Segunda edición. Fundación Gabriel Piedrahita Uribe. ',
+      link:
+        'https://libros.metabiblioteca.org/bitstream/001/169/8/AlgoritmosProgramacion.pdf',
+    },
+    {
+      referencia: 'MDN. (2021). Array - JavaScript. ',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array#',
+    },
+    {
+      referencia: 'MDN. (2021a). Expresiones y operadores - JavaScript. ',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators',
+    },
+    {
+      referencia: 'MDN. (2021b). Math - JavaScript. ',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math',
+    },
+    {
+      referencia: 'MDN. (2021c). Array.prototype.find() - JavaScript. ',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/find',
+    },
+    {
+      referencia: 'MDN. (2021d). Funciones - JavaScript ',
+      link:
+        'https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Functions',
+    },
+    {
+      referencia:
+        'MDN. (2021e). Tipos de datos y estructuras en JavaScript - JavaScript. ',
+      link: 'https://developer.mozilla.org/es/docs/Web/',
+    },
+    {
+      referencia:
+        'Medina, H., M. (2018). Estrategias metodológicas para el desarrollo del pensamiento lógico-matemático. Didasc@lia: Didáctica y Educación, 9(1), p. 125-132. ',
+      link: 'https://dialnet.unirioja.es/descarga/articulo/6595073.pdf',
+    },
+    {
+      referencia:
+        'Real Academia Española (2020). Algoritmo | Diccionario de la lengua española. RAE. ',
+      link: 'https://dle.rae.es/algoritmo',
+    },
+    {
+      referencia:
+        'Real Academia Española (2020). Programa | Diccionario de la lengua española. RAE. ',
+      link: 'https://dle.rae.es/programa',
+    },
+    {
+      referencia:
+        'Resnick, M. (2007). Sembrando semillas para una sociedad más creativa. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Rojas A., V. y Ñacato C., J. (1980). Técnica de flujogramas I. Editora Andina. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Rojas, A., V. y Ñacato C., J. (1980). Técnica de flujogramas I. Editora Andina. ',
+      link:
+        'https://biblioteca.epn.edu.ec/cgi-bin/koha/opac-detail.pl?biblionumber=27333',
+    },
+    {
+      referencia:
+        'Suppes, P., y Hill, S. (2021). Introducción a la lógica matemática. Editorial Reverté. ',
+      link:
+        'https://www.reverte.com/libro/introduccion-a-la-logica-matematica_91496/',
+    },
+    {
+      referencia:
+        'Tapia, L. (1995). Cómo desarrollar el razonamiento lógico matemático. Editorial Universitaria. ',
+      link:
+        'https://www.worldcat.org/title/como-desarrollar-el-razonamiento-logico-y-matematico/oclc/50414752',
+    },
+    {
+      referencia:
+        'TOMi.digital. (s.f.). Valores de las tablas de verdad. Colegio Nuestra Señora de las Victorias. ',
+      link:
+        'https://tomi.digital/es/59552/valores-de-las-tablas-de-verdad?utm_source=google&utm_medium=seo',
+    },
+    {
+      referencia: 'Vázquez, J. (2012). Análisis y diseño de algoritmos. ',
+      link:
+        'http://www.aliat.org.mx/BibliotecasDigitales/sistemas/Analisis_y_disenio_de_algoritmos.pdf',
+    },
+    {
+      referencia: 'Vedia, M. (2018). Cuándo usar Return en JavaScript. ',
+      link:
+        'https://medium.com/@mvtercero85/cuando-usar-return-en-javascript-7b80e025eb7f',
     },
   ],
   creditos: [
@@ -302,8 +566,20 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Henry Eduardo Bastidas Paruma',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Peter Emerson Pinchao',
+          cargo: 'Experto Temático',
+          centro:
+            'Centro de Teleinformática y Producción Industrial - Regional Cauca',
+        },
+        {
+          nombre: 'Paola Alexandra Moya Peralta',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -312,22 +588,22 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Yerson Fabián Zárate Saavedra',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Jhon Jairo Urueta Alvarez',
           cargo: 'Desarrollador Fullstack',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
+        //{
+        //  nombre: 'Nombre',
+        //  cargo: 'Animador y Producción audiovisual',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Actividad Didáctica',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -336,11 +612,11 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
+        //{
+        //  nombre: 'Luis Gabriel Urueta Alvarez',
+        //  cargo: 'Validador de Recursos Educativos Digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador de Recursos Educativos Digitales',

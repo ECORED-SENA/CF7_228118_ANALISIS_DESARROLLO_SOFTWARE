@@ -498,11 +498,11 @@
         .px-5
           .row.align-items-center.mb-5
             .col-lg-9.order-2.order-lg-1
-              .row.mb-3
+              .row.mb-4
                 .col-12
                   .p-4.bg-c2
                     p.mb-0 La estructura de selección, se necesita cuando el código de tu programa ejecuta uno de varios resultados posibles, basado en el valor de una condición.
-              p.mb-0 #[b Ejemplo:]
+              p #[b Ejemplo:]
               p.mb-0 Un aprendiz aprueba un examen cuando la calificación de este es mayor o igual a 3. Elaborar un programa en JavaScript donde que dada una calificación, aplique el criterio de aprobación e imprima “Aprobado” o “Reprobado”, según sea el caso.
             .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
               figure
@@ -556,17 +556,17 @@
                       hr
                       p.mb-0 Consola
                       p.mb-0 Aprobó
-    p Como la línea 1 empieza con /*, todo lo que sigue será un comentario hasta que aparezcan los caracteres */ (línea 3). En este comentario se debe escribir qué hace el algoritmo y otra información relevante que se verá más adelante.
-    p.mb-5 En la línea 4 se define un valor constante (es decir, no se modificará más en todo el algoritmo). Se ha puesto como identificador la palabra calificacion.
-    .row.mb-5
-      .col-12
-        .p-4.bg-c37
-          .row.align-items-center
-            .col-auto
-              figure
-                img(src='@/assets/curso/tema7/img6.svg', style='width: 80px', alt='').m-auto
-            .col
-              p.text-white.mb-0 #[b Para recordar:] una palabra reservada es una palabra que no se puede utilizar como identificador de algún dato.
+          p Como la línea 1 empieza con /*, todo lo que sigue será un comentario hasta que aparezcan los caracteres */ (línea 3). En este comentario se debe escribir qué hace el algoritmo y otra información relevante que se verá más adelante.
+          p.mb-5 En la línea 4 se define un valor constante (es decir, no se modificará más en todo el algoritmo). Se ha puesto como identificador la palabra calificacion.
+          .row.mb-5
+            .col-12
+              .p-4.bg-c37
+                .row.align-items-center
+                  .col-auto
+                    figure
+                      img(src='@/assets/curso/tema7/img6.svg', style='width: 80px', alt='').m-auto
+                  .col
+                    p.text-white.mb-0 #[b Para recordar:] una palabra reservada es una palabra que no se puede utilizar como identificador de algún dato.
     p.mb-5 #[b En la línea 6 ocurren varias cosas que se deben tener en cuenta:]
     .row.align-items-center.mb-5
       .col-12
@@ -651,7 +651,8 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white a. Estructura de repetición FOR
-    p.mb-5 Ejemplo 1: escribir un procedimiento que muestre siete (7) veces en pantalla la frase “Esto es un algoritmo”. Mostrar en pantalla la salida del ejercicio:
+    p #[b Ejemplo 1:]
+    p.mb-5 Escribir un procedimiento que muestre siete (7) veces en pantalla la frase “Esto es un algoritmo”. Mostrar en pantalla la salida del ejercicio.
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
         .row
@@ -826,6 +827,16 @@
     #t_10_5
     .titulo-segundo.color-acento-contenido
       h2 10.5  Estructuras de datos
+    p.mb-5 Las estructuras de datos, también conocidas como arreglos, son importantes en el desarrollo de algunos algoritmos y son obligatorias a la hora de hacer aplicaciones web o móviles. Por ello, se explica su sintaxis en JavaScript para los vectores, matrices y registros.
+    .row.mb-4.pt-4(data-aos="fade-down")
+      .col-auto.bg-c4
+        .px-3.pb-0
+          .row.align-items-end
+            .col-auto.px-0
+              figure.fig-p1
+                img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
+            .col
+              h3.text-white A.  Vectores
     p.mb-5 A través del ejemplo del cálculo de factorial se explicará el uso y comportamiento de la sentencia while. Recordando el algoritmo diseñado:
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
@@ -937,6 +948,635 @@
                 p.mb-0 5 x 9 = 45
                 p.mb-0 5 x 10 = 50
     p.mb-5 #[b.txt-c1 Es ideal revisar la lista de los métodos más comunes en los arreglos:]
+    .titulo-sexto.color-acento-contenido.mb-4
+      p.mb-0 #[b Tabla 7.] Funciones comunes de un vector
+    .tabla-a.color-acento-contenido.mb-5 
+      table
+        thead
+          tr
+            th(style="width: 15%") Función
+            th Operador Abreviado
+        tbody(style="background-color: #F6F6F6")
+          tr
+            td.text-center #[b indexOf()]
+            td Devuelve el índice del primer elemento del array que sea igual a elemento Buscado, o -1 si no existe.
+          tr
+            td.text-center #[b join()]
+            td Concatena en un string todos los elementos de un array.
+          tr
+            td.text-center #[b push()]
+            td Añade uno o más elementos al final de un array y devuelve el nuevo valor de su propiedad length.
+          tr
+            td.text-center #[b pop()]
+            td Elimina el último elemento de un array, y devuelve dicho elemento.
+          tr
+            td.text-center #[b sort()]
+            td Ordena los elementos de un array, modificando este, y devuelve el array ordenado.
+          tr
+            td.text-center #[b shift()]
+            td Elimina el primer elemento de un array, y devuelve dicho elemento.
+    .row.mb-4.pt-4(data-aos="fade-down")
+      .col-auto.bg-c4
+        .px-3.pb-0
+          .row.align-items-end
+            .col-auto.px-0
+              figure.fig-p1
+                img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
+            .col
+              h3.text-white B. Matrices
+    p.mb-5 Las matrices se pueden ver lógicamente como un vector, y cada uno de sus elementos es otro vector, así la representación de la matriz queda codificada como se presenta a continuación:
+    .row.align-items-center.justify-content-center.mb-5
+      .col-lg-5.mb-4.mb-lg-0
+        table(width="100%")
+          tbody
+            tr
+              td.text-center "Manzana"
+              td.text-center "Pera"
+              td.text-center "Papaya"
+              td.text-center "Piña"
+            tr
+              td.text-center "Papa"
+              td.text-center "Tomate"
+              td.text-center "Yuca"
+              td.text-center "Ajo"
+            tr
+              td.text-center "Arroz"
+              td.text-center "Frijol"
+              td.text-center "Cebada"
+              td.text-center "Garbanzo"
+      .col-lg-5
+        .row
+          .col-12
+            .px-4.py-3.bg-c22
+              figure
+                img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+          .col-12
+            .px-4.py-3.bg-c23
+              pre
+                p.mb-0  let datos = [
+                p.mb-0      ["Manzana", "Pera", "Papaya", "Piña"],
+                p.mb-0      ["Papa", "Tomate", "Yuca", "Ajo"],
+                p.mb-0      ["Arroz", "Frijol", "Cebada", "Garbanzo"]
+                p.mb-0  ];
+                p.mb-0  
+                p.mb-0  console.log(datos);
+    .row.bg-c38
+      .col-12
+        .px-5
+          .row.mb-4.pt-4(data-aos="fade-down")
+            .col-auto.bg-c4
+              .px-3.pb-0
+                .row.align-items-end
+                  .col-auto.px-0
+                    figure.fig-p1
+                      img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
+                  .col
+                    h3.text-white C. Registros
+          p.mb-5 Hasta ahora se ha revisado  cómo un arreglo es la colección de datos del mismo tipo, pero un registro es una colección de datos de diferente tipo que se relacionan entre sí:
+          .titulo-sexto.color-acento-contenido.mb-4
+            p.mb-0 #[b Tabla 8.] Registros
+          .row.justify-content-center.mb-5
+            .col-lg-8
+              table(width="100%")
+                tbody
+                  tr
+                    td.text-center #[b Nombre]
+                    td.text-center #[b Correo]
+                    td.text-center #[b Edad]
+                    td.text-center #[b Saldo]
+                  tr
+                    td.text-center Juan
+                    td.text-center juan@sindato.com
+                    td.text-center 19
+                    td.text-center 36.234
+                  tr
+                    td.text-center Luis
+                    td.text-center luis@sindato.com
+                    td.text-center 18
+                    td.text-center 23.234
+                  tr
+                    td.text-center Andrea
+                    td.text-center andrea@sindato.com
+                    td.text-center 22
+                    td.text-center 0
+                  tr
+                    td.text-center Pedro
+                    td.text-center pedro@sindato.com
+                    td.text-center 12
+                    td.text-center 65.234
+                  tr
+                    td.text-center Maria
+                    td.text-center maria@sindato.com
+                    td.text-center 16
+                    td.text-center 123
+          p.mb-5 Exceptuando el encabezado de la tabla 8, cada fila representa un registro y cada dato de un registro puede tener un tipo de dato diferente. Si se está interesado en codificar la tabla 8, en una estructura con JavaScript el código sería como se tiene en:
+          .row.align-items-center.mb-5
+            .col-lg-6.mb-4.mb-lg-0
+              .row
+                .col-12
+                  .px-4.py-3.bg-c22
+                    figure
+                      img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                .col-12
+                  .px-4.py-3.bg-c23
+                    pre
+                      p.mb-0  let registros = [
+                      p.mb-0      ["Juan", "juan@sindato.com", 19, 36.234],
+                      p.mb-0      ["Luis", "luis@sindato.com", 18, 23.234],
+                      p.mb-0      ["Andrea", "andrea@sindato.com", 22, 0],
+                      p.mb-0      ["Pedro", "pedro@sindato.com", 12, 65.234],
+                      p.mb-0      ["Maria", "maria@sindato.com", 16, 123]
+                      p.mb-0  ];
+            .col-lg-6
+              figure
+                img(src='@/assets/curso/tema10/img11.png', style='width: 470px', alt='').m-auto
+          p.mb-5 Para recorrer todos los registros se precisan dos (2) ciclos for, uno dentro de otro (anidado) como se presenta a continuación:
+          .row
+            .col-lg-6.order-2.order-lg-1
+              .row
+                .col-12
+                  .px-4.py-3.bg-c22
+                    figure
+                      img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                .col-12
+                  .px-4.py-3.bg-c23
+                    pre
+                      p.mb-0  let registros = [
+                      p.mb-0      ["Juan", "juan@sindato.com", 19, 36.234],
+                      p.mb-0      ["Luis", "luis@sindato.com", 18, 23.234],
+                      p.mb-0      ["Andrea", "andrea@sindato.com", 22, 0],
+                      p.mb-0      ["Pedro", "pedro@sindato.com", 12, 65.234],
+                      p.mb-0      ["Maria", "maria@sindato.com", 16, 123]
+                      p.mb-0  ];
+                      p.mb-0  
+                      p.mb-0  var total = 0;
+                      p.mb-0  
+                      p.mb-0  for (let i = 0; i < registros.length; i++) {
+                      p.mb-0      console.log(`Registro #${i + 1}`);
+                      p.mb-0      for (let j = 0; j < registros[i].length; j++) {
+                      p.mb-0          console.log("  " + registros[i][j]);
+                      p.mb-0      }
+                      p.mb-0  }
+                      hr
+                      p.mb-0  Consola
+                      p.mb-0  Registro #1
+                      p.mb-0    Juan
+                      p.mb-0    juan@sindato.com
+                      p.mb-0    19
+                      p.mb-0    36.234
+                      p.mb-0  Registro #2
+                      p.mb-0    Luis
+                      p.mb-0    luis@sindato.com
+                      p.mb-0    18
+                      p.mb-0    23.234
+                      p.mb-0  Registro #3
+                      p.mb-0    Andrea
+                      p.mb-0    andrea@sindato.com
+                      p.mb-0    22
+                      p.mb-0    0
+                      p.mb-0  Registro #4
+                      p.mb-0    Pedro
+                      p.mb-0    pedro@sindato.com
+                      p.mb-0    12
+                      p.mb-0    65.234
+                      p.mb-0  Registro #5
+                      p.mb-0    Maria
+                      p.mb-0    maria@sindato.com
+                      p.mb-0    16
+                      p.mb-0    123
+            .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
+              .p-4.bg-c21
+                p.mb-0 Como se puede identificar, se requieren dos ciclos for anidados, y cada ciclo tiene una variable de índice de nombre diferente i y j y la manera de indexar la matriz vista anteriormente en el ejemplo de registros [ i ][ j ].
+    Separador
+    #t_10_6
+    .titulo-segundo.color-acento-contenido
+      h2 10.6 Estructuras de salto
+    p.mb-5 Estas estructuras son instrucciones que permiten romper la ejecución natural o secuencial de los programas, permitiendo que se salte a otro punto de la ejecución del programa. Estas instrucciones tienen las siguientes palabras reservadas: #[b continue], #[b break] y #[b return].
+    .row.justify-content-center
+      .col-lg-10
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="La sentencia continue")
+            .col-12
+              p La sentencia #[b continue] se salta a la siguiente iteración del ciclo for o while, como se presenta en el siguiente ejemplo y teniendo en cuenta los resultados:
+              .row.mb-3
+                .col-lg-5.mb-4.mb-lg-0
+                  .row
+                    .col-12
+                      .px-4.py-3.bg-c22
+                        figure
+                          img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                    .col-12
+                      .px-4.py-3.bg-c23
+                        pre
+                          p.mb-0  var i = 0;
+                          p.mb-0  while (i < 5) {
+                          p.mb-0      i++;
+                          p.mb-0      console.log(i);
+                          p.mb-0  }
+                          p.mb-0 
+                          p.mb-0 
+                          hr
+                          p.mb-0  Consola
+                          p.mb-0  1
+                          p.mb-0  2
+                          p.mb-0  3
+                          p.mb-0  4
+                .col-lg-5
+                  .row
+                    .col-12
+                      .px-4.py-3.bg-c22
+                        figure
+                          img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                    .col-12
+                      .px-4.py-3.bg-c23
+                        pre
+                          p.mb-0  var i = 0;
+                          p.mb-0 while (i < 5) {
+                          p.mb-0     i++;
+                          p.mb-0     if (i == 3) {
+                          p.mb-0         continue;
+                          p.mb-0     }
+                          p.mb-0     console.log(i);
+                          p.mb-0 }
+                          hr
+                          p.mb-0  Consola
+                          p.mb-0  1
+                          p.mb-0  2
+                          p.mb-0  4
+              p.mb-0 Cuando la variable i tiene el valor 3, se ejecuta la sentencia continue se salta la sentencia donde debe imprimir el valor de 3, por ese motivo no aparece en la consola.
+          .row(titulo="Sentencia break")
+            .col-12
+              p La sentencia break, detiene la ejecución del ciclo independientemente de cuántas veces este configurando el ciclo; preste especial atención en la salida de consola.
+              .row.mb-3
+                .col-lg-5.mb-4.mb-lg-0
+                  .row
+                    .col-12
+                      .px-4.py-3.bg-c22
+                        figure
+                          img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                    .col-12
+                      .px-4.py-3.bg-c23
+                        pre
+                          p.mb-0  for (let i = 1; i <= 5; i++) {
+                          p.mb-0      console.log(i);
+                          p.mb-0  }
+                          p.mb-0 
+                          p.mb-0 
+                          hr
+                          p.mb-0  Consola
+                          p.mb-0  1
+                          p.mb-0  2
+                          p.mb-0  3
+                          p.mb-0  4
+                          p.mb-0  5
+                .col-lg-5
+                  .row
+                    .col-12
+                      .px-4.py-3.bg-c22
+                        figure
+                          img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                    .col-12
+                      .px-4.py-3.bg-c23
+                        pre
+                          p.mb-0  for (let i = 1; i <= 5; i++) {
+                          p.mb-0      if (i == 3) {
+                          p.mb-0          break;
+                          p.mb-0      }
+                          p.mb-0      console.log(i);
+                          p.mb-0  }
+                          hr
+                          p.mb-0  Consola
+                          p.mb-0  1
+                          p.mb-0  2
+                          p.mb-0 
+                          p.mb-0 
+              p.mb-0 Cuando i tiene el valor de 3 ya no se sigue ejecutando más el ciclo, aunque esté programado para ejecutarse 5 veces, solo ejecuta 3 iteraciones y, ya que en el tercero luego de evaluar la condición i == 3 ejecuta la sentencia break haciendo que termine todo.
+          .row(titulo="Sentencia return")
+            .col-12
+              p El uso de la sentencia return sirve para terminar la ejecución de un bloque de instrucciones y es muy común en la programación modular cuando se quiere retornar un resultado. A continuación, se presenta un ejemplo para ilustrar su uso:
+              .row.mb-3
+                .col-lg-5.mb-4.mb-lg-0
+                  .row
+                    .col-12
+                      .px-4.py-3.bg-c22
+                        figure
+                          img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                    .col-12
+                      .px-4.py-3.bg-c23
+                        pre
+                          p.mb-0  Sin return
+                          p.mb-0  var divideByFour = function (num) {
+                          p.mb-0      num / 4;
+                          p.mb-0  };
+                          p.mb-0  
+                          p.mb-0  var divided = divideByFour(27);
+                          p.mb-0  console.log(divided); // undefined
+                .col-lg-5
+                  .row
+                    .col-12
+                      .px-4.py-3.bg-c22
+                        figure
+                          img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                    .col-12
+                      .px-4.py-3.bg-c23
+                        pre
+                          p.mb-0  Con return
+                          p.mb-0  var divideByFour = function (num) {
+                          p.mb-0      return num / 4;
+                          p.mb-0  };
+                          p.mb-0  
+                          p.mb-0  var divided = divideByFour(27);
+                          p.mb-0  console.log(divided); // 6.75
+    Separador
+    #t_10_7
+    .titulo-segundo.color-acento-contenido
+      h2 10.7 Métodos de ordenamiento y búsqueda
+    p.mb-4 Existen varias técnicas de ordenamiento de vectores que son importantes para realizar búsquedas. Al igual que en la vida real, es más fácil buscar en un lugar que esté ordenado que en uno que no lo esté. JavaScript está diseñado para pequeños algoritmos que resuelven problemas específicos y convertirlos en servicios. #[b.txt-c1 El uso de estas técnicas puede no tener mucha aplicabilidad en volúmenes de datos pequeños, ya que la diferencia en tiempos computacionales de ejecución es considerable solo cuando se manejan grandes volúmenes de datos. Para volúmenes de datos pequeños, los tiempos computacionales no presentan diferencias significativas].
+    .row.mb-4.pt-4(data-aos="fade-down")
+      .col-auto.bg-c4
+        .px-3.pb-0
+          .row.align-items-end
+            .col-auto.px-0
+              figure.fig-p1
+                img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
+            .col
+              h3.text-white A. Ordenamiento de cadenas de texto
+    p.mb-5 Para ordenar un vector de mayor a menor valor y teniendo en cuenta que el arreglo se modifica al ordenarlo, es importante hacer una copia del arreglo si se desea mantener el vector original inmutable. A continuación, se presenta un ejemplo que ilustra cómo realizar este proceso en JavaScript:
+    .row.align-items-center.mb-4
+      .col-lg-9
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row(titulo="Ordenamiento de números como cadenas de texto")
+            .col-12
+              p Por defecto el método Array.sort() ordena los elementos del array como si fueran cadenas, inclusive si los datos son de tipo entero, como en este ejemplo:
+              .row
+                .col-lg-5
+                  .row
+                    .col-12
+                      .px-4.py-3.bg-c22
+                        figure
+                          img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                    .col-12
+                      .px-4.py-3.bg-c23
+                        pre
+                          p.mb-0  var arg = [10, 53, 12, 56, 120];
+                          p.mb-0  
+                          p.mb-0  console.log(arg.join(', '));
+                          p.mb-0  arg.sort();
+                          p.mb-0  console.log(arg.join(', '));
+                          hr
+                          p.mb-0  Consola
+                          p.mb-0  10, 53, 12, 56, 120 
+                          p.mb-0  10, 12, 120, 53, 56
+          .row(titulo="Ordenamiento de cadenas de texto")
+            .col-12
+              p El arreglo a ordenar en la línea 1, en la línea 2, se presenta en consola el vector, se ha usado la función join(', ') que sirve para concatenar los datos del vector o arreglo poniendo entre ellos una coma (,) y espacio (línea 2). Luego se aplica la función sort() en la tercera línea de código y, posteriormente, se presenta el vector ya ordenado. Como se presenta, el resultado en consola es un ordenamiento como si los elementos fueran cadenas de texto.
+              .row
+                .col-lg-8
+                  .row
+                    .col-12
+                      .px-4.py-3.bg-c22
+                        figure
+                          img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                    .col-12
+                      .px-4.py-3.bg-c23
+                        pre
+                          p.mb-0  1.  var data = ["Montería", "Sincelejo", "Cartagena", "Bogotá"];
+                          p.mb-0  2.  data.sort();
+                          p.mb-0  3.  console.log(data);
+                          hr
+                          p.mb-0  Consola
+                          p.mb-0  ["Bogotá", "Cartagena", "Montería", "Sincelejo"]
+          .row(titulo="Invertir el orden de los elementos")
+            .col-12
+              p En el ejemplo de un ordenamiento de cadenas de texto. También se puede ordenar el arreglo de forma descendente con el método Array.reverse().
+              .row
+                .col-lg-8
+                  .row
+                    .col-12
+                      .px-4.py-3.bg-c22
+                        figure
+                          img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                    .col-12
+                      .px-4.py-3.bg-c23
+                        pre
+                          p.mb-0  var data = ["Montería", "Sincelejo", "Cartagena", "Bogotá"];
+                          p.mb-0  data.sort().reverse();
+                          p.mb-0  console.log(data);
+                          hr
+                          p.mb-0  Consola
+                          p.mb-0  ["Sincelejo", "Montería", "Cartagena", "Bogotá"]
+      .col-lg-3.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/tema10/img12.png', style="width: 400px" alt='').m-auto
+    p.mb-5 La función Array.reverse() no ordena los elementos, simplemente toma los elementos y les invierte el orden, es decir, el primero pasa a ser el último, el segundo, el penúltimo y así hasta que el última pasa al primer puesto. Es por esto que primero se ordena en orden ascendente y luego se invierte para lograr el orden descendente.
+    .row.mb-4.pt-4(data-aos="fade-down")
+      .col-auto.bg-c4
+        .px-3.pb-0
+          .row.align-items-end
+            .col-auto.px-0
+              figure.fig-p1
+                img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
+            .col
+              h3.text-white B. Ordenamiento de datos numéricos
+    p.mb-5 Como se explica, el ordenamiento con la función #[b Array.sort()] se realiza considerando los elementos del arreglo como cadenas de texto. Antes de describir cómo se ordenan con datos numéricos, se explicará qué es una función en JavaScript.
+    .row.align-items-center.mb-5
+      .col-lg-7.order-2.order-lg-1
+        .p-4.bg-c13
+          .row
+            .col-md-auto.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/tema10/img10.svg', style="width: 70px" alt='').m-auto
+            .col
+              p.mb-0 Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una función en JavaScript es similar a un procedimiento o “un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida”. Para usar una función, se debe definir en algún lugar del ámbito en el que se desea llamarla (MDN, 2021d).
+      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+        figure
+          img(src='@/assets/curso/tema10/img13.png', style="width: 570px" alt='').m-auto
+    p #[b Ejemplo]
+    p.mb-4 Se quiere construir una función que reciba dos (2) datos numéricos, hay que multiplicar estos dos números, al resultado se le suma el valor de 100 y, por último, retorna la mitad de este resultado.
+    .row.mb-4
+      .col-lg-3.mb-4.mb-lg-0
+        .row
+          .col-12
+            .px-4.py-3.bg-c22
+              figure
+                img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+          .col-12
+            .px-4.py-3.bg-c23
+              pre
+                p.mb-0  function operacion(a, b) {
+                p.mb-0      return (a * b + 100) / 2;
+                p.mb-0  }
+                p.mb-0  
+                p.mb-0  var dato1 = operacion(3, 8);
+                p.mb-0  var dato2 = operacion(2, 4);
+                p.mb-0  
+                p.mb-0  console.log(dato1);
+                p.mb-0  console.log(dato2);
+                hr
+                p.mb-0  Consola
+                p.mb-0  62
+                p.mb-0  54
+      .col-lg-6.mb-4.mb-lg-0
+        .p-4.bg-c32.h-100
+          p En la línea 1, se usa la palabra reservada function y luego se elige un identificador para la función, que en este caso es operacion. Luego, entre paréntesis, se seleccionan nombres para las variables de entrada (en el ejemplo, a y b). A continuación, se define un contexto (espacio de código entre corchetes) para indicar cuáles son las instrucciones que ejecutará la función. En la línea 2, se indica que la función retorna la multiplicación de a * b sumando 100 y a este resultado dividido entre 2. En la línea 4, se ve cómo se invoca la función operacion y se le pasan los parámetros 3 y 8 para las variables a y b respectivamente, el resultado es almacenado en la variable dato1. Y la función puede invocarse más de una vez (las que se necesiten).
+          figure.d-flex.justify-content-end
+            img(src='@/assets/curso/tema10/img11.svg', style="width: 90px" alt='')
+      .col-lg-3
+        .row
+          .col-12
+            .px-4.py-3.bg-c22
+              figure
+                img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+          .col-12
+            .px-4.py-3.bg-c23
+              pre
+                p.mb-0  var arg = [10, 53, 12, 56, 120];
+                p.mb-0  arg.sort(function(a, b) {
+                p.mb-0      return a - b;
+                p.mb-0  });
+                p.mb-0  console.log(arg.join(', '));
+                p.mb-0 
+                p.mb-0 
+                p.mb-0 
+                p.mb-0 
+                p.mb-0 
+                hr
+                p.mb-0  Consola
+                p.mb-0  10, 12, 53, 56, 120
+    p Para ordenar un vector con datos numéricos, se debe pasar como argumento una función al método #[b Array.sort()]. Esta función indica qué operación debe hacerse sobre los datos a comparar entre dos datos del arreglo. Para comparar si un número es mayor que otro, es muy común usar la resta porque, al restar un número, solo existen tres tipos de respuestas. Cuando a un número a se le resta un número #[b b (a - b)], si el resultado es negativo, es porque #[b b] es mayor que #[b a]; si el resultado es positivo, es porque a es mayor que #[b b]; y si el resultado es cero, es porque #[b a y b] son iguales.
+    p Como se puede apreciar, se pasa una función (sin identificador) que recibe dos datos del arreglo (a y b) y los compara con la diferencia (resta) de ellos. A las funciones que no se les pone identificador se les llaman funciones anónimas. También existe otra forma de sintaxis para funciones anónimas, denominada funciones flecha. #[b.txt-c1 A continuación, se presenta cómo ordenar un arreglo numérico de manera inversa utilizando la sintaxis de función]:
+    .row.bg-c39.mb-4
+      .col-12
+        .px-5
+          .row.align-items-center.mb-5
+            .col-lg-6.order-2.order-lg-1
+              .row
+                .col-12
+                  .px-4.py-3.bg-c22
+                    figure
+                      img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                .col-12
+                  .px-4.py-3.bg-c23
+                    pre
+                      p.mb-0  var arg = [10, 53, 12, 56, 120];
+                      p.mb-0  arg.sort((a, b) => b - a);
+                      p.mb-0  console.log(arg.join(', '));
+                      hr
+                      p.mb-0  Consola
+                      p.mb-0  120, 56, 53, 12, 10 
+            .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
+              figure
+                img(src='@/assets/curso/tema10/img15.png', style="width: 570px" alt='')
+          .row.mb-4.pt-4(data-aos="fade-down")
+            .col-auto.bg-c4
+              .px-3.pb-0
+                .row.align-items-end
+                  .col-auto.px-0
+                    figure.fig-p1
+                      img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
+                  .col
+                    h3.text-white C. Ordenamiento de registros
+          p.mb-5 Suponiendo que se tienen los registros de la tabla, se desea ordenarlos de mayor edad a menor edad.
+          .titulo-sexto.color-acento-contenido.mb-4
+            p.mb-0 #[b Tabla 9.] Registros
+          .row.justify-content-center.mb-5
+            .col-lg-8
+              table(width="100%")
+                tbody
+                  tr
+                    td.text-center #[b Usuario]
+                    td.text-center #[b Edad]
+                    td.text-center #[b Rol]
+                  tr
+                    td.text-center Mariela
+                    td.text-center 31
+                    td.text-center SAC
+                  tr
+                    td.text-center Eduardo
+                    td.text-center 30
+                    td.text-center SEO
+                  tr
+                    td.text-center Andrés
+                    td.text-center 34
+                    td.text-center Project Manager
+          p.mb-5 En esta oportunidad en las líneas 6 y 8, que se puede usar contexto (corchetes) a pesar de que dentro solo hay una sentencia (línea 7), el resultado a retornar es la diferencia entre b.edad y a.edad para que el ordenamiento sea de mayor a menor.
+          .row
+            .col-lg-6.mb-4.mb-lg-0
+              .row
+                .col-12
+                  .px-4.py-3.bg-c22
+                    figure
+                      img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                .col-12
+                  .px-4.py-3.bg-c23
+                    pre
+                      p.mb-0  1    var data = [
+                      p.mb-0  2        {usuario: 'Mariela', edad: 31, rol: 'SAC'},
+                      p.mb-0  3        {usuario: 'Eduardo', edad: 30, rol: 'CEO'},
+                      p.mb-0  4        {usuario: 'Andrés', edad: 34, rol: 'Project Manager'}
+                      p.mb-0  5    ];
+                      p.mb-0  6    data.sort((a, b) => {
+                      p.mb-0  7        return b.edad - a.edad;
+                      p.mb-0  8    });
+                      p.mb-0  9    console.log(data);
+                      hr
+                      p.mb-0  Consola
+                      p.mb-0  [
+                      p.mb-0      {usuario: "Andrés", edad: 34, rol: "Project Manager"},
+                      p.mb-0      {usuario: "Mariela", edad: 31, rol: "SAC"},
+                      p.mb-0      {usuario: "Eduardo", edad: 30, rol: "CEO"}
+                      p.mb-0  ]
+            .col-lg-6
+              .row.mb-4.pt-4(data-aos="fade-down")
+                .col-auto.bg-c4
+                  .px-3.pb-0
+                    .row.align-items-end
+                      .col-auto.px-0
+                        figure.fig-p1
+                          img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
+                      .col
+                        h3.text-white D. Buscar un elemento
+              .row.mb-3
+                .col-12
+                  .px-4.py-3.bg-c22
+                    figure
+                      img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+                .col-12
+                  .px-4.py-3.bg-c23
+                    pre
+                      p.mb-0  const array1 = [5, 12, 8, 130, 44];
+                      p.mb-0  const found = array1.find(element => element > 10);
+                      p.mb-0  console.log(found);
+                      hr
+                      p.mb-0  Consola
+                      p.mb-0  12
+              figure
+                img(src='@/assets/curso/tema10/img16.png', style="width: 600px" alt='').m-auto
+    p Se utiliza el identificador #[b elemento] para referenciar la variable a la que se aplicará el criterio de búsqueda, que en este ejemplo es encontrar el primer elemento mayor que 10. Muchas veces es importante que, en lugar de retornar un solo valor, el resultado sea más de uno.  Por ejemplo, si en el arreglo se retornan los valores mayores que 10, se debe retornar otro vector con los valores resultantes. Para esto, existe la función #[b Array.filter()], que crea un nuevo arreglo con los datos que cumplan con la condición.
+    .row
+      .col-lg-5.mb-4.mb-lg-0
+        .row
+          .col-12
+            .px-4.py-3.bg-c22
+              figure
+                img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+          .col-12
+            .px-4.py-3.bg-c23
+              pre
+                p.mb-0  const array1 = [5, 12, 8, 130, 44];
+                p.mb-0  const found = array1.filter(element => element > 10);
+                p.mb-0  console.log(found);
+                hr
+                p.mb-0  Consola
+                p.mb-0  [  12,  130,  44]
+      .col-lg-7
+        .p-4.bg-c29
+          .row
+            .col-md-auto.mb-4.mb-md-0
+              figure
+                img(src='@/assets/curso/tema10/img12.svg', style="width: 70px" alt='').m-auto
+            .col
+              p.mb-0 Es importante notar que la consola solo devuelve los datos que cumplen la condición de que el elemento es mayor que 10. A medida que se avanza en el conocimiento de la sintaxis del lenguaje, el código fuente se enriquece con más elementos y, por tanto, aumenta en complejidad. Esto hace necesario conocer herramientas para la depuración de fallos y la corrección de errores en la redacción del código.
 
 </template>
 
