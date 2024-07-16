@@ -2,13 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 12
       h1 Manejo de errores y excepciones
     .row.mb-5
       .col-12
-        .p-4.bg-c6
+        .p-4.bg-c6(data-aos="fade-right")
           .row.align-items-center
             .col-lg-3
               figure
@@ -17,9 +17,9 @@
               .p-4.bg-c16
                 p Las excepciones son errores imprevistos que ocurren en la ejecución de un programa; son anormalidades que impiden o perturban el comportamiento o el flujo normal de las instrucciones de un programa.
                 p.mb-0 #[b.txt-c1 El objetivo principal en el manejo de errores es separar el código de la lógica del programa del código de manejo de excepciones. De esta forma, al producirse la anomalía, si ocurre un error y existe un manejador de excepciones, él toma el control de la ejecución del programa.]
-    p.mb-5 En JavaScript, el control de errores resulta muy necesario, tal vez más que en otros lenguajes, debido a la dificultad natural para probar aplicaciones o los cambios de versión de intérprete en múltiples navegadores.
+    p.mb-5(data-aos="fade-left") En JavaScript, el control de errores resulta muy necesario, tal vez más que en otros lenguajes, debido a la dificultad natural para probar aplicaciones o los cambios de versión de intérprete en múltiples navegadores.
     .row.align-items-center.mb-5
-      .col-lg-9.mb-4.mb-lg-0
+      .col-lg-9.mb-4.mb-lg-0(data-aos="fade-right")
         .row.mb-3
           .col-auto
             figure.mt-1
@@ -35,12 +35,12 @@
             .px-4.py-3.bg-c23
               pre
                 p.mb-0  #[span.txt-c7 throw new] #[span.txt-c8 Error](#[span.txt-c9 "No se puede dividir por cero"]);
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema12/img2.png', style='width: 360px', alt='').m-auto
-    p.mb-5 Existe un tipo de estructura de control en JavaScript que está pendiente de revisar en el flujo de ejecución de un programa para detectar comportamientos inesperados. La estructura es try...catch, que consta de un bloque que intenta la ejecución de una sección de código (contexto) a la espera de que pueda ocurrir una posible excepción. Finalizado el contexto, existe otro denominado catch que tiene un argumento o variable de contexto donde se captura el elemento disparado.
+    p.mb-5(data-aos="fade-right") Existe un tipo de estructura de control en JavaScript que está pendiente de revisar en el flujo de ejecución de un programa para detectar comportamientos inesperados. La estructura es try...catch, que consta de un bloque que intenta la ejecución de una sección de código (contexto) a la espera de que pueda ocurrir una posible excepción. Finalizado el contexto, existe otro denominado catch que tiene un argumento o variable de contexto donde se captura el elemento disparado.
     .row.align-items-center.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -65,13 +65,13 @@
                 hr
                 p.mb-0  Consola
                 p.mb-0  error: Error: No se puede dividir por cero
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema12/img3.png', style='width: 500px', alt='').m-auto
-    p.mb-5 #[b.txt-c1 En el código se describe un algoritmo que divide dos números y, como se sabe, en este proceso se debe validar que no exista una división por 0, ya que no está definida aritméticamente.]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 En el código se describe un algoritmo que divide dos números y, como se sabe, en este proceso se debe validar que no exista una división por 0, ya que no está definida aritméticamente.]
     .row
       .col-12
-        .p-4.bg-c6
+        .p-4.bg-c6(data-aos="fade-left")
           .row.align-items-center
             .col-lg-3
               figure

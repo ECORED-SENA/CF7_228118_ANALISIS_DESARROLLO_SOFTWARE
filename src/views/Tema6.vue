@@ -2,15 +2,15 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 6
       h1 Operadores y jerarquía en los operadores
     .row.bg-c24
       .col-12
         .px-5
-          p.mb-5 Los operadores son símbolos que sirven para manipular datos. Y en un algoritmo es necesario dejar un espacio en blanco a cada lado del signo aritmético. Los operadores y las funciones que realizan se clasifican como se indica a continuación:
-          .row.mb-4
+          p.mb-5(data-aos="fade-right") Los operadores son símbolos que sirven para manipular datos. Y en un algoritmo es necesario dejar un espacio en blanco a cada lado del signo aritmético. Los operadores y las funciones que realizan se clasifican como se indica a continuación:
+          .row.mb-4(data-aos="fade-left")
             .col-md-3.bg-c26
               .p-2.h-100.align-items-center
                 .row.align-items-center.h-100
@@ -25,7 +25,7 @@
                   .col-12
                     p.text-white.mb-0 Permiten realizar operaciones entre datos de tipo numérico y dan como resultado otro valor de tipo numérico.
                     p.text-white.mb-0 #[b Ejemplo:] producto o multiplicación (*); división (/); suma (+); resta (-); asignación (=).
-          .row.mb-4
+          .row.mb-4(data-aos="fade-right")
             .col-md-3.bg-c26
               .p-2.h-100.align-items-center
                 .row.align-items-center.h-100
@@ -39,7 +39,7 @@
                 .row.align-items-center.h-100
                   .col-12
                     p.text-white.mb-0 Permiten operar con datos de tipo carácter (letras) o cadenas de texto. La mayoría de los lenguajes de programación admiten el operador + para realizar la concatenación (unión) de caracteres o cadenas.
-          .row.mb-4
+          .row.mb-4(data-aos="fade-down")
             .col-md-3.bg-c26
               .p-2.h-100.align-items-center
                 .row.align-items-center.h-100
@@ -53,7 +53,7 @@
                 .row.align-items-center.h-100
                   .col-12
                     p.text-white.mb-0 Permiten la comparación entre datos del mismo tipo de dato y dan como resultado dos valores posibles: verdadero o falso. Ejemplo: igual a (=); menor que (<); mayor que (>,) mayor e igual que (>=).
-          .row.mb-4
+          .row.mb-4(data-aos="fade-left")
             .col-md-3.bg-c26
               .p-2.h-100.align-items-center
                 .row.align-items-center.h-100
@@ -77,9 +77,9 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Jerarquía en los operadores
-    p.mb-5 Las computadoras ejecutan los operadores en un orden establecido. El siguiente es el orden (jerarquía) para ejecutar operadores:
+    p.mb-5(data-aos="fade-right") Las computadoras ejecutan los operadores en un orden establecido. El siguiente es el orden (jerarquía) para ejecutar operadores:
     .row.align-items-center.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         .row
           .col-12
             .p-4.bg-c13
@@ -129,13 +129,13 @@
                     span i.
                   |
                   p.mb-0 Disyunción (o).
-      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema6/img1.png', style='width: 470px', alt='').m-auto
-    p.mb-5 #[b.txt-c1 El siguiente ejemplo permite comprender mejor la jerarquía de operadores:]
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 El siguiente ejemplo permite comprender mejor la jerarquía de operadores:]
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Tabla 5.] Orden de ejecución de una expresión matemática
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
       table
         thead
           tr
@@ -180,8 +180,8 @@
             td.text-center 62,75 + 5
             td
               p.mb-0 #[b 67,75]
-    p.mb-5 #[b.txt-c1 A continuación, se revisan dos ejemplos:]
-    TabsB.color-acento-contenido.bg-c28
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 A continuación, se revisan dos ejemplos:]
+    TabsB.color-acento-contenido.bg-c28(data-aos="fade-left")
       .py-4.py-md-5(titulo="Ejemplo 1" :icono="require('@/assets/curso/tema6/img2.svg')")
         .row.justify-content-center.align-items-center
           .col-10.col-lg-6.mb-4.mb-lg-0

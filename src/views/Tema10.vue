@@ -2,16 +2,16 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 10
       h1 Sintaxis del lenguaje JavaScript
-    p En adelante, se presentan las características básicas de la sintaxis de JavaScript, codificando algoritmos básicos para ejemplificar la estructura propia del lenguaje de programación. Sin embargo, se recomienda que, siempre que se esté codificando algoritmos, se tenga a disposición la documentación técnica oficial del lenguaje y el material complementario propuesto.
+    p(data-aos="fade-right") En adelante, se presentan las características básicas de la sintaxis de JavaScript, codificando algoritmos básicos para ejemplificar la estructura propia del lenguaje de programación. Sin embargo, se recomienda que, siempre que se esté codificando algoritmos, se tenga a disposición la documentación técnica oficial del lenguaje y el material complementario propuesto.
     .row.mb-5
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema10/img1.png', style='width: 360px', alt='').m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         p En JavaScript se pueden utilizar muchas funciones matemáticas. Por ejemplo, un algoritmo que toma dos números (8 y 6) y les aplica las 4 operaciones básicas puede servir para revisar las características de la sintaxis de JavaScript y conocer las operaciones matemáticas del lenguaje.
         .row
           .col-12
@@ -21,7 +21,7 @@
                 a(href="https://playcode.io/new" target="_blank") https://playcode.io/new
                 |  y escribir el código de la línea 1 a la 12 en la pestaña script.js, como se presenta a continuación:
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -48,7 +48,7 @@
                 p.mb-0 la resta es: 2
                 p.mb-0 el producto es: 48
                 p.mb-0 la división es: 1.3333333333333333
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .p-4.bg-c7
           p En las líneas 1 y 2 aparece la palabra reservada let que sirve para indicar que se define una variable accesible en el contexto donde se crea (cuando se vea programación modular quedará más claro esto del contexto).
           p Las palabras reservadas #[b numero1] y #[b numero2] se les asigna el valor correspondiente. Es de conocer que se definen y se inicializa la variable en una misma línea, esto es una característica del lenguaje.
@@ -56,19 +56,19 @@
           p Una vez se crean las variables con identificadores suma, resta, producto, división, también son inicializados sus valores empleando las operaciones matemáticas respectivas.
           p.mb-0 Una de las formas que JavaScript permite mostrar los resultados es con la función log del objeto console y se accede console.log() (con el operador punto .) y entre paréntesis lo que se desea mostrar en la pantalla de la consola.
     .row.align-items-center.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p #[b Validación:]
         p Dentro de los paréntesis "la suma es: " + suma, aparece el operador +, usado anteriormente para sumar dos números. Sin embargo, en este caso, no hay dos números, sino una cadena de texto y un número. Aquí, el operador + concatena o junta el texto "la suma es:" y el valor de la variable suma. Esta característica de los operadores se llama sobrecarga de operadores, porque según el contexto, el operador + puede sumar o concatenar.
         .row
           .col-12
             .p-4.bg-c14
               p.mb-0 Cuando las operaciones matemáticas son más complejas, como la raíz cuadrada, la función exponencial, o las funciones trigonométricas, existe un objeto que agrupa estas funciones llamado Math. Puede ver la documentación técnica completa de esta clase en Math (MDN, 2021b). A continuación, se presenta un ejemplo de su uso.
-      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img2.png', style="width: 570px" alt='').m-auto
-    p.mb-5 #[b.txt-c1 Se debe crear un algoritmo que muestre el seno del valor PI (3.1416) multiplicado por 3 y que también eleve 6 a la tercera potencia, mostrando su resultado:]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 Se debe crear un algoritmo que muestre el seno del valor PI (3.1416) multiplicado por 3 y que también eleve 6 a la tercera potencia, mostrando su resultado:]
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -86,12 +86,12 @@
                 p.mb-0  Consola
                 p.mb-0  seno(3PI) = -3.6739403974420594e-16
                 p.mb-0  6^3 = 216
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .p-4.bg-c32
           p Se debe escribir el código fuente, y obtener los mismos resultados en la consola, como se presentan en cada imagen, de esta forma se familiariza con la herramienta de trabajo.
           figure.d-flex.justify-content-end
             img(src='@/assets/curso/tema10/img1.svg', style="width: 70px" alt='')
-    .tarjeta.color-primario1.p-3.mb-5
+    .tarjeta.color-primario1.p-3.mb-5(data-aos="fade-down")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-auto
           img(src="@/assets/curso/tema3/img13.svg")
@@ -104,12 +104,12 @@
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo4.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-link
-    p.mb-0 Todas las funciones matemáticas se pueden combinar con otras operaciones aritméticas o emplear operadores de evaluación de condición. Previo a ello, es preciso conocer los diferentes tipos de datos que existen.
+    p.mb-0(data-aos="fade-right") Todas las funciones matemáticas se pueden combinar con otras operaciones aritméticas o emplear operadores de evaluación de condición. Previo a ello, es preciso conocer los diferentes tipos de datos que existen.
     Separador
     #t_10_1
     .titulo-segundo.color-acento-contenido
       h2 10.1 Tipos de datos, operadores y orden de evaluación
-    p.mb-5 Existen muchos tipos de operadores para JavaScript, cuya función es realizar una operación entre dos o más valores contenidos en variables, constantes o acumuladores:
+    p.mb-5(data-aos="fade-right") Existen muchos tipos de operadores para JavaScript, cuya función es realizar una operación entre dos o más valores contenidos en variables, constantes o acumuladores:
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -119,10 +119,10 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white A. Tipos de datos
-    p JavaScript tiene los siguientes tipos de operadores (se describirán los principales para aprender a programar).
-    p.mb-5 Según sea el tipo que las variables o constantes almacenan, se pueden clasificar en seis (6) tipos de datos primitivos la referencia del lenguaje dice que son:
+    p(data-aos="fade-right") JavaScript tiene los siguientes tipos de operadores (se describirán los principales para aprender a programar).
+    p.mb-5(data-aos="fade-right") Según sea el tipo que las variables o constantes almacenan, se pueden clasificar en seis (6) tipos de datos primitivos la referencia del lenguaje dice que son:
     .row.justify-content-center.mb-0.mb-lg-4
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -131,7 +131,7 @@
             .col
               p.text-white.mb-0 #[b #[i Undefined]]
               p.text-white.mb-0 Indeterminado o indefinido.
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -140,7 +140,7 @@
             .col
               p.text-white.mb-0 #[b #[i Boolean]]
               p.text-white.mb-0 Tipo booleano los valores posibles son true o false.
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -150,7 +150,7 @@
               p.text-white.mb-0 #[b #[i Number]]
               p.text-white.mb-0 Números enteros, o decimales.
     .row.justify-content-center.mb-5
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -159,7 +159,7 @@
             .col
               p.text-white.mb-0 #[b #[i String]]
               p.text-white.mb-0 Cadenas de texto.
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -168,7 +168,7 @@
             .col
               p.text-white.mb-0 #[b #[i BigInt]]
               p.text-white.mb-0 Números enteros grandes.
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -177,8 +177,8 @@
             .col
               p.text-white.mb-0 #[b #[i Symbol]]
               p.text-white.mb-0 Referencia a otros datos.
-    p.mb-5 #[b.txt-c1 Otros tipos de datos más complejos o abstractos de datos:]
-    .row.justify-content-center.mb-5
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 Otros tipos de datos más complejos o abstractos de datos:]
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8.mb-3
         .p-4.bg-c13
           p.mb-0 #[b Null:] tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra null.
@@ -188,9 +188,9 @@
       .col-lg-8
         .p-4.bg-c6
           p.text-white.mb-0 #[b Function:] una estructura sin datos, aunque también responde al operador t.
-    p.mb-5 #[b.txt-c1 Cuando se declaran variables se debe considerar los siguientes tipos, ya se han usado dos (2) de ellas:]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 Cuando se declaran variables se debe considerar los siguientes tipos, ya se han usado dos (2) de ellas:]
     .row.justify-content-center.mb-5
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -198,7 +198,7 @@
                 img(src='@/assets/curso/tema1/img6.svg', style='width: 80px', alt='').m-auto
             .col
               p.text-white.mb-0 #[b var:] declara una variable, opcionalmente la inicia a un valor.
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -206,7 +206,7 @@
                 img(src='@/assets/curso/tema1/img6.svg', style='width: 80px', alt='').m-auto
             .col
               p.text-white.mb-0 #[b let:] declara una variable local con ámbito de bloque, opcionalmente la inicia a un valor.
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -214,7 +214,7 @@
                 img(src='@/assets/curso/tema1/img6.svg', style='width: 80px', alt='').m-auto
             .col
               p.text-white.mb-0 #[b const:] declara un nombre de constante de solo lectura y ámbito de bloque.
-    p.mb-5 Una variable en JavaScript puede tener cualquier tipo de dato, entero, real, cadena de texto etc. JavaScript no es un lenguaje fuertemente tipado de manera que queda en el programador la responsabilidad de saber qué tipo de dato está almacenando en cada variable.
+    p.mb-5(data-aos="fade-right") Una variable en JavaScript puede tener cualquier tipo de dato, entero, real, cadena de texto etc. JavaScript no es un lenguaje fuertemente tipado de manera que queda en el programador la responsabilidad de saber qué tipo de dato está almacenando en cada variable.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -224,10 +224,10 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white B. Operadores
-    p.mb-5 Asignar un valor a una variable también se considera una expresión, aunque de un tipo distinto. Para todas estas operaciones se emplean los denominados "operadores". A continuación, se listan algunos de los operadores que se utilizan con mucha frecuencia:
+    p.mb-5(data-aos="fade-right") Asignar un valor a una variable también se considera una expresión, aunque de un tipo distinto. Para todas estas operaciones se emplean los denominados "operadores". A continuación, se listan algunos de los operadores que se utilizan con mucha frecuencia:
     .row.mb-5
       .col-12
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down")
           .row(titulo="Operadores de asignación")
             .col-12
               p Un operador de asignación asigna un valor a la variable a la izquierda basándose en el valor de su operando derecho. El operador de asignación más simple es igual (=), que asigna el valor de su operando derecho a su operando izquierdo. Es decir, x = y asigna el valor de y a x. A continuación, se presenta una lista de operadores más usados.
@@ -401,9 +401,9 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white C. Orden de evaluación de operadores
-    p Es importante recordar que los computadores ejecutan los operadores en un orden establecido. El siguiente es el orden (jerarquía), de acuerdo con los expuestos anteriormente, y deben conservar el orden de precedencia de operadores:
+    p(data-aos="fade-right") Es importante recordar que los computadores ejecutan los operadores en un orden establecido. El siguiente es el orden (jerarquía), de acuerdo con los expuestos anteriormente, y deben conservar el orden de precedencia de operadores:
     .row.align-items-center
-      .col-lg-6.order-2.order-lg-1
+      .col-lg-6.order-2.order-lg-1(data-aos="fade-right")
         .p-4.bg-c7
           ol.lista-ol--cuadro.mb-0
             li.d-flex
@@ -451,16 +451,16 @@
                 span i.
               |
               p.mb-0 Disyunción (o).
-      .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img3.png', style='width: 560px', alt='').m-auto
     Separador
     #t_10_2
     .titulo-segundo.color-acento-contenido
       h2 10.2 Expresiones y comentarios
-    p.mb-5 #[b.txt-c1 JavaScript permite poner comentarios en el código fuente, como la mayoría de los lenguajes de programación. Existen dos tipos de comentarios:]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 JavaScript permite poner comentarios en el código fuente, como la mayoría de los lenguajes de programación. Existen dos tipos de comentarios:]
     .row.align-items-center
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -485,7 +485,7 @@
                 p.mb-0 true
                 p.mb-0 false
                 p.mb-0 true
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .p-4.bg-c7
           p Los comentarios son importantes porque le dan mantenibilidad al programa, es decir que otro programador, o el mismo, tiempo después puede revisar el código y apoyarse en los comentarios para saber qué hace el algoritmo y como lo hace. 
           p.mb-0 En adelante se procura que exista al menos un comentario en cada código fuente empleado para ejemplificar los elementos constitutivos del lenguaje de programación JavaScript y puede hacer lo mismo durante la creación de los diferentes códigos.
@@ -497,18 +497,18 @@
       .col-12
         .px-5
           .row.align-items-center.mb-5
-            .col-lg-9.order-2.order-lg-1
+            .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
               .row.mb-4
                 .col-12
                   .p-4.bg-c2
                     p.mb-0 La estructura de selección, se necesita cuando el código de tu programa ejecuta uno de varios resultados posibles, basado en el valor de una condición.
               p #[b Ejemplo:]
               p.mb-0 Un aprendiz aprueba un examen cuando la calificación de este es mayor o igual a 3. Elaborar un programa en JavaScript donde que dada una calificación, aplique el criterio de aprobación e imprima “Aprobado” o “Reprobado”, según sea el caso.
-            .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema10/img2.svg', style='width: 270px', alt='').m-auto
           .row.justify-content-center.mb-5
-            .col-lg-6
+            .col-lg-6(data-aos="fade-right")
               p Como resultado del análisis a este problema tenemos el diseño del siguiente algoritmo:
               .row
                 .col-12
@@ -532,7 +532,7 @@
                       p.mb-0  
                       p.mb-0  FIN
           .row.justify-content-center.mb-5
-            .col-lg-6
+            .col-lg-6(data-aos="fade-left")
               p El mismo algoritmo se puede visualizar, pero ya en lenguaje de programación:
               .row
                 .col-12
@@ -556,21 +556,21 @@
                       hr
                       p.mb-0 Consola
                       p.mb-0 Aprobó
-          p Como la línea 1 empieza con /*, todo lo que sigue será un comentario hasta que aparezcan los caracteres */ (línea 3). En este comentario se debe escribir qué hace el algoritmo y otra información relevante que se verá más adelante.
-          p.mb-5 En la línea 4 se define un valor constante (es decir, no se modificará más en todo el algoritmo). Se ha puesto como identificador la palabra calificacion.
+          p(data-aos="fade-right") Como la línea 1 empieza con /*, todo lo que sigue será un comentario hasta que aparezcan los caracteres */ (línea 3). En este comentario se debe escribir qué hace el algoritmo y otra información relevante que se verá más adelante.
+          p.mb-5(data-aos="fade-right") En la línea 4 se define un valor constante (es decir, no se modificará más en todo el algoritmo). Se ha puesto como identificador la palabra calificacion.
           .row.mb-5
             .col-12
-              .p-4.bg-c37
+              .p-4.bg-c37(data-aos="fade-down")
                 .row.align-items-center
                   .col-auto
                     figure
                       img(src='@/assets/curso/tema7/img6.svg', style='width: 80px', alt='').m-auto
                   .col
                     p.text-white.mb-0 #[b Para recordar:] una palabra reservada es una palabra que no se puede utilizar como identificador de algún dato.
-    p.mb-5 #[b En la línea 6 ocurren varias cosas que se deben tener en cuenta:]
+    p.mb-5(data-aos="fade-right") #[b En la línea 6 ocurren varias cosas que se deben tener en cuenta:]
     .row.align-items-center.mb-5
       .col-12
-        .p-4.bg-c13
+        .p-4.bg-c13(data-aos="fade-left")
           ol.lista-ol--cuadro.mb-0
             li.d-flex
               .lista-ol--cuadro__vineta
@@ -607,10 +607,10 @@
                 span g.
               |
               p.mb-0 Para finalizar el contexto, se cierra con el carácter de corchete cerrado }.
-    p Ahora se debe escribir el programa y cambiar los valores de la constante para validar que el algoritmo está bien diseñado.
-    p.mb-5 #[b.txt-c1 De la misma forma, se puede realizar el algoritmo que, dada una edad en años, evalúe e imprima si es mayor de edad:]
+    p(data-aos="fade-right") Ahora se debe escribir el programa y cambiar los valores de la constante para validar que el algoritmo está bien diseñado.
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 De la misma forma, se puede realizar el algoritmo que, dada una edad en años, evalúe e imprima si es mayor de edad:]
     .row.align-items-center
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -631,7 +631,7 @@
                 hr
                 p.mb-0 Consola
                 p.mb-0 Es mayor de edad
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .p-4.bg-c7
           p De acuerdo con el código anterior, no existe un contexto si no se cumple la condición de mayoría de edad; a esta estructura se le denomina CONDICIONAL SIMPLE. 
           p El flujo de ejecución del algoritmo anterior es básico, y puede haber otros mucho más complejos, como las estructuras de repetición o iterativas, que también tienen una sintaxis particular.
@@ -641,7 +641,7 @@
     #t_10_4
     .titulo-segundo.color-acento-contenido
       h2 10.4 Estructuras de repetición
-    p.mb-5 Las estructuras de repetición permiten repetir un bloque de instrucciones un número determinado o indeterminado de veces. A continuación, se ejemplifican las más comunes (FOR, WHILE), que se pueden codificar también en la sintaxis de JavaScript.
+    p.mb-5(data-aos="fade-right") Las estructuras de repetición permiten repetir un bloque de instrucciones un número determinado o indeterminado de veces. A continuación, se ejemplifican las más comunes (FOR, WHILE), que se pueden codificar también en la sintaxis de JavaScript.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -651,10 +651,10 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white a. Estructura de repetición FOR
-    p #[b Ejemplo 1:]
-    p.mb-5 Escribir un procedimiento que muestre siete (7) veces en pantalla la frase “Esto es un algoritmo”. Mostrar en pantalla la salida del ejercicio.
+    p(data-aos="fade-right") #[b Ejemplo 1:]
+    p.mb-5(data-aos="fade-right") Escribir un procedimiento que muestre siete (7) veces en pantalla la frase “Esto es un algoritmo”. Mostrar en pantalla la salida del ejercicio.
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -679,33 +679,33 @@
                 p.mb-0 esto es un algoritmo
                 p.mb-0 esto es un algoritmo
                 p.mb-0 esto es un algoritmo
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img5.png', style="width: 570px" alt='').m-auto
-    p.mb-5 Como se puede identificar en la línea 4, se ha usado la palabra reservada for y dentro del paréntesis aparecen tres instrucciones separadas por punto y coma.
+    p.mb-5(data-aos="fade-right") Como se puede identificar en la línea 4, se ha usado la palabra reservada for y dentro del paréntesis aparecen tres instrucciones separadas por punto y coma.
     .row.justify-content-center.mb-5
-      .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+      .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c11
           figure.mb-4
             img(src='@/assets/curso/tema10/img4.svg', style="width: 80px" alt='').m-auto
           p.text-white.text-center #[b Primero]
           p.text-white La primera instrucción let i = 0; es la creación e inicialización de una variable con identificador i. Como se usó la palabra reservada let, se está indicando que la variable i solo podrá ser accedida dentro del contexto del for.
-      .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+      .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c11
           figure.mb-4
             img(src='@/assets/curso/tema10/img5.svg', style="width: 80px" alt='').m-auto
           p.text-white.text-center #[b Segundo]
           p.text-white Luego se ve una condición i < 7;. Esta condición significa que, mientras i tenga valores de 0 a 6, debe ejecutar el bloque o contexto definido en el for (desde el corchete abierto hasta el corchete cerrado).
-      .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+      .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .p-4.bg-c11
           figure.mb-4
             img(src='@/assets/curso/tema10/img6.svg', style="width: 80px" alt='').m-auto
           p.text-white.text-center #[b Tercero]
           p.text-white Una vez ha terminado de ejecutar el contexto, se ejecutará la tercera sentencia i++, que es equivalente a i = i + 1. Esto incrementa en 1 la variable i. Luego de incrementarla, procede a evaluar nuevamente la condición y, si se cumple, volverá a ejecutar las instrucciones que están dentro del contexto (lo que está dentro de los corchetes).
-    p.mb-5 Es de notar que los valores que toma la variable i son 0, 1, 2, 3, 4, 5, 6. En total, 7 valores, que es el número de veces que se necesita que se repita el bucle.
+    p.mb-5(data-aos="fade-right") Es de notar que los valores que toma la variable i son 0, 1, 2, 3, 4, 5, 6. En total, 7 valores, que es el número de veces que se necesita que se repita el bucle.
     .row.mb-5
       .col-12
-        .p-4.bg-c13
+        .p-4.bg-c13(data-aos="fade-down")
           .row.align-items-center
             .col-md-auto.mb-4.mb-md-0
               figure
@@ -714,13 +714,13 @@
               p.mb-0 #[b Para recordar:]
               p.mb-0 El carácter punto y coma se usa para decirle al computador, o intérprete, que ha finalizado una instrucción.
               p.mb-0 La estructura de repetición PARA (FOR) se usa cuando se sabe cuántas veces se debe repetir un grupo de instrucciones.
-    p #[b Ejemplo 2:]
-    p.mb-5 Se necesita elaborar un algoritmo en JavaScript que, dado un número entero, sume todos los números naturales que hay hasta ese número. Por ejemplo, si el usuario digita 3, el programa debe sumar: 1 + 2 + 3. Si el usuario digita 5, el programa debe sumar 1 + 2 + 3 + 4 + 5. Al finalizar, debe imprimir el resultado.
+    p(data-aos="fade-right") #[b Ejemplo 2:]
+    p.mb-5(data-aos="fade-right") Se necesita elaborar un algoritmo en JavaScript que, dado un número entero, sume todos los números naturales que hay hasta ese número. Por ejemplo, si el usuario digita 3, el programa debe sumar: 1 + 2 + 3. Si el usuario digita 5, el programa debe sumar 1 + 2 + 3 + 4 + 5. Al finalizar, debe imprimir el resultado.
     .row.align-items-center.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema10/img6.png', style="width: 570px" alt='').m-auto
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -744,7 +744,7 @@
                 hr
                 p.mb-0 Consola
                 p.mb-0 15
-    p.mb-5 Como se puede ver, se define una constante con valor 5 y una variable que será un acumulador donde se almacenarán las sumas. También, note que los valores de i van desde 1 hasta exactamente el valor que tiene la constante (es decir, 5).
+    p.mb-5(data-aos="fade-right") Como se puede ver, se define una constante con valor 5 y una variable que será un acumulador donde se almacenarán las sumas. También, note que los valores de i van desde 1 hasta exactamente el valor que tiene la constante (es decir, 5).
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -755,7 +755,7 @@
             .col
               h3.text-white B. Estructura de repetición WHILE
     .row.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         p A través del ejemplo del cálculo de factorial se explicará el uso y comportamiento de la sentencia while. Recordando el algoritmo diseñado:
         .row
           .col-12
@@ -780,7 +780,7 @@
                 p.mb-0                   FINMIENTRAS
                 p.mb-0                   ESCRIBIR ( factorial );
                 p.mb-0  FIN
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         p De acuerdo con el anterior algoritmo, el resultante para el cálculo de factorial es:
         .row
           .col-12
@@ -806,7 +806,7 @@
                 p.mb-0 false
                 p.mb-0 true
     .row.mb-4
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .p-4.bg-c7
@@ -819,15 +819,15 @@
                     |
                     a(href="https://playcode.io/" target="_blank") https://playcode.io/
                     | . Para ello, se debe escribir la condición del while, es decir, contador <= numero, al final, para que el sistema PlayCode no entre en un ciclo que nunca termina. Una vez funcione correctamente, se propone el código que está entre comentarios (//) para practicar las dos formas de sintaxis.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img7.png', style='width: 470px', alt='').m-auto
-    p.mb-0 Es importante recordar que las estructuras de repetición básicas y su sintaxis son comúnmente utilizadas para recorrer estructuras de datos.
+    p.mb-0(data-aos="fade-right") Es importante recordar que las estructuras de repetición básicas y su sintaxis son comúnmente utilizadas para recorrer estructuras de datos.
     Separador
     #t_10_5
     .titulo-segundo.color-acento-contenido
       h2 10.5  Estructuras de datos
-    p.mb-5 Las estructuras de datos, también conocidas como arreglos, son importantes en el desarrollo de algunos algoritmos y son obligatorias a la hora de hacer aplicaciones web o móviles. Por ello, se explica su sintaxis en JavaScript para los vectores, matrices y registros.
+    p.mb-5(data-aos="fade-right") Las estructuras de datos, también conocidas como arreglos, son importantes en el desarrollo de algunos algoritmos y son obligatorias a la hora de hacer aplicaciones web o móviles. Por ello, se explica su sintaxis en JavaScript para los vectores, matrices y registros.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -837,9 +837,9 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white A.  Vectores
-    p.mb-5 A través del ejemplo del cálculo de factorial se explicará el uso y comportamiento de la sentencia while. Recordando el algoritmo diseñado:
+    p.mb-5(data-aos="fade-right") A través del ejemplo del cálculo de factorial se explicará el uso y comportamiento de la sentencia while. Recordando el algoritmo diseñado:
     .row.align-items-center.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -856,11 +856,11 @@
                 p.mb-0 Console
                 p.mb-0 [  "Manzana",  "Banana",  "Pera"]
                 p.mb-0 3
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img8.png', style="width: 570px" alt='').m-auto
     .row.justify-content-center.mb-5
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c8
           .row.align-items-center
             .col-auto
@@ -868,7 +868,7 @@
                 img(src='@/assets/curso/tema1/img6.svg', style='width: 80px', alt='').m-auto
             .col
               p.text-white.mb-0 En la línea 1 se ve cómo se define un vector con identificador frutas, de tres (3) elementos, cada uno de ellos es una cadena de texto con una fruta.
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -876,7 +876,7 @@
                 img(src='@/assets/curso/tema1/img6.svg', style='width: 80px', alt='').m-auto
             .col
               p.text-white.mb-0 En la línea 3 se manda imprimir en la consola todo el vector con su contenido, como se ve en la consola.
-      .col-md-10.col-lg-4.mb-4.mb-lg-0
+      .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .p-4.bg-c8.h-100
           .row.align-items-center
             .col-auto
@@ -884,9 +884,9 @@
                 img(src='@/assets/curso/tema1/img6.svg', style='width: 80px', alt='').m-auto
             .col
               p.text-white.mb-0 En la línea 4 se llama al atributo frutas.length, que contiene el tamaño del vector (es decir, 3).
-    p.mb-5 #[b.txt-c1 A continuación, se presenta cómo acceder a los elementos de un vector:]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 A continuación, se presenta cómo acceder a los elementos de un vector:]
     .row.mb-5
-      .col-lg-8.mb-4.mb-lg-0
+      .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
         .row.mb-3
           .col-lg-6.mb-4.mb-lg-0
             .row
@@ -919,7 +919,7 @@
                     img(src='@/assets/curso/tema10/img9.svg', style="width: 80px" alt='')
         figure
           img(src='@/assets/curso/tema10/img9.png', style="width: 800px" alt='').m-auto
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -947,10 +947,10 @@
                 p.mb-0 5 x 8 = 40
                 p.mb-0 5 x 9 = 45
                 p.mb-0 5 x 10 = 50
-    p.mb-5 #[b.txt-c1 Es ideal revisar la lista de los métodos más comunes en los arreglos:]
-    .titulo-sexto.color-acento-contenido.mb-4
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 Es ideal revisar la lista de los métodos más comunes en los arreglos:]
+    .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       p.mb-0 #[b Tabla 7.] Funciones comunes de un vector
-    .tabla-a.color-acento-contenido.mb-5 
+    .tabla-a.color-acento-contenido.mb-5(data-aos="fade-left")
       table
         thead
           tr
@@ -984,9 +984,9 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white B. Matrices
-    p.mb-5 Las matrices se pueden ver lógicamente como un vector, y cada uno de sus elementos es otro vector, así la representación de la matriz queda codificada como se presenta a continuación:
+    p.mb-5(data-aos="fade-right") Las matrices se pueden ver lógicamente como un vector, y cada uno de sus elementos es otro vector, así la representación de la matriz queda codificada como se presenta a continuación:
     .row.align-items-center.justify-content-center.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         table(width="100%")
           tbody
             tr
@@ -1004,7 +1004,7 @@
               td.text-center "Frijol"
               td.text-center "Cebada"
               td.text-center "Garbanzo"
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -1032,11 +1032,11 @@
                       img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
                   .col
                     h3.text-white C. Registros
-          p.mb-5 Hasta ahora se ha revisado  cómo un arreglo es la colección de datos del mismo tipo, pero un registro es una colección de datos de diferente tipo que se relacionan entre sí:
-          .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-5(data-aos="fade-right") Hasta ahora se ha revisado  cómo un arreglo es la colección de datos del mismo tipo, pero un registro es una colección de datos de diferente tipo que se relacionan entre sí:
+          .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
             p.mb-0 #[b Tabla 8.] Registros
           .row.justify-content-center.mb-5
-            .col-lg-8
+            .col-lg-8(data-aos="fade-left")
               table(width="100%")
                 tbody
                   tr
@@ -1069,9 +1069,9 @@
                     td.text-center maria@sindato.com
                     td.text-center 16
                     td.text-center 123
-          p.mb-5 Exceptuando el encabezado de la tabla 8, cada fila representa un registro y cada dato de un registro puede tener un tipo de dato diferente. Si se está interesado en codificar la tabla 8, en una estructura con JavaScript el código sería como se tiene en:
+          p.mb-5(data-aos="fade-right") Exceptuando el encabezado de la tabla 8, cada fila representa un registro y cada dato de un registro puede tener un tipo de dato diferente. Si se está interesado en codificar la tabla 8, en una estructura con JavaScript el código sería como se tiene en:
           .row.align-items-center.mb-5
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               .row
                 .col-12
                   .px-4.py-3.bg-c22
@@ -1087,12 +1087,12 @@
                       p.mb-0      ["Pedro", "pedro@sindato.com", 12, 65.234],
                       p.mb-0      ["Maria", "maria@sindato.com", 16, 123]
                       p.mb-0  ];
-            .col-lg-6
+            .col-lg-6(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema10/img11.png', style='width: 470px', alt='').m-auto
-          p.mb-5 Para recorrer todos los registros se precisan dos (2) ciclos for, uno dentro de otro (anidado) como se presenta a continuación:
+          p.mb-5(data-aos="fade-right") Para recorrer todos los registros se precisan dos (2) ciclos for, uno dentro de otro (anidado) como se presenta a continuación:
           .row
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-6.order-2.order-lg-1(data-aos="fade-right")
               .row
                 .col-12
                   .px-4.py-3.bg-c22
@@ -1144,17 +1144,17 @@
                       p.mb-0    maria@sindato.com
                       p.mb-0    16
                       p.mb-0    123
-            .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               .p-4.bg-c21
                 p.mb-0 Como se puede identificar, se requieren dos ciclos for anidados, y cada ciclo tiene una variable de índice de nombre diferente i y j y la manera de indexar la matriz vista anteriormente en el ejemplo de registros [ i ][ j ].
     Separador
     #t_10_6
     .titulo-segundo.color-acento-contenido
       h2 10.6 Estructuras de salto
-    p.mb-5 Estas estructuras son instrucciones que permiten romper la ejecución natural o secuencial de los programas, permitiendo que se salte a otro punto de la ejecución del programa. Estas instrucciones tienen las siguientes palabras reservadas: #[b continue], #[b break] y #[b return].
+    p.mb-5(data-aos="fade-right") Estas estructuras son instrucciones que permiten romper la ejecución natural o secuencial de los programas, permitiendo que se salte a otro punto de la ejecución del programa. Estas instrucciones tienen las siguientes palabras reservadas: #[b continue], #[b break] y #[b return].
     .row.justify-content-center
       .col-lg-10
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down")
           .row(titulo="La sentencia continue")
             .col-12
               p La sentencia #[b continue] se salta a la siguiente iteración del ciclo for o while, como se presenta en el siguiente ejemplo y teniendo en cuenta los resultados:
@@ -1291,7 +1291,7 @@
     #t_10_7
     .titulo-segundo.color-acento-contenido
       h2 10.7 Métodos de ordenamiento y búsqueda
-    p.mb-4 Existen varias técnicas de ordenamiento de vectores que son importantes para realizar búsquedas. Al igual que en la vida real, es más fácil buscar en un lugar que esté ordenado que en uno que no lo esté. JavaScript está diseñado para pequeños algoritmos que resuelven problemas específicos y convertirlos en servicios. #[b.txt-c1 El uso de estas técnicas puede no tener mucha aplicabilidad en volúmenes de datos pequeños, ya que la diferencia en tiempos computacionales de ejecución es considerable solo cuando se manejan grandes volúmenes de datos. Para volúmenes de datos pequeños, los tiempos computacionales no presentan diferencias significativas].
+    p.mb-4(data-aos="fade-right") Existen varias técnicas de ordenamiento de vectores que son importantes para realizar búsquedas. Al igual que en la vida real, es más fácil buscar en un lugar que esté ordenado que en uno que no lo esté. JavaScript está diseñado para pequeños algoritmos que resuelven problemas específicos y convertirlos en servicios. #[b.txt-c1 El uso de estas técnicas puede no tener mucha aplicabilidad en volúmenes de datos pequeños, ya que la diferencia en tiempos computacionales de ejecución es considerable solo cuando se manejan grandes volúmenes de datos. Para volúmenes de datos pequeños, los tiempos computacionales no presentan diferencias significativas].
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -1301,9 +1301,9 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white A. Ordenamiento de cadenas de texto
-    p.mb-5 Para ordenar un vector de mayor a menor valor y teniendo en cuenta que el arreglo se modifica al ordenarlo, es importante hacer una copia del arreglo si se desea mantener el vector original inmutable. A continuación, se presenta un ejemplo que ilustra cómo realizar este proceso en JavaScript:
+    p.mb-5(data-aos="fade-right") Para ordenar un vector de mayor a menor valor y teniendo en cuenta que el arreglo se modifica al ordenarlo, es importante hacer una copia del arreglo si se desea mantener el vector original inmutable. A continuación, se presenta un ejemplo que ilustra cómo realizar este proceso en JavaScript:
     .row.align-items-center.mb-4
-      .col-lg-9
+      .col-lg-9(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Ordenamiento de números como cadenas de texto")
             .col-12
@@ -1365,10 +1365,10 @@
                           hr
                           p.mb-0  Consola
                           p.mb-0  ["Sincelejo", "Montería", "Cartagena", "Bogotá"]
-      .col-lg-3.d-none.d-lg-block
+      .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img12.png', style="width: 400px" alt='').m-auto
-    p.mb-5 La función Array.reverse() no ordena los elementos, simplemente toma los elementos y les invierte el orden, es decir, el primero pasa a ser el último, el segundo, el penúltimo y así hasta que el última pasa al primer puesto. Es por esto que primero se ordena en orden ascendente y luego se invierte para lograr el orden descendente.
+    p.mb-5(data-aos="fade-right") La función Array.reverse() no ordena los elementos, simplemente toma los elementos y les invierte el orden, es decir, el primero pasa a ser el último, el segundo, el penúltimo y así hasta que el última pasa al primer puesto. Es por esto que primero se ordena en orden ascendente y luego se invierte para lograr el orden descendente.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -1378,9 +1378,9 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white B. Ordenamiento de datos numéricos
-    p.mb-5 Como se explica, el ordenamiento con la función #[b Array.sort()] se realiza considerando los elementos del arreglo como cadenas de texto. Antes de describir cómo se ordenan con datos numéricos, se explicará qué es una función en JavaScript.
+    p.mb-5(data-aos="fade-right") Como se explica, el ordenamiento con la función #[b Array.sort()] se realiza considerando los elementos del arreglo como cadenas de texto. Antes de describir cómo se ordenan con datos numéricos, se explicará qué es una función en JavaScript.
     .row.align-items-center.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         .p-4.bg-c13
           .row
             .col-md-auto.mb-4.mb-md-0
@@ -1388,13 +1388,13 @@
                 img(src='@/assets/curso/tema10/img10.svg', style="width: 70px" alt='').m-auto
             .col
               p.mb-0 Las funciones son uno de los bloques de construcción fundamentales en JavaScript. Una función en JavaScript es similar a un procedimiento o “un conjunto de instrucciones que realiza una tarea o calcula un valor, pero para que un procedimiento califique como función, debe tomar alguna entrada y devolver una salida donde hay alguna relación obvia entre la entrada y la salida”. Para usar una función, se debe definir en algún lugar del ámbito en el que se desea llamarla (MDN, 2021d).
-      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img13.png', style="width: 570px" alt='').m-auto
-    p #[b Ejemplo]
-    p.mb-4 Se quiere construir una función que reciba dos (2) datos numéricos, hay que multiplicar estos dos números, al resultado se le suma el valor de 100 y, por último, retorna la mitad de este resultado.
+    p(data-aos="fade-right") #[b Ejemplo]
+    p.mb-4(data-aos="fade-right") Se quiere construir una función que reciba dos (2) datos numéricos, hay que multiplicar estos dos números, al resultado se le suma el valor de 100 y, por último, retorna la mitad de este resultado.
     .row.mb-4
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -1416,12 +1416,12 @@
                 p.mb-0  Consola
                 p.mb-0  62
                 p.mb-0  54
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c32.h-100
           p En la línea 1, se usa la palabra reservada function y luego se elige un identificador para la función, que en este caso es operacion. Luego, entre paréntesis, se seleccionan nombres para las variables de entrada (en el ejemplo, a y b). A continuación, se define un contexto (espacio de código entre corchetes) para indicar cuáles son las instrucciones que ejecutará la función. En la línea 2, se indica que la función retorna la multiplicación de a * b sumando 100 y a este resultado dividido entre 2. En la línea 4, se ve cómo se invoca la función operacion y se le pasan los parámetros 3 y 8 para las variables a y b respectivamente, el resultado es almacenado en la variable dato1. Y la función puede invocarse más de una vez (las que se necesiten).
           figure.d-flex.justify-content-end
             img(src='@/assets/curso/tema10/img11.svg', style="width: 90px" alt='')
-      .col-lg-3
+      .col-lg-3(data-aos="fade-left")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -1443,13 +1443,13 @@
                 hr
                 p.mb-0  Consola
                 p.mb-0  10, 12, 53, 56, 120
-    p Para ordenar un vector con datos numéricos, se debe pasar como argumento una función al método #[b Array.sort()]. Esta función indica qué operación debe hacerse sobre los datos a comparar entre dos datos del arreglo. Para comparar si un número es mayor que otro, es muy común usar la resta porque, al restar un número, solo existen tres tipos de respuestas. Cuando a un número a se le resta un número #[b b (a - b)], si el resultado es negativo, es porque #[b b] es mayor que #[b a]; si el resultado es positivo, es porque a es mayor que #[b b]; y si el resultado es cero, es porque #[b a y b] son iguales.
-    p Como se puede apreciar, se pasa una función (sin identificador) que recibe dos datos del arreglo (a y b) y los compara con la diferencia (resta) de ellos. A las funciones que no se les pone identificador se les llaman funciones anónimas. También existe otra forma de sintaxis para funciones anónimas, denominada funciones flecha. #[b.txt-c1 A continuación, se presenta cómo ordenar un arreglo numérico de manera inversa utilizando la sintaxis de función]:
+    p(data-aos="fade-right") Para ordenar un vector con datos numéricos, se debe pasar como argumento una función al método #[b Array.sort()]. Esta función indica qué operación debe hacerse sobre los datos a comparar entre dos datos del arreglo. Para comparar si un número es mayor que otro, es muy común usar la resta porque, al restar un número, solo existen tres tipos de respuestas. Cuando a un número a se le resta un número #[b b (a - b)], si el resultado es negativo, es porque #[b b] es mayor que #[b a]; si el resultado es positivo, es porque a es mayor que #[b b]; y si el resultado es cero, es porque #[b a y b] son iguales.
+    p(data-aos="fade-right") Como se puede apreciar, se pasa una función (sin identificador) que recibe dos datos del arreglo (a y b) y los compara con la diferencia (resta) de ellos. A las funciones que no se les pone identificador se les llaman funciones anónimas. También existe otra forma de sintaxis para funciones anónimas, denominada funciones flecha. #[b.txt-c1 A continuación, se presenta cómo ordenar un arreglo numérico de manera inversa utilizando la sintaxis de función]:
     .row.bg-c39.mb-4
       .col-12
         .px-5
           .row.align-items-center.mb-5
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-6.order-2.order-lg-1(data-aos="fade-right")
               .row
                 .col-12
                   .px-4.py-3.bg-c22
@@ -1464,7 +1464,7 @@
                       hr
                       p.mb-0  Consola
                       p.mb-0  120, 56, 53, 12, 10 
-            .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema10/img15.png', style="width: 570px" alt='')
           .row.mb-4.pt-4(data-aos="fade-down")
@@ -1476,10 +1476,10 @@
                       img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
                   .col
                     h3.text-white C. Ordenamiento de registros
-          p.mb-5 Suponiendo que se tienen los registros de la tabla, se desea ordenarlos de mayor edad a menor edad.
-          .titulo-sexto.color-acento-contenido.mb-4
+          p.mb-5(data-aos="fade-right") Suponiendo que se tienen los registros de la tabla, se desea ordenarlos de mayor edad a menor edad.
+          .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
             p.mb-0 #[b Tabla 9.] Registros
-          .row.justify-content-center.mb-5
+          .row.justify-content-center.mb-5(data-aos="fade-left")
             .col-lg-8
               table(width="100%")
                 tbody
@@ -1499,9 +1499,9 @@
                     td.text-center Andrés
                     td.text-center 34
                     td.text-center Project Manager
-          p.mb-5 En esta oportunidad en las líneas 6 y 8, que se puede usar contexto (corchetes) a pesar de que dentro solo hay una sentencia (línea 7), el resultado a retornar es la diferencia entre b.edad y a.edad para que el ordenamiento sea de mayor a menor.
+          p.mb-5(data-aos="fade-right") En esta oportunidad en las líneas 6 y 8, que se puede usar contexto (corchetes) a pesar de que dentro solo hay una sentencia (línea 7), el resultado a retornar es la diferencia entre b.edad y a.edad para que el ordenamiento sea de mayor a menor.
           .row
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               .row
                 .col-12
                   .px-4.py-3.bg-c22
@@ -1526,7 +1526,7 @@
                       p.mb-0      {usuario: "Mariela", edad: 31, rol: "SAC"},
                       p.mb-0      {usuario: "Eduardo", edad: 30, rol: "CEO"}
                       p.mb-0  ]
-            .col-lg-6
+            .col-lg-6(data-aos="fade-left")
               .row.mb-4.pt-4(data-aos="fade-down")
                 .col-auto.bg-c4
                   .px-3.pb-0
@@ -1552,9 +1552,9 @@
                       p.mb-0  12
               figure
                 img(src='@/assets/curso/tema10/img16.png', style="width: 600px" alt='').m-auto
-    p Se utiliza el identificador #[b elemento] para referenciar la variable a la que se aplicará el criterio de búsqueda, que en este ejemplo es encontrar el primer elemento mayor que 10. Muchas veces es importante que, en lugar de retornar un solo valor, el resultado sea más de uno.  Por ejemplo, si en el arreglo se retornan los valores mayores que 10, se debe retornar otro vector con los valores resultantes. Para esto, existe la función #[b Array.filter()], que crea un nuevo arreglo con los datos que cumplan con la condición.
+    p(data-aos="fade-down") Se utiliza el identificador #[b elemento] para referenciar la variable a la que se aplicará el criterio de búsqueda, que en este ejemplo es encontrar el primer elemento mayor que 10. Muchas veces es importante que, en lugar de retornar un solo valor, el resultado sea más de uno.  Por ejemplo, si en el arreglo se retornan los valores mayores que 10, se debe retornar otro vector con los valores resultantes. Para esto, existe la función #[b Array.filter()], que crea un nuevo arreglo con los datos que cumplan con la condición.
     .row
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -1569,7 +1569,7 @@
                 hr
                 p.mb-0  Consola
                 p.mb-0  [  12,  130,  44]
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         .p-4.bg-c29
           .row
             .col-md-auto.mb-4.mb-md-0

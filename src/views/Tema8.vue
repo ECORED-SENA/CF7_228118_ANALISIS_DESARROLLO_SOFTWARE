@@ -2,25 +2,25 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 8
       h1 Estructura de datos
     .row.bg-c31
       .col-12
         .px-5
-          p.mb-5 Es importante conocer el concepto de arreglos e identificar cuándo usarlos en la aplicación de los algoritmos. Asimismo, es crucial ser capaz de resolver problemas básicos mediante diagramas de flujo y pseudocódigo. Existen varios tipos de arreglos, siendo los más comunes los vectores y las matrices.
+          p.mb-5(data-aos="fade-right") Es importante conocer el concepto de arreglos e identificar cuándo usarlos en la aplicación de los algoritmos. Asimismo, es crucial ser capaz de resolver problemas básicos mediante diagramas de flujo y pseudocódigo. Existen varios tipos de arreglos, siendo los más comunes los vectores y las matrices.
           .row.align-items-center.mb-5
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.bg-c6
                 p.text-white #[b Vectores]
                 p.text-white.mb-0 Los arreglos o arrays (en inglés), también conocidos como matrices, arreglos o vectores, se definen como un conjunto finito y ordenado de elementos del mismo tipo. La propiedad "ordenado" implica que el primer elemento, segundo, tercero, ..., enésimo de un array puede ser identificado y accedido. Cuando se dice que los elementos de un arreglo son homogéneos, significa que son del mismo tipo de datos. Un arreglo puede estar compuesto de todos sus elementos de tipo letras, otro puede tener todos sus elementos de tipo entero, etc. Los arreglos se conocen como matrices en matemáticas y tablas en temas financieros (Vázquez, 2012).
-            .col-lg-6
+            .col-lg-6(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema8/img2.png', style='width: 500px', alt='').m-auto
-          p.mb-5 #[b.txt-c1 Según sus dimensiones, los arreglos se clasifican en:]
+          p.mb-5(data-aos="fade-right") #[b.txt-c1 Según sus dimensiones, los arreglos se clasifican en:]
           .row.justify-content-center.mb-5
-            .col-md-8.col-lg-4.mb-4.mb-lg-0
+            .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.bg-c8.h-100
                 figure.mb-4
                   img(src='@/assets/curso/tema8/img1.svg', style='width: 100px', alt='')
@@ -28,7 +28,7 @@
                   .col-auto
                     p.txt-c3.mb-0 #[b Unidimensionales:]
                 p.text-white.mb-0 De una dimensión, comparables con una lista de elementos.
-            .col-md-8.col-lg-4
+            .col-md-8.col-lg-4(data-aos="fade-left")
               .p-4.bg-c8
                 figure.mb-4
                   img(src='@/assets/curso/tema8/img2.svg', style='width: 100px', alt='')
@@ -38,14 +38,14 @@
                 p.text-white.mb-0 Multidimensionales: son arreglos de varias dimensiones o los más comunes son bidimensionales (dos dimensiones o tablas) o arreglos multidimensionales (tridimensionales, por ejemplo).
     .row.mb-5
       .col-12
-        .p-4.bg-c3
+        .p-4.bg-c3(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido.mb-4
             p.mb-0 #[b Figura 16.] Matriz unidimensional con 10 elementos
           figure
             img(src='@/assets/curso/tema8/img3.svg', style='width: 700px', alt='Una imagen que muestra una representación gráfica de un array con índices del 0 al 9.').m-auto
-    p.mb-5 Cada vector está compuesto de un número de elementos ya definidos, lo que hace que sea una estructura estática (no puede aumentarse ni reducirse). Cada elemento está referenciado por la posición que ocupa dentro del vector. Estas posiciones son llamadas índices; nótese que empiezan a contarse desde 0, como se presenta en la figura anterior.
+    p.mb-5(data-aos="fade-right") Cada vector está compuesto de un número de elementos ya definidos, lo que hace que sea una estructura estática (no puede aumentarse ni reducirse). Cada elemento está referenciado por la posición que ocupa dentro del vector. Estas posiciones son llamadas índices; nótese que empiezan a contarse desde 0, como se presenta en la figura anterior.
     .row.align-items-center.mb-5
-      .col-lg-6.order-2.order-lg-1
+      .col-lg-6.order-2.order-lg-1(data-aos="fade-right")
         .row.mb-3
           .col-12
             .p-3.bg-c13
@@ -56,22 +56,22 @@
                 .col
                   p.mb-0 Para referirse a un vector se usa un identificador, como se hace con las variables o constantes, pero queda entre corchetes [ ]. Por ejemplo, si el vector se llama "lista" y se quiere acceder al quinto elemento del vector de la figura 17, se debe hacer así: lista[4]. Es importante notar que la quinta posición se accede con el índice 4, porque se empieza a contar desde 0.
         p.mb-0 Para realizar las operaciones de asignación, lectura/escritura sobre un vector, se recomienda usar las estructuras repetitivas para, a través de ellas, manipular los índices correspondientes a las posiciones del arreglo.
-      .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema8/img3.png', style="width: 570px" alt='').m-auto
     .row.mb-5
       .col-12
-        .p-4.bg-c6
+        .p-4.bg-c6(data-aos="fade-left")
           .row.align-items-center
             .col-md-auto.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema8/img5.svg', style="width: 90px" alt='').m-auto
             .col
               p.txt-c2.mb-0 Ejemplo: Hacer un programa que pida 5 números enteros al usuario y los guarde en un arreglo de números en un arreglo, luego que imprima los números mayores de 100.
-    p.mb-5 #[b.txt-c1 A continuación, se revisan los ejemplos:]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 A continuación, se revisan los ejemplos:]
     .row.align-items-center.mb-5
       .col-12
-        .p-4.bg-c13
+        .p-4.bg-c13(data-aos="fade-left")
           p #[b Análisis]
           ol.lista-ol--cuadro.mb-0
             li.d-flex
@@ -104,10 +104,10 @@
                 span 6.
               |
               p.mb-0 #[b Procesos necesarios:] se requiere definir un arreglo de tamaño 5, se necesita pedir 5 veces un entero y almacenarlos en el vector. Luego se debe recorrer las 5 posiciones del vector para comparar en cada uno de los datos si es mayor que 100, si el número comparador es lo que se debe imprimir. Como 5 es un número invariante, el programa lo define como una constante de nombre tamano (no se usa la ñ porque no permite ni acentos latinos ni tildes), se debe usar la sentencia repetitiva PARA porque se sabe el número de veces que se debe repetir cada acción.
-    p #[b Diseño]
-    p.mb-5 El diseño es el siguiente:
+    p(data-aos="fade-right") #[b Diseño]
+    p.mb-5(data-aos="fade-right") El diseño es el siguiente:
     .row.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .p-4.bg-c3
@@ -115,7 +115,7 @@
                 p.mb-0 #[b Figura 17.] Vector de 5 elementos
               figure
                 img(src='@/assets/curso/tema8/img6.svg', style='width: 400px', alt='Un diagrama de flujo que describe un algoritmo para ingresar y procesar una lista de números enteros, mostrando aquellos que son mayores a 100.').m-auto
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -158,9 +158,9 @@
                       img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
                   .col
                     h3.text-white Matrices
-          p.mb-5 Las matrices son arreglos de más de una dimensión. En la siguiente tabla se presenta un ejemplo de una matriz de 2 dimensiones, que es de 4 x 5 (correspondiente a 4 columnas y 5 filas).
+          p.mb-5(data-aos="fade-right") Las matrices son arreglos de más de una dimensión. En la siguiente tabla se presenta un ejemplo de una matriz de 2 dimensiones, que es de 4 x 5 (correspondiente a 4 columnas y 5 filas).
           .row.align-items-center.mb-5
-            .col-lg-7.mb-4.mb-lg-0
+            .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
               .titulo-sexto.color-acento-contenido.mb-4
                 p.mb-0 #[b Tabla 6.] Matriz de 4 x 5
               table(width="100%" style="background-color: #F9F9F9")
@@ -190,26 +190,26 @@
                     td.text-center 4,1
                     td.text-center 4,2
                     td.text-center 4,3
-            .col-lg-5
+            .col-lg-5(data-aos="fade-left")
               .p-4.bg-c32
                 p Lo anterior se aplica cuando se quiere acceder a un elemento de la matriz. El identificador usa corchetes dobles. Por ejemplo, para acceder al último elemento de la tabla, se utilizaría: matriz[4][3].
                 p.mb-0 Para recorrer estas estructuras de datos se requieren ciclos anidados; estas técnicas se abordarán más adelante.
-          p #[b Programación modular]
-          p Existe un área denominada ingeniería del #[i software], que se interesa en el proceso de creación o producción de #[i software] y concentra sus esfuerzos en aportar herramientas, procedimientos y técnicas para su construcción.
+          p(data-aos="fade-right") #[b Programación modular]
+          p(data-aos="fade-right") Existe un área denominada ingeniería del #[i software], que se interesa en el proceso de creación o producción de #[i software] y concentra sus esfuerzos en aportar herramientas, procedimientos y técnicas para su construcción.
           .row.align-items-center.mb-5
-            .col-lg-6.order-2.order-lg-1
+            .col-lg-6.order-2.order-lg-1(data-aos="fade-right")
               .row.mb-3
                 .col-12
                   .p-3.bg-c2
                     p.mb-0 La ingeniería del #[i software] propone que la construcción de #[i software] esté basada en la descomposición de un problema en un conjunto de subproblemas independientes entre sí, más sencillos de analizar y resolver; estos subproblemas pueden ser tratados separadamente unos de otros. Esto consiste, básicamente, en el modularidad del #[i software].
               p.mb-0 Debido al modularidad, se pueden probar los subprogramas o módulos de manera independiente, depurando errores antes de su uso en el programa principal y almacenándolos para su posterior reutilización cuantas veces sea necesario.
-            .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2
+            .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema8/img5.png', style="width: 570px" alt='').m-auto
-          p El enfoque básico de modularidad en un algoritmo puede estar compuesto de otros algoritmos que se especializan en una función determinada. Para saber cómo descomponer un algoritmo en pequeños algoritmos, se listan los aspectos que pueden ayudar a definir la división de algoritmos:
+          p(data-aos="fade-right") El enfoque básico de modularidad en un algoritmo puede estar compuesto de otros algoritmos que se especializan en una función determinada. Para saber cómo descomponer un algoritmo en pequeños algoritmos, se listan los aspectos que pueden ayudar a definir la división de algoritmos:
     .row.mb-5
       .col-12
-        .p-4.p-lg-5.bg-c17
+        .p-4.p-lg-5.bg-c17(data-aos="fade-up")
           .tarjeta.tarjeta--azul.p-4.p-lg-5
             SlyderA(tipo="b")
               .row.justify-content-center.align-items-center
@@ -247,11 +247,11 @@
                 .col-lg-5
                   figure
                     img(src='@/assets/curso/tema8/img10.png', style='width: 400px', alt='').m-auto
-    p #[b Ejemplo]
-    p.mb-5 Realizar un algoritmo que solicite dos números e imprima cuál es el mayor de ambos, si son iguales, mostrar cualquiera.
+    p(data-aos="fade-right") #[b Ejemplo]
+    p.mb-5(data-aos="fade-right") Realizar un algoritmo que solicite dos números e imprima cuál es el mayor de ambos, si son iguales, mostrar cualquiera.
     .row.align-items-center.mb-5
       .col-12
-        .p-4.bg-c13
+        .p-4.bg-c13(data-aos="fade-left")
           p #[b Análisis]
           ol.lista-ol--cuadro.mb-0
             li.d-flex
@@ -284,9 +284,9 @@
                 span 6.
               |
               p.mb-0 #[b Procesos necesarios:] se requiere definir los datos a recibir, pedirle que al usuario que digite los números, comparar para saber cuál es el mayor y mostrarlo.
-    p.mb-5 #[b Diseño:] el diseño es el siguiente:
+    p.mb-5(data-aos="fade-right") #[b Diseño:] el diseño es el siguiente:
     .row
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
           .col-12
             .p-4.bg-c3
@@ -294,7 +294,7 @@
                 p.mb-0 #[b Figura 18.] Estructura Algoritmo el mayor de dos números
               figure
                 img(src='@/assets/curso/tema8/img7.svg', style='width: 400px', alt='Un diagrama de flujo que ilustra un algoritmo para comparar dos números ingresados por el usuario y determinar cuál es el mayor.').m-auto
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         .row
           .col-12
             .px-4.py-3.bg-c22

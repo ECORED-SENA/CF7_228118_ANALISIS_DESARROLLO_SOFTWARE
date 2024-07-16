@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
       h1 Uso de identificadores y palabras reservadas
@@ -10,10 +10,10 @@
       .col-12
         .px-5
           .row.align-items-center.mb-5
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema5/img2.png', style='width: 450px', alt='').m-auto
-            .col-lg-8
+            .col-lg-8(data-aos="fade-left")
               .row.mb-3
                 .col-12
                   .p-4.bg-c14
@@ -25,7 +25,7 @@
                         p.mb-0 En la elaboración de diagramas de flujo o algoritmos, muchas veces se necesitan datos auxiliares. A continuación, se definen algunos de estos tipos de datos auxiliares.
               p.mb-0 Los identificadores son nombres que se dan a los elementos utilizados para resolver un problema y poder diferenciar unos de otros. De acuerdo con López (2009), al asignar nombres (identificadores) a variables, constantes y procedimientos, se deben tener en cuenta algunas reglas, a saber:
           .row.mb-5
-            .col-12.bg-c25
+            .col-12.bg-c25(data-aos="fade-right")
               .p-4.p-lg-0
                 .row.align-items-center
                   .col-4.d-none.d-lg-block
@@ -70,7 +70,7 @@
                         p.text-center No utilizar palabras reservadas por los lenguajes de programación.
     .row.mb-5
       .col-12
-        .p-4.bg-c14
+        .p-4.bg-c14(data-aos="fade-left")
           .row.align-items-center
             .col-auto
               figure
@@ -88,7 +88,7 @@
             .col
               h3.text-white Solución
     .row.align-items-center.mb-5
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         .row
           .col-12
             .p-4.bg-c13
@@ -109,15 +109,15 @@
                     span 3.
                   |
                   p.mb-0 "cubo" para almacenar el cubo del número de entrada.
-      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema5/img4.png', style='width: 400px', alt='').m-auto
-    p.mb-5 Todos los lenguajes de programación tienen palabras reservadas para nombrar sus comandos, instrucciones y funciones; estas palabras no se pueden usar como identificadores.
+    p.mb-5(data-aos="fade-right") Todos los lenguajes de programación tienen palabras reservadas para nombrar sus comandos, instrucciones y funciones; estas palabras no se pueden usar como identificadores.
     .row.align-items-center
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema5/img5.png', style='width: 400px', alt='').m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Variables")
             .col-12

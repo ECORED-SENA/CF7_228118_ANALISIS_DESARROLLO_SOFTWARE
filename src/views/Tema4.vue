@@ -2,19 +2,19 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Diagramas de flujo
-    p.mb-5 Una forma común de presentar los algoritmos es mediante diagramas de flujo, que consisten en una representación gráfica. #[b.txt-c1 Mientras que en pseudocódigo las sentencias se representaban con proposiciones, en los diagramas de flujo las proposiciones son reemplazadas por figuras].
+    p.mb-5(data-aos="fade-right") Una forma común de presentar los algoritmos es mediante diagramas de flujo, que consisten en una representación gráfica. #[b.txt-c1 Mientras que en pseudocódigo las sentencias se representaban con proposiciones, en los diagramas de flujo las proposiciones son reemplazadas por figuras].
     .row.mb-5
       .col-12
-        .p-4.bg-c3
+        .p-4.bg-c3(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido.mb-4
             p.mb-0 #[b Figura 6.] Diagrama de flujo imprimir un entero
           figure
             img(src='@/assets/curso/tema4/img1.svg', style='width: 700px', alt='Diagrama de flujo simple que muestra el proceso de un algoritmo básico, comenzando con Inicio, seguido de Por favor ingrese un número, entrada, Entrada, y terminando con Fin.').m-auto
-    .tarjeta.color-primario1.p-3.mb-5
+    .tarjeta.color-primario1.p-3.mb-5(data-aos="fade-left")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-auto
           img(src="@/assets/curso/tema3/img13.svg")
@@ -27,19 +27,19 @@
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo2.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-link
-    p.mb-5 #[b.txt-c1 La representación del algoritmo en la figura (algoritmo que calcula el cuadrado y el cubo de un número introducido por teclado y muestra los resultados):]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 La representación del algoritmo en la figura (algoritmo que calcula el cuadrado y el cubo de un número introducido por teclado y muestra los resultados):]
     .row.mb-5
       .col-12
-        .p-4.bg-c3
+        .p-4.bg-c3(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido.mb-4
             p.mb-0 #[b Figura 7.] Diagrama de flujo imprimir el cuadrado y el cubo de un entero
           figure
             img(src='@/assets/curso/tema4/img2.svg', style='width: 700px', alt='Diagrama de flujo que muestra el proceso de un algoritmo más complejo, incluyendo la lectura de un número, cálculo del cuadrado y del cubo de dicho número, y la visualización de los resultados.').m-auto
-    p La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayor mente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009).
-    p.mb-5 #[b.txt-c1 Los siguientes son los principales símbolos para crear diagramas de flujo:]
+    p(data-aos="fade-right") La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayor mente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009).
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 Los siguientes son los principales símbolos para crear diagramas de flujo:]
     .row.mb-5
       .col-12
-        .p-4.bg-c3
+        .p-4.bg-c3(data-aos="fade-left")
           .row.justify-content-center
             .col-md-5.col-lg-3.m-1
               .p-2
@@ -122,8 +122,8 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Elaborar diagramas de flujo
-    p.mb-5 Cuando el algoritmo se desea representar como diagrama de flujo, se deben tener en cuenta algunos principios para su elaboración (Rojas y Ñacato, 1980).
-    .tarjeta.color-primario1.p-3.mb-5
+    p.mb-5(data-aos="fade-right") Cuando el algoritmo se desea representar como diagrama de flujo, se deben tener en cuenta algunos principios para su elaboración (Rojas y Ñacato, 1980).
+    .tarjeta.color-primario1.p-3.mb-5(data-aos="fade-left")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-auto
           img(src="@/assets/curso/tema3/img13.svg")
@@ -145,14 +145,14 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Herramientas digitales para creación y prueba de algoritmos
-    p Para aprender a reconocer los elementos que componen los diagramas de flujo, se puede hacer uso de la herramienta denominada Draw.io a través del enlace 
+    p(data-aos="fade-right") Para aprender a reconocer los elementos que componen los diagramas de flujo, se puede hacer uso de la herramienta denominada Draw.io a través del enlace 
       |
       a(href="https://app.diagrams.net/" target="_blank") https://app.diagrams.net/
       |. Con esta herramienta, puede usar una cuenta de correo de Google o misena.edu.co para acceder y crear un nuevo diagrama.
-    p.mb-5 Es ideal ingresar y seleccionar los diagramas que se presentan en la siguiente figura.
+    p.mb-5(data-aos="fade-right") Es ideal ingresar y seleccionar los diagramas que se presentan en la siguiente figura.
     .row
       .col-12
-        .p-4.bg-c3
+        .p-4.bg-c3(data-aos="fade-left")
           .titulo-sexto.color-acento-contenido.mb-4
             p.mb-0 #[b Figura 7.] Seleccionar formas
           figure

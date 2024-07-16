@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Metodología de algoritmos
@@ -10,10 +10,10 @@
       .col-12
         .px-5
           .row.align-items-center.mb-5
-            .col-lg-4.mb-4.mb-lg-0
+            .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema3/img2.png', style="width: 400px" alt='').m-auto
-            .col-lg-8
+            .col-lg-8(data-aos="fade-left")
               p De manera implícita, en las distintas áreas productivas de la sociedad se usan algoritmos. Un par de ejemplos pueden ser que, en la construcción de una casa, el ingeniero o el arquitecto analiza el terreno, diseña unos planos, realiza maquetas y así continúa siguiendo una secuencia lógica de procesos para la resolución del problema; o un abogado que, antes de defender a un cliente, analiza las pruebas, elabora un plan, practica sus argumentos y sigue un método para lograr la defensa de su cliente. #[b.txt-c1 Se puede concluir, entonces, que una solución a la medida de un problema requiere una metodología que lleve a la solución final].
               .row
                 .col-12
@@ -24,9 +24,9 @@
                           img(src='@/assets/curso/tema3/img1.svg', style="width: 90px" alt='').m-auto
                       .col
                         p.mb-0 Es de suma importancia realizar una bitácora y una matriz, con el fin de ejecutar los casos de prueba y así concluir si el caso funciona como se esperaba, para agregarlo como una conformidad, o en su defecto, pasaría a ser una no conformidad.
-          p.mb-5 #[b.txt-c1 En general, existen tres fases secuenciales para la elaboración de un algoritmo, de las cuales se abordarán las dos primeras:]
+          p.mb-5(data-aos="fade-right") #[b.txt-c1 En general, existen tres fases secuenciales para la elaboración de un algoritmo, de las cuales se abordarán las dos primeras:]
           .row.justify-content-center
-            .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+            .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.bg-c11
                 figure.mb-4
                   img(src='@/assets/curso/tema3/img2.svg', style="width: 80px" alt='').m-auto
@@ -48,7 +48,7 @@
                     i.fas.fa-code(style="color: #FFFFFF")
                     |
                     p.text-white.mb-0 Identificación de salidas y resultados.
-            .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0
+            .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
               .p-4.bg-c11
                 figure.mb-4
                   img(src='@/assets/curso/tema3/img3.svg', style="width: 80px" alt='').m-auto
@@ -66,7 +66,7 @@
                     i.fas.fa-code(style="color: #FFFFFF")
                     |
                     p.text-white.mb-0 Implementación.
-            .col-10.col-md-8.col-lg-4
+            .col-10.col-md-8.col-lg-4(data-aos="fade-right")
               .p-4.bg-c11
                 figure.mb-4
                   img(src='@/assets/curso/tema3/img4.svg', style="width: 80px" alt='').m-auto
@@ -89,7 +89,7 @@
           .titulo-segundo.color-acento-contenido
             h2 3.1 Análisis
     .row.align-items-center.mb-5
-      .col-lg-8.order-2.order-lg-1
+      .col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         .row.mb-3
           .col-12
             .p-4.bg-c2
@@ -100,10 +100,10 @@
                 .col
                   p.mb-0 Como se explicó en componentes anteriores, la fase de análisis trata de responder a la pregunta: #[b ¿Qué es lo que se debe hacer?] Esto es necesario para entender el problema. Por ello, es preciso relacionar los datos de entrada, salida o resultados con los procesos a ejecutar con esta información y los datos auxiliares que se puedan requerir en las tareas.
         p.mb-0 Hasta este punto, parece que esas son las actividades propias del análisis. Sin embargo, el éxito de un algoritmo consiste en reducir a cero la brecha entre lo que el cliente necesita y los resultados que el algoritmo entrega. Para lograrlo en su totalidad, es importante indagar otros aspectos que corresponden a la naturaleza del problema. Las siguientes preguntas modeladoras son de referencia casi obligatoria a tener en cuenta:
-      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-4.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img3.png', style="width: 400px" alt='').m-auto
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down")
       .col-9.col-md-5.col-lg-3.mb-4
         .p-4.bg-c11.h-100
           p.text-white.text-center.mb-0 ¿Qué es?
@@ -130,10 +130,10 @@
     .titulo-segundo.color-acento-contenido
       h2 3.2 Diseño
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img4.png', style="width: 400px" alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .row.mb-3
           .col-12
             .p-4.bg-c21
@@ -146,15 +146,15 @@
         p.mb-0 En el proceso de desarrollo del algoritmo, las siguientes actividades son obligatorias, especialmente si se está comenzando en el diseño de soluciones basadas en algoritmos y no se cuenta con mucha experiencia:
     .row.mb-5
       .col-12
-        .p-4.bg-c3
+        .p-4.bg-c3(data-aos="fade-down")
           .titulo-sexto.color-acento-contenido.mb-4
             p.mb-0 #[b Figura 5.] Actividades diseño algoritmo
           figure
             img(src='@/assets/curso/tema3/img7.svg', style='width: 500px', alt='Imagen de un círculo con cuatro secciones etiquetadas como Validación, Análisis, Diseño, e Implementación, y el texto Algoritmia Básica en el centro.').m-auto
-    p.mb-5 Para la verificación del algoritmo, se aplica una técnica denominada pruebas de escritorio o trazas, que trata de la validación y verificación del algoritmo mediante la ejecución de las sentencias u operaciones que lo componen (proceso), y así determinar sus resultados de salida a partir de una base determinada de elementos en la entrada del proceso.
+    p.mb-5(data-aos="fade-right") Para la verificación del algoritmo, se aplica una técnica denominada pruebas de escritorio o trazas, que trata de la validación y verificación del algoritmo mediante la ejecución de las sentencias u operaciones que lo componen (proceso), y así determinar sus resultados de salida a partir de una base determinada de elementos en la entrada del proceso.
     .row.mb-5
       .col-12
-        .p-4.bg-c6
+        .p-4.bg-c6(data-aos="fade-up")
           .row.align-items-center
             .col-md-auto.mb-4.mb-md-0
               figure
@@ -162,13 +162,13 @@
             .col
               p.txt-c2.mb-0 Como el resultado del proceso de diseño es un algoritmo, es obligatorio saber representarlo de alguna manera. Inicialmente, se empleará la notación de pseudocódigo para hacer este tipo de representaciones.
     .row.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c2
           p #[b Notación de diseño: pseudocódigo]
           p Para expresar el contenido de un programa de computadora, se necesita un lenguaje de programación que las computadoras puedan interpretar. Sin embargo, se puede expresar ese mismo contenido en el lenguaje natural, empleando expresiones sencillas que lo simplifican y abrevian. Cuando se emplea esta técnica, se dice que está escrito en pseudocódigo.
           figure.d-flex.justify-content-end
             img(src='@/assets/curso/tema3/img9.svg', style="width: 100px", alt='')
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         .p-4.bg-c6
           .row.align-items-center
             .col-lg.mb-4.mb-lg-0
@@ -177,12 +177,12 @@
             .col-lg-auto
               figure
                 img(src='@/assets/curso/tema3/img10.svg', style="width: 275px" alt='').m-auto
-    p.mb-5 #[b.txt-c1 A continuación, se aplica la metodología:]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 A continuación, se aplica la metodología:]
     .row.align-items-center.mb-4
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema3/img5.png', style="width: 400px" alt='').m-auto
-      .col-lg-9
+      .col-lg-9(data-aos="fade-left")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Análisis")
             .col-12
@@ -207,14 +207,14 @@
                       p.mb-0              LEER (entrada);
                       p.mb-0              ESCRIBIR (entrada);
                       p.mb-0  FIN
-    p En un algoritmo, se indica el nombre del mismo y luego se declaran las variables que serán usadas (con VAR), especificando su tipo de dato (un valor de tipo ENTERO, para este ejemplo).
-    .row.mb-4
+    p(data-aos="fade-right") En un algoritmo, se indica el nombre del mismo y luego se declaran las variables que serán usadas (con VAR), especificando su tipo de dato (un valor de tipo ENTERO, para este ejemplo).
+    .row.mb-4(data-aos="fade-right")
       .col-auto.d-none.d-md-block
         figure.mt-1
           img(src='@/assets/curso/tema2/img6.svg', style="width: 80px" alt='')
       .col
         p.mb-0 Entre INICIO y FIN se escriben las diferentes acciones que realizará el algoritmo. Usamos ESCRIBIR() para mostrar un mensaje por pantalla (el texto que se va a mostrar 'tal cual' debe ir entre paréntesis dobles) y LEER() para recibir el dato desde el teclado.
-    .row.align-items-center
+    .row.align-items-center(data-aos="fade-down")
       .col-lg-8.mb-4.mb-lg-0
         .p-4.bg-c13
           p.mb-0 Se debe tener en cuenta que cada línea termina en punto y coma (excepto INICIO y FIN). El punto y coma indica que lo que se ejecuta es una sentencia que hace una única operación, mientras que lo que está entre INICIO y FIN agrupa varias sentencias que se ejecutan en un orden determinado.
@@ -225,8 +225,8 @@
     #t_3_3
     .titulo-segundo.color-acento-contenido
       h2 3.3 Pruebas de escritorio o trazas
-    p.mb-5 Las pruebas de escritorio son simulaciones de ejecución de un algoritmo que permiten determinar la validez o efectividad del mismo.
-    .tarjeta.color-primario1.p-3.mb-5
+    p.mb-5(data-aos="fade-right") Las pruebas de escritorio son simulaciones de ejecución de un algoritmo que permiten determinar la validez o efectividad del mismo.
+    .tarjeta.color-primario1.p-3.mb-5(data-aos="fade-up")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-auto
           img(src="@/assets/curso/tema3/img13.svg")
@@ -239,8 +239,8 @@
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-link
-    p #[b Ejemplo]
-    p.mb-5 Escribir un algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y, mostrar los resultados para el cubo y el cuadrado.
+    p(data-aos="fade-right") #[b Ejemplo]
+    p.mb-5(data-aos="fade-right") Escribir un algoritmo que calcule el cuadrado y el cubo de un número introducido por teclado y, mostrar los resultados para el cubo y el cuadrado.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -251,7 +251,7 @@
             .col
               h3.text-white Solución
     .row.align-items-center.mb-5
-      .col-lg-9.order-2.order-lg-1
+      .col-lg-9.order-2.order-lg-1(data-aos="fade-right")
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Análisis")
             .col-12
@@ -282,24 +282,24 @@
                       p.mb-0                 ESCRIBIR( "El Cuadrado " cuadrado );
                       p.mb-0                 ESCRIBIR( "El Cubo " cubo);
                       p.mb-0  FIN
-      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img6.png', style="width: 400px" alt='').m-auto
-    p.mb-5 Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Es importante que a todos los pseudocódigos se les aplique, al menos, una prueba de escritorio o las que se consideren necesarias.
+    p.mb-5(data-aos="fade-right") Las pruebas de escritorio permiten verificar que el pseudocódigo realice lo que se espera al resolver el problema. Es importante que a todos los pseudocódigos se les aplique, al menos, una prueba de escritorio o las que se consideren necesarias.
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c13
           p.mb-0 La mayoría de las pruebas de escritorio se representan en una tabla, donde en cada columna se anotan las variables y condiciones, si las hay, en el orden en que aparecen en el algoritmo. Para entenderlo, se debe recorrer línea a línea el pseudocódigo, identificando tanto las variables como las condiciones e ir anotándolas en la tabla de la prueba de escritorio.
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         figure
           img(src='@/assets/curso/tema3/img7.png', style="width: 370px" alt='').m-auto
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         .p-4.bg-c2
           p Es importante que en la tabla no aparezcan variables o condiciones repetidas. En la última columna se pueden anotar los datos de salida, identificándolos como "Salida".
           figure.d-flex.justify-content-end
             img(src='@/assets/curso/tema3/img14.svg', style="width: 110px" alt='')
-    p.mb-5 #[b.txt-c1 Ejecutando línea a línea el algoritmo del ejemplo anterior, se va llenando la tabla:]
-    .tarjeta.tarjeta--gris.p-4.p-lg-5.mb-5
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 Ejecutando línea a línea el algoritmo del ejemplo anterior, se va llenando la tabla:]
+    .tarjeta.tarjeta--gris.p-4.p-lg-5.mb-5(data-aos="fade-left")
       PasosB.color-primario
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-12
@@ -416,7 +416,7 @@
                           p.mb-0 El cubo 27
     .row
       .col-12
-        .p-4.bg-c6
+        .p-4.bg-c6(data-aos="fade-right")
           .row.align-items-center
             .col-md-auto.mb-4.mb-md-0
               figure

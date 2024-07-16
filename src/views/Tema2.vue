@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Lógica matemática
@@ -10,10 +10,10 @@
       .col-12
         .px-5
           .row
-            .col-lg-auto.pe-0.d-none.d-lg-block
+            .col-lg-auto.pe-0.d-none.d-lg-block(data-aos="fade-right")
               figure
                 img(src='@/assets/curso/tema2/img2.png', style='width: 290px', alt='').m-auto
-            .col.bg-c5
+            .col.bg-c5(data-aos="fade-left")
               .row.align-items-center.h-100
                 .col-12
                   .p-4
@@ -22,7 +22,7 @@
           #t_2_1
           .titulo-segundo.color-acento-contenido
             h2 2.1 Componentes de la lógica matemática
-          p.mb-5 Todo razonamiento lógico está compuesto por una serie de elementos que se interrelacionan entre sí. La correcta interpretación de estos componentes y de sus relaciones corresponde al análisis deductivo. Estos componentes son las proposiciones y los conectores lógicos, que se describen a continuación:
+          p.mb-5(data-aos="fade-right") Todo razonamiento lógico está compuesto por una serie de elementos que se interrelacionan entre sí. La correcta interpretación de estos componentes y de sus relaciones corresponde al análisis deductivo. Estos componentes son las proposiciones y los conectores lógicos, que se describen a continuación:
           .row.mb-4.pt-4(data-aos="fade-down")
             .col-auto.bg-c4
               .px-3.pb-0
@@ -33,7 +33,7 @@
                   .col
                     h3.text-white a. Proposiciones
           .row.mb-4
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               p Una proposición o enunciado es una oración que puede ser falsa o verdadera, pero no ambas a la vez. La proposición es un elemento fundamental de la lógica matemática.
               .row.mb-3
                 .col-12
@@ -44,17 +44,17 @@
                           img(src='@/assets/curso/tema2/img1.svg', style='width: 70px', alt='').m-auto
                       .col
                         p.mb-0 Las proposiciones pueden ser simples o compuestas. Las primeras están formadas por una sola proposición; por el contrario, las proposiciones compuestas están conformadas por dos o más proposiciones unidas por un conector.
-            .col-lg-6
+            .col-lg-6(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema2/img3.png', style='width: 600px', alt='').m-auto
           .row.mb-5
-            .col-lg-6.mb-4.mb-lg-0
+            .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.bg-c16
                 p.mb-0 #[b p:] la tierra es plana.
                 p.mb-0 #[b q:] -17 + 38 = 21
                 p.mb-0 #[b r:] hola ¿cómo estás?
                 p.mb-0 #[b S:] lava el carro por favor.
-            .col-lg-6
+            .col-lg-6(data-aos="fade-left")
               .p-4.bg-c7
                 p.mb-0 #[b p] y #[b q] son proposiciones simples válidas porque pueden tomar un valor verdadero o falso; sin embargo, los enunciados #[b r] y #[b s] son proposiciones no válidas, porque no pueden tomar un valor de falso o verdadero. Uno de ellos es un saludo y el otro es una orden.
           .row.mb-4.pt-4(data-aos="fade-down")
@@ -66,10 +66,10 @@
                       img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
                   .col
                     h3.text-white b. Conectores lógicos y proposiciones compuestas
-          p Existen las proposiciones compuestas que son las que se componen de varias proposiciones, las cuales utilizan para su conexión operadores o conectores lógicos que son:
+          p(data-aos="fade-right") Existen las proposiciones compuestas que son las que se componen de varias proposiciones, las cuales utilizan para su conexión operadores o conectores lógicos que son:
     .row.mb-5
       .col-12
-        .p-4.p-lg-5.bg-c17
+        .p-4.p-lg-5.bg-c17(data-aos="fade-right")
           .tarjeta.tarjeta--azul.p-4.p-lg-5
             SlyderA(tipo="b")
               .row.justify-content-center.align-items-center
@@ -144,9 +144,9 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Tablas de verdad
-    p Una estrategia de la lógica que tiene como objetivo determinar la validez de varias propuestas en alguna situación es la tabla de verdad. Esta estrategia determina las condiciones necesarias en las que un enunciado es verdadero, representando dichas condiciones en una tabla que establece el valor de verdad de todas las proposiciones que componen la situación. Así como lo explica el principio de bivalencia: #[b.txt-c1 una proposición puede ser verdadera o falsa únicamente, nunca ambas].
+    p(data-aos="fade-right") Una estrategia de la lógica que tiene como objetivo determinar la validez de varias propuestas en alguna situación es la tabla de verdad. Esta estrategia determina las condiciones necesarias en las que un enunciado es verdadero, representando dichas condiciones en una tabla que establece el valor de verdad de todas las proposiciones que componen la situación. Así como lo explica el principio de bivalencia: #[b.txt-c1 una proposición puede ser verdadera o falsa únicamente, nunca ambas].
     .row.mb-5
-      .col-lg-7.order-2.order-lg-1
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p Algunas consideraciones:
         ol.lista-ol--cuadro
           li.d-flex
@@ -164,12 +164,12 @@
               span c.
             |
             p.mb-0 Existe una tabla de verdad para cada uno de los conectores lógicos, lo que se tiene que evaluar para responder si una proposición compuesta es verdadera o falsa es el estatus actual de las proposiciones simples.
-      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img8.png', style='width: 500px', alt='').m-auto
-    p.mb-5 #[b.txt-c1 A continuación, se presentan las tablas de verdad.]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 A continuación, se presentan las tablas de verdad.]
     .row.justify-content-center.mb-5
-      .col-lg-10.mb-5
+      .col-lg-10.mb-5(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Tabla 1.] Tabla de verdad conjunción (Y)
         .row.justify-content-center
@@ -224,7 +224,7 @@
                   td.text-center F
                   td.text-center F
                   td.text-center F
-      .col-lg-10.mb-5
+      .col-lg-10.mb-5(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Tabla 2.] Tabla de verdad disyunción (O)
         .row.justify-content-center
@@ -279,7 +279,7 @@
                   td.text-center 0
                   td.text-center 0
                   td.text-center 0
-      .col-lg-10
+      .col-lg-10(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Tabla 3.] Tabla de verdad negación (no)
         .row.justify-content-center
@@ -312,9 +312,9 @@
                 tr
                   td.text-center 0
                   td.text-center 1
-    p Existe otro tipo de conectores que se llaman proposiciones condicionales, aquellas que están formadas por dos proposiciones simples o compuesta por p y q, la cual se representa y se lee de la siguiente manera:
-    p.mb-5 #[b.txt-c1 p → q se lee “Si p entonces q”]
-    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-5
+    p(data-aos="fade-right") Existe otro tipo de conectores que se llaman proposiciones condicionales, aquellas que están formadas por dos proposiciones simples o compuesta por p y q, la cual se representa y se lee de la siguiente manera:
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 p → q se lee “Si p entonces q”]
+    AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-5(data-aos="fade-left")
       .row(titulo="Ejemplo 1")
         .col-12
           p.mb-0 #[b Las palomas vuelan.]
@@ -500,12 +500,12 @@
                     td.text-center 0
                     td.text-center 0
                     td.text-center 1
-    p.mb-5 #[b.txt-c1 Cuando se aplican tablas de verdad se puede llegar a tres tipos de resultado que son:]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 Cuando se aplican tablas de verdad se puede llegar a tres tipos de resultado que son:]
     .row.align-items-center
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img9.png', style="width: 450px" alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .p-4.bg-c13
           p #[b Tautología:] es una expresión lógica que es verdadera para todos los posibles valores de verdad de sus componentes atómicos. Las proposiciones dan el resultado positivo.
           p #[b Contradicción:] son aquellas fórmulas que son falsas para cualquier valoración de los símbolos proposicionales que contiene. Las proposiciones dan el resultado negativo.
@@ -514,10 +514,10 @@
     #t_2_1
     .titulo-segundo.color-acento-contenido
       h2 2.1 Componentes de la lógica matemática
-    p A continuación, se plantean a manera de ejemplo algunos ejercicios con su respectiva solución que permiten identificar un problema, reconocer los datos de entrada y los procesos a ser aplicados como estrategia a seguir con la utilización de la lógica proposicional en la identificación y solución de problemas. Para dar solución al enunciado anterior se realiza las siguientes actividades.
-    p.mb-5 #[b Ejercicio 1:] se necesita personal femenino que sepa Microsoft Office o Gsuite.
+    p(data-aos="fade-right") A continuación, se plantean a manera de ejemplo algunos ejercicios con su respectiva solución que permiten identificar un problema, reconocer los datos de entrada y los procesos a ser aplicados como estrategia a seguir con la utilización de la lógica proposicional en la identificación y solución de problemas. Para dar solución al enunciado anterior se realiza las siguientes actividades.
+    p.mb-5(data-aos="fade-right") #[b Ejercicio 1:] se necesita personal femenino que sepa Microsoft Office o Gsuite.
     .row.align-items-center.mb-5
-      .col-lg-6.mb-4.mb-lg-0
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c6
           p.text-white #[b Pasos a seguir:]
           ol.lista-ol--cuadro
@@ -541,7 +541,7 @@
                 span d.
               |
               p.text-white.mb-0 Determinar los casos donde se cumpla la condición y hacer la selección de las personas de acuerdo con el requerimiento.
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img2.svg', style="width: 550px" alt='').m-auto
     .row.mb-4.pt-4(data-aos="fade-down")
@@ -553,7 +553,7 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Solución
-    .tarjeta.tarjeta--gris.p-4.p-lg-5.mb-5
+    .tarjeta.tarjeta--gris.p-4.p-lg-5.mb-5(data-aos="fade-down")
       PasosB.color-primario
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-lg-6.mb-4.mb-lg-0
@@ -580,12 +580,12 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img5.svg', style="width: 120px" alt='').m-auto
-    p.mb-5 #[b Ejercicio 2:]  Juan sabe utilizar Microsoft Office y Gsuite, Martha sabe utilizar Gsuite, Natalia sabe utilizar Gsuite y Microsoft Office.
+    p.mb-5(data-aos="fade-right") #[b Ejercicio 2:]  Juan sabe utilizar Microsoft Office y Gsuite, Martha sabe utilizar Gsuite, Natalia sabe utilizar Gsuite y Microsoft Office.
     .row.align-items-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img11.png', style="width: 400px" alt='').m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         .row.mb-3
           .col-auto.d-none.d-md-block
             figure.mt-1
@@ -603,7 +603,7 @@
                   p.mb-0 Para la construcción de la tabla de verdad se evalúa cada una de las preposiciones atómicas y, se van validando para verificar si se cumple lo que la haría verdadera o si no se cumple, lo cual haría que la proposición sea falsa.
         p.mb-0 Se analiza cada posible caso por lo que se evalúa a Juan, para la primera proposición sería un valor falso, ya que p requiere que sea personal femenino, el cual se pondrá en la columna 2, luego se evalúa si Juan sabe utilizar Microsoft Office o la Suite de Google, el valor va en la columna tres y por último, se evalúa la conjunción para determinar la solución.
     .row.align-items-center.mb-5
-      .col-lg-4.order-2.order-lg-1
+      .col-lg-4.order-2.order-lg-1(data-aos="fade-right")
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Tabla 4.] Tabla de verdad ejemplo 2
         .row
@@ -630,15 +630,15 @@
                   td.text-center V
                   td.text-center V
                   td.text-center V
-      .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2
+      .col-lg-8.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img8.svg', style="width: 800px" alt='').m-auto
-    p.mb-5 #[b Ejemplo 3.] Sandra dice adelgazo o no hago dieta.
+    p.mb-5(data-aos="fade-right") #[b Ejemplo 3.] Sandra dice adelgazo o no hago dieta.
     .row.mb-5
-      .col-lg-auto.pe-0.d-none.d-lg-block
+      .col-lg-auto.pe-0.d-none.d-lg-block(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img9.svg', style='width: 400px', alt='').m-auto
-      .col.bg-c19
+      .col.bg-c19(data-aos="fade-left")
         .row.align-items-center.h-100
           .col-12
             .p-4
@@ -673,7 +673,7 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Solución
-    .tarjeta.tarjeta--gris.p-4.p-lg-5
+    .tarjeta.tarjeta--gris.p-4.p-lg-5(data-aos="fade-left")
       PasosB.color-primario
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-lg-6.mb-4.mb-lg-0
