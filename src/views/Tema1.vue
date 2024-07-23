@@ -31,7 +31,7 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white Definición de algoritmo
-    p.mb-5(data-aos="fade-right") Según la #[b.txt-c1 Real Academia Española (2020)], un #[b.txt-c1 algoritmo] está definido como un #[i “conjunto ordenado y finito de operaciones que permite hallar la solución de un problema”].
+    p.mb-5(data-aos="fade-right") Según la #[b.txt-c1 Real Academia Española (2020)], un #[b.txt-c1 algoritmo] está definido como un “conjunto ordenado y finito de operaciones que permite hallar la solución de un problema”.
     .row.mb-5
       .col-lg-auto.pe-0.d-none.d-lg-block(data-aos="fade-right")
         figure
@@ -62,7 +62,7 @@
             .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.bg-c6
                 figure
-                  img(src='@/assets/curso/tema1/img4.svg', style='width: 350px', alt='').m-auto
+                  img(src='@/assets/curso/tema1/img4.svg', style='width: 350px', alt='Imagen de cuatro diagramas cuadrados etiquetados como Aprendiz A, Aprendiz B, Aprendiz C, y Aprendiz D, con flechas numeradas del 1 al 4 indicando una secuencia de pasos.').m-auto
             .col-lg-6(data-aos="fade-left")
               .p-4.bg-c7
                 p En la figura, el #[b.txt-c1 aprendiz A] comenzó realizando una #[b.txt-c1 línea vertical hacia arriba], mientras que el #[b.txt-c1 aprendiz B] trazó una #[b.txt-c1 vertical hacia abajo], y el #[b.txt-c1 aprendiz D] dibujó una #[b.txt-c1 horizontal hacia la derecha]. Todos ellos llevaron a cabo un proceso que les permitió cumplir con la solución al problema planteado. En términos globales, prácticamente existe una #[b.txt-c1 gran cantidad de soluciones] al mismo problema.
@@ -102,7 +102,7 @@
                       img(src='@/assets/curso/tema1/img6.svg', style='width: 70px', alt='').m-auto
                   .col
                     p.text-white.mb-0 D. Revisar el resultado y ver que se alcanzó el objetivo (revisar).
-          p.mb-0(data-aos="fade-right") Cuando el problema es muy complejo de resolver, muchas veces toca volver y analizar el problema, o trazar un nuevo plan o plasmar ese nuevo plan una y otra vez, revisando los resultados y volviendo a analizar hasta encontrar la solución del problema.
+          p.mb-0(data-aos="fade-right") Cuando el problema es muy complejo de resolver, muchas veces toca volver y analizar el problema, trazar un nuevo plan o plasmar ese nuevo plan una y otra vez, revisando los resultados y volviendo a analizar hasta encontrar la solución del problema.
           Separador
     #t_1_2
     .titulo-segundo.color-acento-contenido
@@ -113,7 +113,7 @@
         .bloque-texto-d.color-secundario.p-4
           .bloque-texto-d__texto.mb-2
             i.fas.fa-quote-left
-            p.text-regular En el ámbito de la computación, los algoritmos son una herramienta que permite describir claramente un conjunto finito de instrucciones ordenadas secuencialmente y libres de ambigüedad, que debe llevar a cabo un computador para lograr un resultado previsible. Vale la pena recordar que un programa de computador consiste en una serie de instrucciones muy precisas y escritas en un lenguaje de programación que el computador. entiende.
+            p.text-regular En el ámbito de la computación, los algoritmos son una herramienta que permite describir claramente un conjunto finito de instrucciones ordenadas secuencialmente y libres de ambigüedad, que debe llevar a cabo un computador para lograr un resultado previsible. Vale la pena recordar que un programa de computador consiste en una serie de instrucciones muy precisas y escritas en un lenguaje de programación que el computador entiende.
             i.fas.fa-quote-right
           .bloque-texto-d__autor 
             .p.mb-0 #[b (López, 2019, p.7).]
@@ -122,7 +122,7 @@
           img(src='@/assets/curso/tema1/img5.png', style='width: 450px', alt='').m-auto
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0
-        p(data-aos="fade-right") #[b.txt-c1 Ejemplo 2:] se propone diseñar un algoritmo para apagar una computadora.
+        p(data-aos="fade-right") #[b.txt-c1 Ejemplo 1:] se propone diseñar un algoritmo para apagar una computadora.
         .row
           .col-12
             .p-4.bg-c6.bg-c10(data-aos="fade-down")
@@ -136,26 +136,26 @@
                     span 1
                   |
                   p.text-white.mb-0 Dar clic en el icono INICIO.
-                li.d-flex
+                li.d-flex(style="margin-left: 20px")
                   .lista-ol--cuadro__vineta
                     span 2
                   |
                   p.text-white.mb-0 Dar clic en el icono que dice APAGAR.
-                li.d-flex
+                li.d-flex(style="margin-left: 40px")
                   .lista-ol--cuadro__vineta
                     span 3
                   |
                   p.text-white.mb-0 Esperar que se apague completamente.
-                li.d-flex
+                li.d-flex(style="margin-left: 60px")
                   .lista-ol--cuadro__vineta
                     span 4
                   |
                   p.text-white.mb-0 Desconectar los cables del enchufe.
-              .row
+              .row.justify-content-center
                 .col-auto
                   p.mb-0.txt-c3 FIN
       .col-lg-6
-        p(data-aos="fade-right") #[b.txt-c1 Ejemplo 1:] se propone diseñar un algoritmo para apagar una computadora.
+        p(data-aos="fade-right") #[b.txt-c1 Ejemplo 2:] se propone diseñar un algoritmo para apagar una computadora.
         .row
           .col-12
             .p-4.bg-c6(data-aos="fade-down")
@@ -169,45 +169,45 @@
                     span 1
                   |
                   p.text-white.mb-0 Buscar el cargador.
-                li.d-flex
+                li.d-flex(style="margin-left: 20px")
                   .lista-ol--cuadro__vineta
                     span 2
                   |
                   p.text-white.mb-0 Agarrar el cargador.
-                li.d-flex
+                li.d-flex(style="margin-left: 40px")
                   .lista-ol--cuadro__vineta
                     span 3
                   |
                   p.text-white.mb-0 Agarrar el celular.
-                li.d-flex
+                li.d-flex(style="margin-left: 60px")
                   .lista-ol--cuadro__vineta
                     span 4
                   |
                   p.text-white.mb-0 Poner el enchufe en el celular.
-                li.d-flex
+                li.d-flex(style="margin-left: 80px")
                   .lista-ol--cuadro__vineta
                     span 5
                   |
                   p.text-white.mb-0 Conectarlo al tomacorriente.
-                li.d-flex
+                li.d-flex(style="margin-left: 100px")
                   .lista-ol--cuadro__vineta
                     span 6
                   |
                   p.text-white.mb-0 Esperar a que se ponga a cargar.
-                li.d-flex
+                li.d-flex(style="margin-left: 120px")
                   .lista-ol--cuadro__vineta
                     span 7
                   |
                   p.text-white.mb-0 Desconectarlo del tomacorriente.
-                li.d-flex
+                li.d-flex(style="margin-left: 140px")
                   .lista-ol--cuadro__vineta
                     span 8
                   |
                   p.text-white.mb-0 Ponerlo en un lugar seguro.
-              .row
+              .row.justify-content-center
                 .col-auto
                   p.mb-0.txt-c3 FIN
-    p.mb-5(data-aos="fade-right") #[b.txt-c1 Con base en los ejemplos anteriormente planteados. se puede concluir que un algoritmo debe ser:]
+    p.mb-5(data-aos="fade-right") #[b.txt-c1 Con base en los ejemplos anteriormente planteados. Se puede concluir que un algoritmo debe ser:]
     .row.justify-content-center.mb-5
       .col-11.col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c11
@@ -292,7 +292,7 @@
           img(src='@/assets/curso/tema1/img7.png', style='width: 400px', alt='').m-auto
       .col-md-8.col-lg-4(data-aos="fade-left")
         .p-3.bg-c2.h-100
-          p comprarlo completamente a crédito o también pagar una parte de contado (como cuota inicial) y el resto diferirlo a crédito.
+          p Comprarlo completamente a crédito o también pagar una parte de contado (como cuota inicial) y el resto diferirlo a crédito.
           p.mb-0 Para poder resolver este problema se debe conocer el número de cuotas en el que difiere, si desea pagarlo totalmente a crédito o conocer el número de cuotas y el valor total del celular si se da una cuota inicial de $630.000 pesos.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
@@ -381,7 +381,7 @@
     #t_1_4
     .titulo-segundo.color-acento-contenido
       h2 1.4 Desarrollo de la creatividad: elementos, modelos, fases y sus objetivos
-    p.mb-5(data-aos="fade-right") Resolver algoritmos es una actividad que requiere, en la mayoría de los casos, creatividad por parte del programador. Esta es una habilidad que se va fortaleciendo en la medida en que se desempeña más y más en procesos de desarrollo de software.
+    p.mb-5(data-aos="fade-right") Resolver algoritmos es una actividad que requiere, en la mayoría de los casos, creatividad por parte del programador. Esta es una habilidad que se va fortaleciendo en la medida en que se desempeña más y más en procesos de desarrollo de #[i software].
     .row.mb-5
       .col-12
         .p-4.bg-c3(data-aos="fade-left")

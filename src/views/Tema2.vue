@@ -209,21 +209,21 @@
                   td.text-center #[b Q]
                   td.text-center #[b P ∧ Q]
                 tr
-                  td.text-center V
-                  td.text-center V
-                  td.text-center V
+                  td.text-center 1
+                  td.text-center 1
+                  td.text-center 1
                 tr
-                  td.text-center V
-                  td.text-center V
-                  td.text-center V
+                  td.text-center 1
+                  td.text-center 0
+                  td.text-center 0
                 tr
-                  td.text-center F
-                  td.text-center V
-                  td.text-center F
+                  td.text-center 0
+                  td.text-center 1
+                  td.text-center 0
                 tr
-                  td.text-center F
-                  td.text-center F
-                  td.text-center F
+                  td.text-center 0
+                  td.text-center 0
+                  td.text-center 0
       .col-lg-10.mb-5(data-aos="fade-left")
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Tabla 2.] Tabla de verdad disyunción (O)
@@ -317,10 +317,10 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-5(data-aos="fade-left")
       .row(titulo="Ejemplo 1")
         .col-12
-          p.mb-0 #[b Las palomas vuelan.]
-          p.mb-0 #[b p:] todas las palomas vuelan
-          p.mb-0 #[b q:] todas las aves tienen plumas
-          p.mb-0 #[b r:] luego todas las palomas son aves
+          p #[b Las palomas vuelan.]
+          p.mb-0 #[b p:] todas las palomas vuelan.
+          p.mb-0 #[b q:] todas las aves tienen plumas.
+          p #[b r:] luego todas las palomas son aves.
           p Estas proposiciones se pueden escribir utilizando los operadores lógicos de la siguiente manera: (p ∧ q) → r.
           p #[b.txt-c1 Para el anterior ejercicio se construye la tabla de verdad:]
           .row
@@ -330,49 +330,49 @@
                   tr
                     td.text-center #[b P]
                     td.text-center #[b Q]
-                    td.text-center #[b Q]
+                    td.text-center #[b R]
                     td.text-center #[b P ∧ Q]
-                    td.text-center #[b Q]
+                    td.text-center #[b ¬R]
                   tr
                     td.text-center V
                     td.text-center V
                     td.text-center V
                     td.text-center V
+                    td.text-center F
+                  tr
+                    td.text-center V
+                    td.text-center V
+                    td.text-center F
+                    td.text-center V
                     td.text-center V
                   tr
                     td.text-center V
+                    td.text-center F
                     td.text-center V
+                    td.text-center F
+                    td.text-center F
+                  tr
                     td.text-center V
-                    td.text-center V
+                    td.text-center F
+                    td.text-center F
+                    td.text-center F
                     td.text-center V
                   tr
                     td.text-center F
                     td.text-center V
                     td.text-center V
-                    td.text-center F
-                    td.text-center V
-                  tr
-                    td.text-center F
-                    td.text-center F
-                    td.text-center F
-                    td.text-center F
-                    td.text-center F
-                  tr
-                    td.text-center F
-                    td.text-center F
-                    td.text-center F
-                    td.text-center F
-                    td.text-center F
-                  tr
-                    td.text-center F
-                    td.text-center F
-                    td.text-center F
                     td.text-center F
                     td.text-center F
                   tr
                     td.text-center F
+                    td.text-center V
                     td.text-center F
                     td.text-center F
+                    td.text-center V
+                  tr
+                    td.text-center F
+                    td.text-center F
+                    td.text-center V
                     td.text-center F
                     td.text-center F
                   tr
@@ -380,13 +380,13 @@
                     td.text-center F
                     td.text-center F
                     td.text-center F
-                    td.text-center F
+                    td.text-center V
       .row(titulo="Ejemplo 2")
         .col-12
           p.mb-0 #[b Si no llueve se arruina la cosecha.]
           p Este tipo de proposición se conoce como la condición “para que”, de manera que para que no se arruine la cosecha se requiere que llueva.
-          p.mb-0 #[b p:] si no llueve
-          p.mb-0 #[b q:] se arruina la cosecha
+          p.mb-0 #[b p:] si no llueve.
+          p #[b q:] se arruina la cosecha.
           p #[b.txt-c1 Al aplicar el operador p → q su tabla de verdad quedaría de la siguiente manera:]
           .row.justify-content-center.mb-4
             .col-10.col-md-8.col-lg-5.mb-4.mb-lg-0
@@ -444,9 +444,9 @@
       .row(titulo="Ejemplo 3")
         .col-12
           p.mb-0 #[b Es buen estudiante.]
-          p.mb-0 Es buen estudiante, si y solo si tiene promedio de cinco, donde se puede concluir lo siguiente:
-          p.mb-0 #[b p:] es un buen estudiante
-          p #[b q:] tiene promedio de 5
+          p Es buen estudiante, si y solo si tiene promedio de cinco, donde se puede concluir lo siguiente:
+          p.mb-0 #[b p:] es un buen estudiante.
+          p #[b q:] tiene promedio de 5.
           p #[b.txt-c1 al aplicar el operador p ↔ q su tabla de verdad quedaría de la siguiente manera:]
           .row.justify-content-center
             .col-10.col-md-8.col-lg-5.mb-4.mb-lg-0
@@ -511,9 +511,9 @@
           p #[b Contradicción:] son aquellas fórmulas que son falsas para cualquier valoración de los símbolos proposicionales que contiene. Las proposiciones dan el resultado negativo.
           p.mb-0 #[b Contingencia:] son aquellas fórmulas cuyo valor de verdad o falsedad depende de la valoración de los símbolos proposicionales que contiene. Las proposiciones dan un resultado negativo y positivo. (TOMi.digital, 2021).
     Separador
-    #t_2_1
+    #t_2_2
     .titulo-segundo.color-acento-contenido
-      h2 2.1 Componentes de la lógica matemática
+      h2 2.2 Ejercicios de lógica proposicional
     p(data-aos="fade-right") A continuación, se plantean a manera de ejemplo algunos ejercicios con su respectiva solución que permiten identificar un problema, reconocer los datos de entrada y los procesos a ser aplicados como estrategia a seguir con la utilización de la lógica proposicional en la identificación y solución de problemas. Para dar solución al enunciado anterior se realiza las siguientes actividades.
     p.mb-5(data-aos="fade-right") #[b Ejercicio 1:] se necesita personal femenino que sepa Microsoft Office o Gsuite.
     .row.align-items-center.mb-5

@@ -35,7 +35,7 @@
             p.mb-0 #[b Figura 7.] Diagrama de flujo imprimir el cuadrado y el cubo de un entero
           figure
             img(src='@/assets/curso/tema4/img2.svg', style='width: 700px', alt='Diagrama de flujo que muestra el proceso de un algoritmo más complejo, incluyendo la lectura de un número, cálculo del cuadrado y del cubo de dicho número, y la visualización de los resultados.').m-auto
-    p(data-aos="fade-right") La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayor mente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009).
+    p(data-aos="fade-right") La Organización Internacional para la Estandarización (ISO, por su sigla en inglés) y el Instituto Nacional Americano de Estandarización (ANSI, por su sigla en inglés), estandarizaron los símbolos que han sido mayormente aceptados en 1985. Con el fin de evitar la utilización de símbolos diferentes para representar procesos iguales (López, 2009).
     p.mb-5(data-aos="fade-right") #[b.txt-c1 Los siguientes son los principales símbolos para crear diagramas de flujo:]
     .row.mb-5
       .col-12
@@ -82,7 +82,7 @@
                 figure.mb-3
                   img(src='@/assets/curso/tema4/img9.svg', style='width: 180px', alt='').m-auto
                 p.text-center #[b Llamada a subrutina]
-                p.text-center Indica la llamada a una subutina o procedimiento determinado.
+                p.text-center Indica la llamada a una subrutina o procedimiento determinado.
             .col-md-5.col-lg-3.m-1
               .p-2
                 figure.mb-3
@@ -154,7 +154,7 @@
       .col-12
         .p-4.bg-c3(data-aos="fade-left")
           .titulo-sexto.color-acento-contenido.mb-4
-            p.mb-0 #[b Figura 7.] Seleccionar formas
+            p.mb-0 #[b Figura 8.] Seleccionar formas
           figure
             img(src='@/assets/curso/tema4/img1.png', style='width: 1000px', alt='Captura de pantalla de una herramienta de software de diagramas con la opción Data Flow Diagram seleccionada en el menú de formas.').m-auto
 

@@ -61,6 +61,11 @@
                       .tarjeta.color-acento-botones.p-4
                         .row.justify-content-center.mb-3
                           .col-6
+                            img(src='@/assets/curso/tema5/img11.svg' alt='AvatarTop')
+                        p.text-center Es conveniente utilizar una sola palabra para nombrar páginas, controles, variables, etc.
+                      .tarjeta.color-acento-botones.p-4
+                        .row.justify-content-center.mb-3
+                          .col-6
                             img(src='@/assets/curso/tema5/img8.svg' alt='AvatarTop')
                         p.text-center No utilizar caracteres reservados (%, +, /, >, etc.) ni letras acentuadas (á, é, í, ó, ú).
                       .tarjeta.color-acento-botones.p-4

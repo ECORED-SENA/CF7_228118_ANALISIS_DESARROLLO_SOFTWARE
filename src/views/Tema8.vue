@@ -14,7 +14,7 @@
             .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
               .p-4.bg-c6
                 p.text-white #[b Vectores]
-                p.text-white.mb-0 Los arreglos o arrays (en inglés), también conocidos como matrices, arreglos o vectores, se definen como un conjunto finito y ordenado de elementos del mismo tipo. La propiedad "ordenado" implica que el primer elemento, segundo, tercero, ..., enésimo de un array puede ser identificado y accedido. Cuando se dice que los elementos de un arreglo son homogéneos, significa que son del mismo tipo de datos. Un arreglo puede estar compuesto de todos sus elementos de tipo letras, otro puede tener todos sus elementos de tipo entero, etc. Los arreglos se conocen como matrices en matemáticas y tablas en temas financieros (Vázquez, 2012).
+                p.text-white.mb-0 Los arreglos o #[i arrays] (en inglés), también conocidos como matrices, arreglos o vectores, se definen como un conjunto finito y ordenado de elementos del mismo tipo. La propiedad "ordenado" implica que el primer elemento, segundo, tercero, ..., enésimo de un #[i array] puede ser identificado y accedido. Cuando se dice que los elementos de un arreglo son homogéneos, significa que son del mismo tipo de datos. Un arreglo puede estar compuesto de todos sus elementos de tipo letras, otro puede tener todos sus elementos de tipo entero, etc. Los arreglos se conocen como matrices en matemáticas y tablas en temas financieros (Vázquez, 2012).
             .col-lg-6(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema8/img2.png', style='width: 500px', alt='').m-auto
@@ -67,7 +67,7 @@
               figure
                 img(src='@/assets/curso/tema8/img5.svg', style="width: 90px" alt='').m-auto
             .col
-              p.txt-c2.mb-0 Ejemplo: Hacer un programa que pida 5 números enteros al usuario y los guarde en un arreglo de números en un arreglo, luego que imprima los números mayores de 100.
+              p.txt-c2.mb-0 #[b Ejemplo:] Hacer un programa que pida 5 números enteros al usuario y los guarde en un arreglo de números en un arreglo, luego que imprima los números mayores de 100.
     p.mb-5(data-aos="fade-right") #[b.txt-c1 A continuación, se revisan los ejemplos:]
     .row.align-items-center.mb-5
       .col-12
@@ -201,8 +201,8 @@
               .row.mb-3
                 .col-12
                   .p-3.bg-c2
-                    p.mb-0 La ingeniería del #[i software] propone que la construcción de #[i software] esté basada en la descomposición de un problema en un conjunto de subproblemas independientes entre sí, más sencillos de analizar y resolver; estos subproblemas pueden ser tratados separadamente unos de otros. Esto consiste, básicamente, en el modularidad del #[i software].
-              p.mb-0 Debido al modularidad, se pueden probar los subprogramas o módulos de manera independiente, depurando errores antes de su uso en el programa principal y almacenándolos para su posterior reutilización cuantas veces sea necesario.
+                    p.mb-0 La ingeniería del #[i software] propone que la construcción de #[i software] esté basada en la descomposición de un problema en un conjunto de subproblemas independientes entre sí, más sencillos de analizar y resolver; estos subproblemas pueden ser tratados separadamente unos de otros. Esto consiste, básicamente, en la modularidad del #[i software].
+              p.mb-0 Debido a la modularidad, se pueden probar los subprogramas o módulos de manera independiente, depurando errores antes de su uso en el programa principal y almacenándolos para su posterior reutilización cuantas veces sea necesario.
             .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema8/img5.png', style="width: 570px" alt='').m-auto

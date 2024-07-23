@@ -25,7 +25,7 @@
             figure.mt-1
               img(src='@/assets/curso/tema12/img1.svg', style='width: 70px', alt='').m-auto
           .col
-            p.mb-0 La forma más sencilla de disparar un error es con la palabra reservada throw. Este comando permite enviar al intérprete de JavaScript el evento de que ha ocurrido un error, generalmente permite enviar cualquier tipo de dato, pero lo más común es enviar un “Error” como se indica a continuación:
+            p.mb-0 La forma más sencilla de disparar un error es con la palabra reservada #[b throw]. Este comando permite enviar al intérprete de JavaScript el evento de que ha ocurrido un error, generalmente permite enviar cualquier tipo de dato, pero lo más común es enviar un “Error” como se indica a continuación:
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -38,7 +38,7 @@
       .col-lg-3(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema12/img2.png', style='width: 360px', alt='').m-auto
-    p.mb-5(data-aos="fade-right") Existe un tipo de estructura de control en JavaScript que está pendiente de revisar en el flujo de ejecución de un programa para detectar comportamientos inesperados. La estructura es try...catch, que consta de un bloque que intenta la ejecución de una sección de código (contexto) a la espera de que pueda ocurrir una posible excepción. Finalizado el contexto, existe otro denominado catch que tiene un argumento o variable de contexto donde se captura el elemento disparado.
+    p.mb-5(data-aos="fade-right") Existe un tipo de estructura de control en JavaScript que está pendiente de revisar en el flujo de ejecución de un programa para detectar comportamientos inesperados. La estructura es #[b try...catch], que consta de un bloque que intenta la ejecución de una sección de código (contexto) a la espera de que pueda ocurrir una posible excepción. Finalizado el contexto, existe otro denominado catch que tiene un argumento o variable de contexto donde se captura el elemento disparado.
     .row.align-items-center.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         .row

@@ -537,8 +537,7 @@ export default {
     },
     {
       referencia: 'Vázquez, J. (2012). Análisis y diseño de algoritmos. ',
-      link:
-        'http://www.aliat.org.mx/BibliotecasDigitales/sistemas/Analisis_y_disenio_de_algoritmos.pdf',
+      link: '',
     },
     {
       referencia: 'Vedia, M. (2018). Cuándo usar Return en JavaScript. ',
@@ -612,16 +611,16 @@ export default {
     {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
-        //{
-        //  nombre: 'Luis Gabriel Urueta Alvarez',
-        //  cargo: 'Validador de Recursos Educativos Digitales',
-        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        //},
         {
-          nombre: 'Jaime Hernán Tejada Llano',
+          nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
+        //{
+        //  nombre: 'Jaime Hernán Tejada Llano',
+        //  cargo: 'Validador de Recursos Educativos Digitales',
+        //  centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        //},
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',

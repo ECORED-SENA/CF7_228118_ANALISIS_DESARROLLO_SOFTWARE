@@ -147,34 +147,34 @@
             td.text-center 1
             td.text-center 7 + 8
             td
-              p Primero que todo lo que más valor tiene en la jerarquía son los paréntesis de manera que y en particular los más interiores de esta forma el computador se interesará en resolver primero el contenido de #[b (7 + 8)]. Y el resultado será #[b 15].
+              p Primero que todo, lo que más valor tiene en la jerarquía son los paréntesis, en particular los más interiores. De esta forma, el computador se interesará en resolver primero el contenido de #[b (7 + 8)], cuyo resultado es #[b 15].
               p.mb-0 De esta forma, la expresión queda reducida a:
-              p.mb-0 #[b (2 + 15 * 16 + 3 ^ 2) /4 + 5]
+              p.mb-0 #[b (2 + 15 * 16 + 3 ^ 2) / 4 + 5]
           tr
             td.text-center 2
             td.text-center 3 ^ 2
             td
               p De la expresión resultante luego de la operación 1, se observa que nuevamente hay un paréntesis por reducir, de manera que la computadora intentará resolver su contenido primero, como dentro del paréntesis está la expresión de elevar al cuadrado el número #[b 3 (3 ^ 2)] que tiene como resultado #[b 9], 
               p.mb-0 la expresión resultante sería:
-              p.mb-0 #[b (2 + 15 * 16 + 9) /4 + 5]
+              p.mb-0 #[b (2 + 15 * 16 + 9) / 4 + 5]
           tr
             td.text-center 3
             td.text-center 15 * 16
             td
               p.mb-0 De los paréntesis de la expresión resultante la operación de más jerarquía es la multiplicación #[b 15 * 16] que tiene como resultado #[b 240], la expresión resultante sería:
-              p.mb-0 #[b (2 + 240 + 9) /4 +5]
+              p.mb-0 #[b (2 + 240 + 9) / 4 + 5]
           tr
             td.text-center 4
             td.text-center 2 + 24 + 9
             td
-              p.mb-0 De la expresión resultante el que tiene mayor precedencia es el paréntesis por lo tanto la suma aritmética de su contenido data como expresión resultante:
-              p.mb-0 #[b 251 /4 +5]
+              p.mb-0 De la expresión resultante el que tiene mayor precedencia es el paréntesis, por lo tanto la suma aritmética de su contenido data como expresión resultante:
+              p.mb-0 #[b 251 / 4 + 5]
           tr
             td.text-center 5
             td.text-center 251 / 4
             td
               p.mb-0 De la expresión resultante el operador de mayor jerarquía es la división y da como resultado #[b 62.75] que en la siguiente operación se le sumará el valor de #[b 5] la expresión resultante será:
-              p.mb-0 #[b 62,75 +5]
+              p.mb-0 #[b 62,75 + 5]
           tr
             td.text-center 6
             td.text-center 62,75 + 5

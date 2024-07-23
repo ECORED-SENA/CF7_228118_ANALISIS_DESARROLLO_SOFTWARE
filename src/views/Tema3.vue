@@ -23,7 +23,7 @@
                         figure
                           img(src='@/assets/curso/tema3/img1.svg', style="width: 90px" alt='').m-auto
                       .col
-                        p.mb-0 Es de suma importancia realizar una bitácora y una matriz, con el fin de ejecutar los casos de prueba y así concluir si el caso funciona como se esperaba, para agregarlo como una conformidad, o en su defecto, pasaría a ser una no conformidad.
+                        p.mb-0 En el proceso de desarrollo de programas informáticos, aparte de conocer esta metodología, se necesita conocer las funciones que puede realizar un computador y la representación de estas.
           p.mb-5(data-aos="fade-right") #[b.txt-c1 En general, existen tres fases secuenciales para la elaboración de un algoritmo, de las cuales se abordarán las dos primeras:]
           .row.justify-content-center
             .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")

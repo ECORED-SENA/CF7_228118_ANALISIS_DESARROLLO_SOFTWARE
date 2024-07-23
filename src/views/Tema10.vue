@@ -50,11 +50,11 @@
                 p.mb-0 la división es: 1.3333333333333333
       .col-lg-5(data-aos="fade-left")
         .p-4.bg-c7
-          p En las líneas 1 y 2 aparece la palabra reservada let que sirve para indicar que se define una variable accesible en el contexto donde se crea (cuando se vea programación modular quedará más claro esto del contexto).
+          p En las líneas 1 y 2 aparece la palabra reservada #[b let] que sirve para indicar que se define una variable accesible en el contexto donde se crea (cuando se vea programación modular quedará más claro esto del contexto).
           p Las palabras reservadas #[b numero1] y #[b numero2] se les asigna el valor correspondiente. Es de conocer que se definen y se inicializa la variable en una misma línea, esto es una característica del lenguaje.
-          p Luego en las líneas 3 al 6 se crean o se definen unas variables con la palabra reservada var, a diferencia de la palabra let estas variables se pueden ver desde cualquier parte o módulo del script.
+          p Luego en las líneas 3 al 6 se crean o se definen unas variables con la palabra reservada #[b var], a diferencia de la palabra #[b let] estas variables se pueden ver desde cualquier parte o módulo del #[i script].
           p Una vez se crean las variables con identificadores suma, resta, producto, división, también son inicializados sus valores empleando las operaciones matemáticas respectivas.
-          p.mb-0 Una de las formas que JavaScript permite mostrar los resultados es con la función log del objeto console y se accede console.log() (con el operador punto .) y entre paréntesis lo que se desea mostrar en la pantalla de la consola.
+          p.mb-0 Una de las formas que JavaScript permite mostrar los resultados es con la función #[b log] del objeto #[b console] y se accede #[b console.log()] (con el operador punto .) y entre paréntesis lo que se desea mostrar en la pantalla de la consola.
     .row.align-items-center.mb-5
       .col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p #[b Validación:]
@@ -62,7 +62,7 @@
         .row
           .col-12
             .p-4.bg-c14
-              p.mb-0 Cuando las operaciones matemáticas son más complejas, como la raíz cuadrada, la función exponencial, o las funciones trigonométricas, existe un objeto que agrupa estas funciones llamado Math. Puede ver la documentación técnica completa de esta clase en Math (MDN, 2021b). A continuación, se presenta un ejemplo de su uso.
+              p.mb-0 Cuando las operaciones matemáticas son más complejas, como la raíz cuadrada, la función exponencial, o las funciones trigonométricas, existe un objeto que agrupa estas funciones llamado #[b Math]. Puede ver la documentación técnica completa de esta clase en #[b Math] (MDN, 2021b). A continuación, se presenta un ejemplo de su uso.
       .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img2.png', style="width: 570px" alt='').m-auto
@@ -99,7 +99,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.txt-c4.mb-1 Funciones clase Math
-              p.text-white A continuación, puede revisar el listado de funciones de la clase Math.
+              p.text-white A continuación, puede revisar el listado de funciones de la clase #[b Math].
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo4.pdf')" target="_blank")
                 span Descargar
@@ -120,7 +120,7 @@
             .col
               h3.text-white A. Tipos de datos
     p(data-aos="fade-right") JavaScript tiene los siguientes tipos de operadores (se describirán los principales para aprender a programar).
-    p.mb-5(data-aos="fade-right") Según sea el tipo que las variables o constantes almacenan, se pueden clasificar en seis (6) tipos de datos primitivos la referencia del lenguaje dice que son:
+    p.mb-5(data-aos="fade-right") Según sea el tipo que las variables o constantes almacenan, se pueden clasificar en seis (6) tipos de datos primitivos, la referencia del lenguaje dice que son:
     .row.justify-content-center.mb-0.mb-lg-4
       .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c8.h-100
@@ -139,7 +139,7 @@
                 img(src='@/assets/curso/tema1/img6.svg', style='width: 80px', alt='').m-auto
             .col
               p.text-white.mb-0 #[b #[i Boolean]]
-              p.text-white.mb-0 Tipo booleano los valores posibles son true o false.
+              p.text-white.mb-0 Tipo booleano los valores posibles son #[i true] o #[i false].
       .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .p-4.bg-c8.h-100
           .row.align-items-center
@@ -184,7 +184,7 @@
           p.mb-0 #[b Null:] tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra null.
       .col-lg-8.mb-3
         .p-4.bg-c35
-          p.mb-0 #[b Object:] tipo estructural especial que no es de datos, pero para cualquier instancia de objeto construido que también se utiliza como estructuras de datos (new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date y casi todo lo hecho con la palabra clave new).
+          p.mb-0 #[b Object:] tipo estructural especial que no es de datos, pero para cualquier instancia de objeto construido que también se utiliza como estructuras de datos (#[b new Object], #[b new Array], #[b new Map], #[b new Set], #[b new WeakMap], #[b new WeakSet], #[b new Date] y casi todo lo hecho con la palabra clave #[b new]).
       .col-lg-8
         .p-4.bg-c6
           p.text-white.mb-0 #[b Function:] una estructura sin datos, aunque también responde al operador t.
@@ -214,7 +214,7 @@
                 img(src='@/assets/curso/tema1/img6.svg', style='width: 80px', alt='').m-auto
             .col
               p.text-white.mb-0 #[b const:] declara un nombre de constante de solo lectura y ámbito de bloque.
-    p.mb-5(data-aos="fade-right") Una variable en JavaScript puede tener cualquier tipo de dato, entero, real, cadena de texto etc. JavaScript no es un lenguaje fuertemente tipado de manera que queda en el programador la responsabilidad de saber qué tipo de dato está almacenando en cada variable.
+    p.mb-5(data-aos="fade-right") Una variable en JavaScript puede tener cualquier tipo de dato, entero, real, cadena de texto, etc. JavaScript no es un lenguaje fuertemente tipado de manera que queda en el programador la responsabilidad de saber qué tipo de dato está almacenando en cada variable.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -371,6 +371,7 @@
                           p.mb-0 10 ** -1 retorna 0.1.
           .row(titulo="Operadores lógicos")
             .col-12
+              p Con los operadores lógicos, se pueden crear condiciones compuestas. Por ejemplo, cuando se deben cumplir dos o más condiciones para elegir las operaciones a ejecutar. Además, se pueden describir estas combinaciones de condiciones utilizando los operadores lógicos como AND (&&), OR (||), y NOT (!). Estos operadores permiten evaluar múltiples expresiones booleanas en una sola sentencia.
               table(width="100%" style="background-color: #F9F9F9")
                 tbody
                   tr
@@ -381,17 +382,17 @@
                     td AND Lógico (&&)
                     td expr1 && expr2
                     td
-                      p.mb-0 Devuelve expr1 si se puede convertir a false; de lo contrario, devuelve expr2. Por lo tanto, cuando se usa con valores booleanos, && devuelve true si ambos operandos son true; de lo contrario, devuelve false.
+                      p.mb-0 Devuelve #[b expr1] si se puede convertir a #[b false]; de lo contrario, devuelve #[b expr2]. Por lo tanto, cuando se usa con valores booleanos, #[b &&] devuelve #[b true] si ambos operandos son #[b true]; de lo contrario, devuelve #[b false].
                   tr
                     td OR lógico (||)
                     td expr1 || expr2
                     td
-                      p.mb-0 Devuelve expr1 si se puede convertir a true; de lo contrario, devuelve expr2. Por lo tanto, cuando se usa con valores booleanos, || devuelve true si alguno de los operandos es true; si ambos son falsos, devuelve false.
+                      p.mb-0 Devuelve #[b expr1] si se puede convertir a #[b true]; de lo contrario, devuelve #[b expr2]. Por lo tanto, cuando se usa con valores booleanos, #[b ||] devuelve #[b true] si alguno de los operandos es #[b true]; si ambos son falsos, devuelve #[b false].
                   tr
                     td NOT lógico (!)
                     td !expr
                     td
-                      p.mb-0 Devuelve false si su único operando se puede convertir a true; de lo contrario, devuelve true.
+                      p.mb-0 Devuelve #[b false] si su único operando se puede convertir a #[b true]; de lo contrario, devuelve #[b true].
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -470,15 +471,15 @@
             .px-4.py-3.bg-c23
               pre
                 p.mb-0 /*
-                p.mb-0 Comentario que puede tener mas de una linea
+                p.mb-0 Comentario que puede tener más de una línea
                 p.mb-0 de texto
                 p.mb-0 */
                 p.mb-0 
                 p.mb-0 var var1 = 3;
                 p.mb-0 var var2 = 4;
                 p.mb-0 
-                p.mb-0 console.log( var2 > var1 );   // Este es un comentario de linea
-                p.mb-0 console.log( var2 < var1 );   // este es otro comentario de linea
+                p.mb-0 console.log( var2 > var1 );   // Este es un comentario de línea
+                p.mb-0 console.log( var2 < var1 );   // Este es otro comentario de línea
                 p.mb-0 console.log( var1 !== var2 );
                 hr
                 p.mb-0 Consola
@@ -557,7 +558,7 @@
                       p.mb-0 Consola
                       p.mb-0 Aprobó
           p(data-aos="fade-right") Como la línea 1 empieza con /*, todo lo que sigue será un comentario hasta que aparezcan los caracteres */ (línea 3). En este comentario se debe escribir qué hace el algoritmo y otra información relevante que se verá más adelante.
-          p.mb-5(data-aos="fade-right") En la línea 4 se define un valor constante (es decir, no se modificará más en todo el algoritmo). Se ha puesto como identificador la palabra calificacion.
+          p.mb-5(data-aos="fade-right") En la línea 4 se define un valor constante (es decir, no se modificará más en todo el algoritmo). Se ha puesto como identificador la palabra #[b calificacion].
           .row.mb-5
             .col-12
               .p-4.bg-c37(data-aos="fade-down")
@@ -576,12 +577,12 @@
               .lista-ol--cuadro__vineta
                 span a.
               |
-              p.mb-0 Se usa la palabra reservada if y, entre paréntesis, la condición que se quiere comparar.
+              p.mb-0 Se usa la palabra reservada #[b if] y, entre paréntesis, la condición que se quiere comparar.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span b.
               |
-              p.mb-0 Se emplea el símbolo de corchete abierto {, que se llama abrir corchete.
+              p.mb-0 Se emplea el símbolo de corchete abierto #[b {], que se llama abrir corchete.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span c.
@@ -591,12 +592,12 @@
               .lista-ol--cuadro__vineta
                 span d.
               |
-              p.mb-0 En la línea 8 se cierra un bloque de código con el símbolo de corchete cerrado }, lo que indica que hasta este punto termina el bloque. A todo lo que esté entre estos corchetes se le llamará contexto. En el primer contexto están agrupadas las operaciones que se ejecutarán si la condición calificacion >= 3 es verdadera.
+              p.mb-0 En la línea 8 se cierra un bloque de código con el símbolo de corchete cerrado #[b }], lo que indica que hasta este punto termina el bloque. A todo lo que esté entre estos corchetes se le llamará contexto. En el primer contexto están agrupadas las operaciones que se ejecutarán si la condición #[b calificacion >= 3] es verdadera.
             li.d-flex
               .lista-ol--cuadro__vineta
                 span e.
               |
-              p.mb-0 También en la línea 8 se observa la palabra reservada else, que sirve para indicarle al intérprete de JavaScript que se creará un bloque o contexto para cuando la condición evaluada por el if no se cumpla. Enseguida se abre el contexto con el carácter de corchete abierto {.
+              p.mb-0 También en la línea 8 se observa la palabra reservada #[b else], que sirve para indicarle al intérprete de JavaScript que se creará un bloque o contexto para cuando la condición evaluada por el #[b if] no se cumpla. Enseguida se abre el contexto con el carácter de corchete abierto #[b {].
             li.d-flex
               .lista-ol--cuadro__vineta
                 span f.
@@ -606,7 +607,7 @@
               .lista-ol--cuadro__vineta
                 span g.
               |
-              p.mb-0 Para finalizar el contexto, se cierra con el carácter de corchete cerrado }.
+              p.mb-0 Para finalizar el contexto, se cierra con el carácter de corchete cerrado #[b }].
     p(data-aos="fade-right") Ahora se debe escribir el programa y cambiar los valores de la constante para validar que el algoritmo está bien diseñado.
     p.mb-5(data-aos="fade-right") #[b.txt-c1 De la misma forma, se puede realizar el algoritmo que, dada una edad en años, evalúe e imprima si es mayor de edad:]
     .row.align-items-center
@@ -633,7 +634,7 @@
                 p.mb-0 Es mayor de edad
       .col-lg-5(data-aos="fade-left")
         .p-4.bg-c7
-          p De acuerdo con el código anterior, no existe un contexto si no se cumple la condición de mayoría de edad; a esta estructura se le denomina CONDICIONAL SIMPLE. 
+          p De acuerdo con el código anterior, no existe un contexto si no se cumple la condición de mayoría de edad; a esta estructura se le denomina #[b CONDICIONAL SIMPLE]. 
           p El flujo de ejecución del algoritmo anterior es básico, y puede haber otros mucho más complejos, como las estructuras de repetición o iterativas, que también tienen una sintaxis particular.
           figure.d-flex.justify-content-end
             img(src='@/assets/curso/tema10/img3.svg', style="width: 70px" alt='')
@@ -641,7 +642,7 @@
     #t_10_4
     .titulo-segundo.color-acento-contenido
       h2 10.4 Estructuras de repetición
-    p.mb-5(data-aos="fade-right") Las estructuras de repetición permiten repetir un bloque de instrucciones un número determinado o indeterminado de veces. A continuación, se ejemplifican las más comunes (FOR, WHILE), que se pueden codificar también en la sintaxis de JavaScript.
+    p.mb-5(data-aos="fade-right") Las estructuras de repetición permiten repetir un bloque de instrucciones un número determinado o indeterminado de veces. A continuación, se ejemplifican las más comunes (#[i FOR], #[i WHILE]), que se pueden codificar también en la sintaxis de JavaScript.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -650,7 +651,7 @@
               figure.fig-p1
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
-              h3.text-white a. Estructura de repetición FOR
+              h3.text-white a. Estructura de repetición #[i FOR]
     p(data-aos="fade-right") #[b Ejemplo 1:]
     p.mb-5(data-aos="fade-right") Escribir un procedimiento que muestre siete (7) veces en pantalla la frase “Esto es un algoritmo”. Mostrar en pantalla la salida del ejercicio.
     .row.align-items-center.mb-5
@@ -682,20 +683,20 @@
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img5.png', style="width: 570px" alt='').m-auto
-    p.mb-5(data-aos="fade-right") Como se puede identificar en la línea 4, se ha usado la palabra reservada for y dentro del paréntesis aparecen tres instrucciones separadas por punto y coma.
+    p.mb-5(data-aos="fade-right") Como se puede identificar en la línea 4, se ha usado la palabra reservada #[i for] y dentro del paréntesis aparecen tres instrucciones separadas por punto y coma.
     .row.justify-content-center.mb-5
       .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .p-4.bg-c11
           figure.mb-4
             img(src='@/assets/curso/tema10/img4.svg', style="width: 80px" alt='').m-auto
           p.text-white.text-center #[b Primero]
-          p.text-white La primera instrucción let i = 0; es la creación e inicialización de una variable con identificador i. Como se usó la palabra reservada let, se está indicando que la variable i solo podrá ser accedida dentro del contexto del for.
+          p.text-white La primera instrucción let i = 0; es la creación e inicialización de una variable con identificador i. Como se usó la palabra reservada let, se está indicando que la variable i solo podrá ser accedida dentro del contexto del #[i for].
       .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c11
           figure.mb-4
             img(src='@/assets/curso/tema10/img5.svg', style="width: 80px" alt='').m-auto
           p.text-white.text-center #[b Segundo]
-          p.text-white Luego se ve una condición i < 7;. Esta condición significa que, mientras i tenga valores de 0 a 6, debe ejecutar el bloque o contexto definido en el for (desde el corchete abierto hasta el corchete cerrado).
+          p.text-white Luego se ve una condición i < 7;. Esta condición significa que, mientras i tenga valores de 0 a 6, debe ejecutar el bloque o contexto definido en el #[i for] (desde el corchete abierto hasta el corchete cerrado).
       .col-10.col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
         .p-4.bg-c11
           figure.mb-4
@@ -713,7 +714,7 @@
             .col
               p.mb-0 #[b Para recordar:]
               p.mb-0 El carácter punto y coma se usa para decirle al computador, o intérprete, que ha finalizado una instrucción.
-              p.mb-0 La estructura de repetición PARA (FOR) se usa cuando se sabe cuántas veces se debe repetir un grupo de instrucciones.
+              p.mb-0 La estructura de repetición PARA (#[i FOR]) se usa cuando se sabe cuántas veces se debe repetir un grupo de instrucciones.
     p(data-aos="fade-right") #[b Ejemplo 2:]
     p.mb-5(data-aos="fade-right") Se necesita elaborar un algoritmo en JavaScript que, dado un número entero, sume todos los números naturales que hay hasta ese número. Por ejemplo, si el usuario digita 3, el programa debe sumar: 1 + 2 + 3. Si el usuario digita 5, el programa debe sumar 1 + 2 + 3 + 4 + 5. Al finalizar, debe imprimir el resultado.
     .row.align-items-center.mb-5
@@ -753,10 +754,10 @@
               figure.fig-p1
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
-              h3.text-white B. Estructura de repetición WHILE
+              h3.text-white B. Estructura de repetición #[i WHILE]
     .row.mb-5
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
-        p A través del ejemplo del cálculo de factorial se explicará el uso y comportamiento de la sentencia while. Recordando el algoritmo diseñado:
+        p A través del ejemplo del cálculo de factorial se explicará el uso y comportamiento de la sentencia #[i while]. Recordando el algoritmo diseñado:
         .row
           .col-12
             .px-4.py-3.bg-c22
@@ -818,7 +819,7 @@
                   p.mb-0 Es ideal transcribir el código usando 
                     |
                     a(href="https://playcode.io/" target="_blank") https://playcode.io/
-                    | . Para ello, se debe escribir la condición del while, es decir, contador <= numero, al final, para que el sistema PlayCode no entre en un ciclo que nunca termina. Una vez funcione correctamente, se propone el código que está entre comentarios (//) para practicar las dos formas de sintaxis.
+                    | . Para ello, se debe escribir la condición del #[i while], es decir, contador <= numero, al final, para que el sistema PlayCode no entre en un ciclo que nunca termina. Una vez funcione correctamente, se propone el código que está entre comentarios (//) para practicar las dos formas de sintaxis.
       .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img7.png', style='width: 470px', alt='').m-auto
@@ -837,7 +838,7 @@
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
               h3.text-white A.  Vectores
-    p.mb-5(data-aos="fade-right") A través del ejemplo del cálculo de factorial se explicará el uso y comportamiento de la sentencia while. Recordando el algoritmo diseñado:
+    p.mb-5(data-aos="fade-right") A través del ejemplo del cálculo de factorial se explicará el uso y comportamiento de la sentencia #[i while]. Recordando el algoritmo diseñado:
     .row.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         .row
@@ -959,22 +960,22 @@
         tbody(style="background-color: #F6F6F6")
           tr
             td.text-center #[b indexOf()]
-            td Devuelve el índice del primer elemento del array que sea igual a elemento Buscado, o -1 si no existe.
+            td Devuelve el índice del primer elemento del #[b array] que sea igual a elemento Buscado, o -1 si no existe.
           tr
             td.text-center #[b join()]
-            td Concatena en un string todos los elementos de un array.
+            td Concatena en un #[b string] todos los elementos de un #[b array].
           tr
             td.text-center #[b push()]
-            td Añade uno o más elementos al final de un array y devuelve el nuevo valor de su propiedad length.
+            td Añade uno o más elementos al final de un #[b array] y devuelve el nuevo valor de su propiedad #[b length].
           tr
             td.text-center #[b pop()]
-            td Elimina el último elemento de un array, y devuelve dicho elemento.
+            td Elimina el último elemento de un #[b array], y devuelve dicho elemento.
           tr
             td.text-center #[b sort()]
-            td Ordena los elementos de un array, modificando este, y devuelve el array ordenado.
+            td Ordena los elementos de un #[b array], modificando este, y devuelve el #[b array] ordenado.
           tr
             td.text-center #[b shift()]
-            td Elimina el primer elemento de un array, y devuelve dicho elemento.
+            td Elimina el primer elemento de un #[b array], y devuelve dicho elemento.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -1090,7 +1091,7 @@
             .col-lg-6(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema10/img11.png', style='width: 470px', alt='').m-auto
-          p.mb-5(data-aos="fade-right") Para recorrer todos los registros se precisan dos (2) ciclos for, uno dentro de otro (anidado) como se presenta a continuación:
+          p.mb-5(data-aos="fade-right") Para recorrer todos los registros se precisan dos (2) ciclos #[i for], uno dentro de otro (anidado) como se presenta a continuación:
           .row
             .col-lg-6.order-2.order-lg-1(data-aos="fade-right")
               .row
@@ -1146,7 +1147,7 @@
                       p.mb-0    123
             .col-lg-6.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               .p-4.bg-c21
-                p.mb-0 Como se puede identificar, se requieren dos ciclos for anidados, y cada ciclo tiene una variable de índice de nombre diferente i y j y la manera de indexar la matriz vista anteriormente en el ejemplo de registros [ i ][ j ].
+                p.mb-0 Como se puede identificar, se requieren dos ciclos #[i for] anidados, y cada ciclo tiene una variable de índice de nombre diferente i y j y la manera de indexar la matriz vista anteriormente en el ejemplo de registros [ i ][ j ].
     Separador
     #t_10_6
     .titulo-segundo.color-acento-contenido
@@ -1157,7 +1158,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-down")
           .row(titulo="La sentencia continue")
             .col-12
-              p La sentencia #[b continue] se salta a la siguiente iteración del ciclo for o while, como se presenta en el siguiente ejemplo y teniendo en cuenta los resultados:
+              p La sentencia #[b continue] se salta a la siguiente iteración del ciclo #[i for] o #[i while], como se presenta en el siguiente ejemplo y teniendo en cuenta los resultados:
               .row.mb-3
                 .col-lg-5.mb-4.mb-lg-0
                   .row
@@ -1181,6 +1182,7 @@
                           p.mb-0  2
                           p.mb-0  3
                           p.mb-0  4
+                          p.mb-0  5
                 .col-lg-5
                   .row
                     .col-12
@@ -1203,10 +1205,11 @@
                           p.mb-0  1
                           p.mb-0  2
                           p.mb-0  4
+                          p.mb-0  5
               p.mb-0 Cuando la variable i tiene el valor 3, se ejecuta la sentencia continue se salta la sentencia donde debe imprimir el valor de 3, por ese motivo no aparece en la consola.
-          .row(titulo="Sentencia break")
+          .row(titulo="Sentencia <i>break</i>")
             .col-12
-              p La sentencia break, detiene la ejecución del ciclo independientemente de cuántas veces este configurando el ciclo; preste especial atención en la salida de consola.
+              p La sentencia #[i break], detiene la ejecución del ciclo independientemente de cuántas veces este configurando el ciclo; preste especial atención en la salida de consola.
               .row.mb-3
                 .col-lg-5.mb-4.mb-lg-0
                   .row
@@ -1250,10 +1253,10 @@
                           p.mb-0  2
                           p.mb-0 
                           p.mb-0 
-              p.mb-0 Cuando i tiene el valor de 3 ya no se sigue ejecutando más el ciclo, aunque esté programado para ejecutarse 5 veces, solo ejecuta 3 iteraciones y, ya que en el tercero luego de evaluar la condición i == 3 ejecuta la sentencia break haciendo que termine todo.
-          .row(titulo="Sentencia return")
+              p.mb-0 Cuando i tiene el valor de 3 ya no se sigue ejecutando más el ciclo, aunque esté programado para ejecutarse 5 veces, solo ejecuta 3 iteraciones y, ya que en el tercero luego de evaluar la condición i == 3 ejecuta la sentencia #[i break] haciendo que termine todo.
+          .row(titulo="Sentencia <i>return</i>")
             .col-12
-              p El uso de la sentencia return sirve para terminar la ejecución de un bloque de instrucciones y es muy común en la programación modular cuando se quiere retornar un resultado. A continuación, se presenta un ejemplo para ilustrar su uso:
+              p El uso de la sentencia #[i return] sirve para terminar la ejecución de un bloque de instrucciones y es muy común en la programación modular cuando se quiere retornar un resultado. A continuación, se presenta un ejemplo para ilustrar su uso:
               .row.mb-3
                 .col-lg-5.mb-4.mb-lg-0
                   .row
@@ -1307,7 +1310,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           .row(titulo="Ordenamiento de números como cadenas de texto")
             .col-12
-              p Por defecto el método Array.sort() ordena los elementos del array como si fueran cadenas, inclusive si los datos son de tipo entero, como en este ejemplo:
+              p Por defecto el método #[b Array.sort()] ordena los elementos del array como si fueran cadenas, inclusive si los datos son de tipo entero, como en este ejemplo:
               .row
                 .col-lg-5
                   .row
@@ -1329,7 +1332,7 @@
                           p.mb-0  10, 12, 120, 53, 56
           .row(titulo="Ordenamiento de cadenas de texto")
             .col-12
-              p El arreglo a ordenar en la línea 1, en la línea 2, se presenta en consola el vector, se ha usado la función join(', ') que sirve para concatenar los datos del vector o arreglo poniendo entre ellos una coma (,) y espacio (línea 2). Luego se aplica la función sort() en la tercera línea de código y, posteriormente, se presenta el vector ya ordenado. Como se presenta, el resultado en consola es un ordenamiento como si los elementos fueran cadenas de texto.
+              p El arreglo a ordenar en la línea 1, en la línea 2, se presenta en consola el vector, se ha usado la función #[b join(', ')] que sirve para concatenar los datos del vector o arreglo poniendo entre ellos una coma (,) y espacio (línea 2). Luego se aplica la función #[b sort()] en la tercera línea de código y, posteriormente, se presenta el vector ya ordenado. Como se presenta, el resultado en consola es un ordenamiento como si los elementos fueran cadenas de texto.
               .row
                 .col-lg-8
                   .row
@@ -1348,7 +1351,7 @@
                           p.mb-0  ["Bogotá", "Cartagena", "Montería", "Sincelejo"]
           .row(titulo="Invertir el orden de los elementos")
             .col-12
-              p En el ejemplo de un ordenamiento de cadenas de texto. También se puede ordenar el arreglo de forma descendente con el método Array.reverse().
+              p En el ejemplo de un ordenamiento de cadenas de texto. También se puede ordenar el arreglo de forma descendente con el método #[b Array.reverse()].
               .row
                 .col-lg-8
                   .row
@@ -1368,7 +1371,7 @@
       .col-lg-3.d-none.d-lg-block(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema10/img12.png', style="width: 400px" alt='').m-auto
-    p.mb-5(data-aos="fade-right") La función Array.reverse() no ordena los elementos, simplemente toma los elementos y les invierte el orden, es decir, el primero pasa a ser el último, el segundo, el penúltimo y así hasta que el última pasa al primer puesto. Es por esto que primero se ordena en orden ascendente y luego se invierte para lograr el orden descendente.
+    p.mb-5(data-aos="fade-right") La función #[b Array.reverse()] no ordena los elementos, simplemente toma los elementos y les invierte el orden, es decir, el primero pasa a ser el último, el segundo, el penúltimo y así hasta que el última pasa al primer puesto. Es por esto que primero se ordena en orden ascendente y luego se invierte para lograr el orden descendente.
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -1418,7 +1421,7 @@
                 p.mb-0  54
       .col-lg-6.mb-4.mb-lg-0(data-aos="fade-down")
         .p-4.bg-c32.h-100
-          p En la línea 1, se usa la palabra reservada function y luego se elige un identificador para la función, que en este caso es operacion. Luego, entre paréntesis, se seleccionan nombres para las variables de entrada (en el ejemplo, a y b). A continuación, se define un contexto (espacio de código entre corchetes) para indicar cuáles son las instrucciones que ejecutará la función. En la línea 2, se indica que la función retorna la multiplicación de a * b sumando 100 y a este resultado dividido entre 2. En la línea 4, se ve cómo se invoca la función operacion y se le pasan los parámetros 3 y 8 para las variables a y b respectivamente, el resultado es almacenado en la variable dato1. Y la función puede invocarse más de una vez (las que se necesiten).
+          p En la línea 1, se usa la palabra reservada #[b function] y luego se elige un identificador para la función, que en este caso es #[b operacion]. Luego, entre paréntesis, se seleccionan nombres para las variables de entrada (en el ejemplo, a y b). A continuación, se define un contexto (espacio de código entre corchetes) para indicar cuáles son las instrucciones que ejecutará la función. En la línea 2, se indica que la función retorna la multiplicación de a * b sumando 100 y a este resultado dividido entre 2. En la línea 4, se ve cómo se invoca la función #[b operacion] y se le pasan los parámetros 3 y 8 para las variables a y b respectivamente, el resultado es almacenado en la variable dato1. Y la función puede invocarse más de una vez (las que se necesiten).
           figure.d-flex.justify-content-end
             img(src='@/assets/curso/tema10/img11.svg', style="width: 90px" alt='')
       .col-lg-3(data-aos="fade-left")
@@ -1445,7 +1448,7 @@
                 p.mb-0  10, 12, 53, 56, 120
     p(data-aos="fade-right") Para ordenar un vector con datos numéricos, se debe pasar como argumento una función al método #[b Array.sort()]. Esta función indica qué operación debe hacerse sobre los datos a comparar entre dos datos del arreglo. Para comparar si un número es mayor que otro, es muy común usar la resta porque, al restar un número, solo existen tres tipos de respuestas. Cuando a un número a se le resta un número #[b b (a - b)], si el resultado es negativo, es porque #[b b] es mayor que #[b a]; si el resultado es positivo, es porque a es mayor que #[b b]; y si el resultado es cero, es porque #[b a y b] son iguales.
     p(data-aos="fade-right") Como se puede apreciar, se pasa una función (sin identificador) que recibe dos datos del arreglo (a y b) y los compara con la diferencia (resta) de ellos. A las funciones que no se les pone identificador se les llaman funciones anónimas. También existe otra forma de sintaxis para funciones anónimas, denominada funciones flecha. #[b.txt-c1 A continuación, se presenta cómo ordenar un arreglo numérico de manera inversa utilizando la sintaxis de función]:
-    .row.bg-c39.mb-4
+    .row.bg-c39.mb-5
       .col-12
         .px-5
           .row.align-items-center.mb-5
@@ -1501,7 +1504,7 @@
                     td.text-center Project Manager
           p.mb-5(data-aos="fade-right") En esta oportunidad en las líneas 6 y 8, que se puede usar contexto (corchetes) a pesar de que dentro solo hay una sentencia (línea 7), el resultado a retornar es la diferencia entre b.edad y a.edad para que el ordenamiento sea de mayor a menor.
           .row
-            .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
+            .col-lg-6(data-aos="fade-right")
               .row
                 .col-12
                   .px-4.py-3.bg-c22
@@ -1526,32 +1529,38 @@
                       p.mb-0      {usuario: "Mariela", edad: 31, rol: "SAC"},
                       p.mb-0      {usuario: "Eduardo", edad: 30, rol: "CEO"}
                       p.mb-0  ]
-            .col-lg-6(data-aos="fade-left")
-              .row.mb-4.pt-4(data-aos="fade-down")
-                .col-auto.bg-c4
-                  .px-3.pb-0
-                    .row.align-items-end
-                      .col-auto.px-0
-                        figure.fig-p1
-                          img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
-                      .col
-                        h3.text-white D. Buscar un elemento
-              .row.mb-3
-                .col-12
-                  .px-4.py-3.bg-c22
-                    figure
-                      img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
-                .col-12
-                  .px-4.py-3.bg-c23
-                    pre
-                      p.mb-0  const array1 = [5, 12, 8, 130, 44];
-                      p.mb-0  const found = array1.find(element => element > 10);
-                      p.mb-0  console.log(found);
-                      hr
-                      p.mb-0  Consola
-                      p.mb-0  12
+            .col-lg-6.d-none.d-lg-block(data-aos="fade-left")
               figure
-                img(src='@/assets/curso/tema10/img16.png', style="width: 600px" alt='').m-auto
+                img(src='@/assets/curso/tema10/img16.png', style="width: 550px" alt='').m-auto
+    .row.mb-4.pt-4(data-aos="fade-down")
+      .col-auto.bg-c4
+        .px-3.pb-0
+          .row.align-items-end
+            .col-auto.px-0
+              figure.fig-p1
+                img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
+            .col
+              h3.text-white D. Buscar un elemento
+    p.mb-4(data-aos="fade-right") El método #[b find()] devuelve el valor del primer elemento del array que cumple la función de prueba proporcionada (Array.prototype.find() - JavaScript, MDN, 2021).
+    .row.align-items-center.mb-4
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
+        .row
+          .col-12
+            .px-4.py-3.bg-c22
+              figure
+                img(src='@/assets/curso/tema3/img11.svg', style="width:50px" alt='')
+          .col-12
+            .px-4.py-3.bg-c23
+              pre
+                p.mb-0  const array1 = [5, 12, 8, 130, 44];
+                p.mb-0  const found = array1.find(element => element > 10);
+                p.mb-0  console.log(found);
+                hr
+                p.mb-0  Consola
+                p.mb-0  12
+      .col-lg-6(data-aos="fade-left")
+        figure
+          img(src='@/assets/curso/tema10/img17.png', style="width: 550px" alt='').m-auto
     p(data-aos="fade-down") Se utiliza el identificador #[b elemento] para referenciar la variable a la que se aplicará el criterio de búsqueda, que en este ejemplo es encontrar el primer elemento mayor que 10. Muchas veces es importante que, en lugar de retornar un solo valor, el resultado sea más de uno.  Por ejemplo, si en el arreglo se retornan los valores mayores que 10, se debe retornar otro vector con los valores resultantes. Para esto, existe la función #[b Array.filter()], que crea un nuevo arreglo con los datos que cumplan con la condición.
     .row
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")

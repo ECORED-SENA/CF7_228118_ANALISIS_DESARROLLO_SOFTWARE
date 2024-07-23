@@ -69,7 +69,7 @@
               .titulo-sexto.color-acento-contenido.mb-4
                 p.mb-0 #[b Figura 10.] Diagrama al área de un triángulo
               figure
-                img(src='@/assets/curso/tema7/img2.svg', style='width: 160px', alt='Diagrama de flujo para calcular el área, comenzando con Inicio, declarando variables, y ejecutando cálculos, para finalizar con area y Fin.').m-auto
+                img(src='@/assets/curso/tema7/img2.svg', style='width: 200px', alt='Diagrama de flujo para calcular el área, comenzando con Inicio, declarando variables, y ejecutando cálculos, para finalizar con area y Fin.').m-auto
       .col-lg-5(data-aos="fade-left")
         .row
           .col-12
@@ -157,7 +157,7 @@
               .titulo-sexto.color-acento-contenido.mb-4
                 p.mb-0 #[b Figura 11.] Estructura condicional simple
               figure
-                img(src='@/assets/curso/tema7/img5.svg', style='width: 360px', alt='Un diagrama de flujo que muestra un algoritmo para determinar si una persona es mayor de edad en base a su edad ingresada.').m-auto
+                img(src='@/assets/curso/tema7/img5.svg', style='width: 400px', alt='Un diagrama de flujo que muestra un algoritmo para determinar si una persona es mayor de edad en base a su edad ingresada.').m-auto
       .col-lg-5(data-aos="fade-left")
         .row
           .col-12
@@ -199,12 +199,12 @@
                   .lista-ol--cuadro__vineta
                     span 1.
                   |
-                  p.mb-0 Un número conocido de veces (Estructura PARA o FOR en inglés).
+                  p.mb-0 Un número conocido de veces (Estructura PARA o #[i FOR] en inglés).
                 li.d-flex.mb-0
                   .lista-ol--cuadro__vineta
                     span 2.
                   |
-                  p.mb-0 Mientras se cumpla una condición (Estructura MIENTRAS o WHILE).
+                  p.mb-0 Mientras se cumpla una condición (Estructura MIENTRAS o #[i WHILE]).
       .col-lg-5.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema7/img3.png', style='width: 500px', alt='').m-auto
@@ -216,7 +216,7 @@
               figure.fig-p1
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
-              h3.text-white Estructura PARA (FOR)
+              h3.text-white Estructura PARA (#[i FOR])
     p.mb-5(data-aos="fade-right") Esta estructura se usa cuando se sabe el número de veces que se debe ejecutar un conjunto de operaciones.
     .row.mb-5
       .col-12
@@ -270,7 +270,7 @@
           .col-12
             .p-4.bg-c3
               .titulo-sexto.color-acento-contenido.mb-4
-                p.mb-0 #[b Figura 10.] Diagrama al área de un triángulo
+                p.mb-0 #[b Figura 12.] Diagrama al área de un triángulo
               figure
                 img(src='@/assets/curso/tema7/img7.svg', style='width: 360px', alt='Un diagrama de flujo que ilustra un ciclo de iteración para un algoritmo, que muestra un mensaje durante siete repeticiones.').m-auto
       .col-lg-5(data-aos="fade-left")
@@ -354,7 +354,7 @@
           .col-12
             .p-4.bg-c3
               .titulo-sexto.color-acento-contenido.mb-4
-                p.mb-0 #[b Figura 13.] Estructura de repetición FOR acumulador suma
+                p.mb-0 #[b Figura 13.] Estructura de repetición #[i FOR] acumulador suma
               figure
                 img(src='@/assets/curso/tema7/img9.svg', style='width: 300px', alt='Un diagrama de flujo que describe un algoritmo para calcular la suma de números desde 1 hasta un número ingresado por el usuario.').m-auto
       .col-lg-5(data-aos="fade-left")
@@ -394,7 +394,7 @@
               figure.fig-p1
                 img(src='@/assets/curso/tema1/img2.svg', style="width:50px" alt='').m-auto
             .col
-              h3.text-white Estructura MIENTRAS (WHILE)
+              h3.text-white Estructura MIENTRAS (#[i WHILE])
     p.mb-5(data-aos="fade-right") La instrucción “Mientras”, puede impedir la ejecución de un conjunto de instrucciones, si la evaluación de una condición lógica es falsa. Esto significa que es repetitiva únicamente cuando la evaluación de la condición es verdadera.
     .row.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
