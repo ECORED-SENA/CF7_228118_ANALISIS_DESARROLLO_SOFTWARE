@@ -13,10 +13,10 @@
           .row.mb-4(data-aos="fade-left")
             .col-md-3.bg-c26
               .p-2.h-100.align-items-center
-                .row.align-items-center.h-100
-                  .col-md-auto
-                    figure.mb-3.mb-lg-0
-                      img(src='@/assets/curso/tema6/img1.svg', style="width: 100px" alt='').m-auto
+                .row.align-items-center.justify-content-center.h-100
+                  .col-xl-auto
+                    figure.mb-3.mb-xl-0
+                      img(src='@/assets/curso/tema6/img1.svg', style="width: 80px" alt='').m-auto
                   .col
                     p.text-center.mb-0 #[b Aritméticos:]
             .col.bg-c27
@@ -28,10 +28,10 @@
           .row.mb-4(data-aos="fade-right")
             .col-md-3.bg-c26
               .p-2.h-100.align-items-center
-                .row.align-items-center.h-100
-                  .col-md-auto
-                    figure.mb-3.mb-lg-0
-                      img(src='@/assets/curso/tema6/img1.svg', style="width: 100px" alt='').m-auto
+                .row.align-items-center.justify-content-center.h-100
+                  .col-xl-auto
+                    figure.mb-3.mb-xl-0
+                      img(src='@/assets/curso/tema6/img1.svg', style="width: 80px" alt='').m-auto
                   .col
                     p.text-center.mb-0 #[b Alfanuméricos:]
             .col.bg-c27
@@ -42,24 +42,24 @@
           .row.mb-4(data-aos="fade-down")
             .col-md-3.bg-c26
               .p-2.h-100.align-items-center
-                .row.align-items-center.h-100
-                  .col-md-auto
-                    figure.mb-3.mb-lg-0
-                      img(src='@/assets/curso/tema6/img1.svg', style="width: 100px" alt='').m-auto
+                .row.align-items-center.justify-content-center.h-100
+                  .col-xl-auto
+                    figure.mb-3.mb-xl-0
+                      img(src='@/assets/curso/tema6/img1.svg', style="width: 80px" alt='').m-auto
                   .col
                     p.text-center.mb-0 #[b Relacionales:]
             .col.bg-c27
               .p-2.h-100.align-items-center
-                .row.align-items-center.h-100
+                .row.align-items-center.justify-content-center.h-100
                   .col-12
-                    p.text-white.mb-0 Permiten la comparación entre datos del mismo tipo de dato y dan como resultado dos valores posibles: verdadero o falso. Ejemplo: igual a (=); menor que (<); mayor que (>,) mayor e igual que (>=).
+                    p.text-white.mb-0 Permiten la comparación entre datos del mismo tipo de dato y dan como resultado dos valores posibles: verdadero o falso. Ejemplo: igual a (=); menor que (<); mayor que (>), mayor e igual que (>=).
           .row.mb-4(data-aos="fade-left")
             .col-md-3.bg-c26
               .p-2.h-100.align-items-center
-                .row.align-items-center.h-100
-                  .col-md-auto
-                    figure.mb-3.mb-lg-0
-                      img(src='@/assets/curso/tema6/img1.svg', style="width: 100px" alt='').m-auto
+                .row.align-items-center.justify-content-center.h-100
+                  .col-xl-auto
+                    figure.mb-3.mb-xl-0
+                      img(src='@/assets/curso/tema6/img1.svg', style="width: 80px" alt='').m-auto
                   .col
                     p.text-center.mb-0 #[b Lógicos:]
             .col.bg-c27
@@ -67,7 +67,7 @@
                 .row.align-items-center.h-100
                   .col-12
                     p.text-white.mb-0 Posibilitan la evaluación lógica de dos expresiones de tipo lógico. Dan como resultado uno de dos valores posibles: verdadero o falso.
-                    p.text-white.mb-0 #[b Ejemplo:] negación (no); conjunción (y); disyunción(o).
+                    p.text-white.mb-0 #[b Ejemplo:] negación (no); conjunción (y); disyunción (o).
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -204,7 +204,7 @@
                   p.text-white.mb-0 #[b Ejemplo 2]
             p Escribir la siguiente ecuación como una expresión que la computadora pueda interpretar en el orden adecuado.
             figure
-              img(src='@/assets/curso/tema6/img4.svg', style='width: 260px', alt='')
+              img(src='@/assets/curso/tema6/img4.svg', style='width: 260px', alt='Imagen que presenta un ejemplo de una ecuación, la cual se escribe como una expresión, para poder ser interpretada por la computadora, en el orden correcto.')
           .col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema6/img3.png', style='width: 390px', alt='').m-auto

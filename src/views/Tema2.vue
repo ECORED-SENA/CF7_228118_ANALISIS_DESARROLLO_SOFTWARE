@@ -447,7 +447,7 @@
           p Es buen estudiante, si y solo si tiene promedio de cinco, donde se puede concluir lo siguiente:
           p.mb-0 #[b p:] es un buen estudiante.
           p #[b q:] tiene promedio de 5.
-          p #[b.txt-c1 al aplicar el operador p ↔ q su tabla de verdad quedaría de la siguiente manera:]
+          p #[b.txt-c1 Al aplicar el operador p ↔ q su tabla de verdad quedaría de la siguiente manera:]
           .row.justify-content-center
             .col-10.col-md-8.col-lg-5.mb-4.mb-lg-0
               table(width="100%" style="background-color: #F9F9F9")

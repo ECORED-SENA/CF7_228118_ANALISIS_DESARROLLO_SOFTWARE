@@ -24,6 +24,7 @@
             p.mb-0 #[b Figura 9.] Modelo de estructura secuencial
           figure
             img(src='@/assets/curso/tema7/img1.svg', style='width: 200px', alt='Diagrama de flujo que muestra un proceso desde Inicio, pasando por Leer datos, Procesos, Mostrar resultados, y terminando con Final.').m-auto
+          figcaption.mt-4 Nota. Tomado y adaptado de The Development Stages (2024).
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -88,12 +89,12 @@
                 p.mb-0                     REAL altura;
                 p.mb-0  INICIO
                 p.mb-0                     divisor = 2;
-                p.mb-0                     ESCRIBIR( "Escriba la base ");
-                p.mb-0                     LEER ( base )
-                p.mb-0                     ESCRIBIR( "Escriba la altura ");
-                p.mb-0                     LEER( altura ) ;
+                p.mb-0                     ESCRIBIR( "Escriba la base");
+                p.mb-0                     LEER (base)
+                p.mb-0                     ESCRIBIR( "Escriba la altura");
+                p.mb-0                     LEER(altura);
                 p.mb-0                     area = base * altura / divisor;
-                p.mb-0                     ESCRIBIR( area ) ;
+                p.mb-0                     ESCRIBIR(area);
                 p.mb-0  FIN
                 p.mb-0 
     p(data-aos="fade-right") Del diagrama de flujo y el pseudocódigo se puede notar lo siguiente: el identificador "area" no tiene tilde por la razón antes mencionada. El tipo de dato REAL hace referencia a que es un número que no solamente puede contener un valor entero, sino también cifras decimales.
@@ -175,10 +176,10 @@
                 p.mb-0  
                 p.mb-0                    REAL edad;
                 p.mb-0  INICIO
-                p.mb-0                    ESCRIBIR( "Escriba la calificación");
-                p.mb-0                    LEER ( edad )
-                p.mb-0                    SI ( edad >= 18)
-                p.mb-0                       ESCRIBIR ( "Usted es mayor de edad" );
+                p.mb-0                    ESCRIBIR("Escriba la calificación");
+                p.mb-0                    LEER (edad)
+                p.mb-0                    SI (edad >= 18)
+                p.mb-0                       ESCRIBIR ("Usted es mayor de edad");
                 p.mb-0                    FINSI
                 p.mb-0  
                 p.mb-0  FIN
@@ -287,7 +288,6 @@
                 p.mb-0  
                 p.mb-0  INICIO
                 p.mb-0  
-                p.mb-0  
                 p.mb-0                    PARA i DESDE 1 HASTA 7
                 p.mb-0                             ESCRIBIR( "Esto es un algoritmo" );
                 p.mb-0                    FINPARA
@@ -376,13 +376,13 @@
                 p.mb-0  INICIO
                 p.mb-0  
                 p.mb-0                         suma = 0;
-                p.mb-0                         ESCRIBIR( "Escriba el número" ) ;
-                p.mb-0                         LEER ( número
+                p.mb-0                         ESCRIBIR("Escriba el número");
+                p.mb-0                         LEER (número);
                 p.mb-0                         PARA i DESDE 1 HASTA numero
                 p.mb-0                                suma = suma + i;
                 p.mb-0                         
                 p.mb-0                          FINPARA
-                p.mb-0                         ESCRIBIR ( suma ) ;
+                p.mb-0                         ESCRIBIR (suma);
                 p.mb-0  
                 p.mb-0  FIN
                 p.mb-0  
@@ -402,7 +402,7 @@
           img(src='@/assets/curso/tema7/img4.png', style='width: 400px', alt='').m-auto
       .col-lg-8(data-aos="fade-left")
         p #[b Ejemplo:]
-        p realice un programa que permita obtener la factorial de un número dado por el usuario.
+        p Realice un programa que permita obtener la factorial de un número dado por el usuario.
         .row
           .col-12
             .p-3.bg-c2
@@ -464,6 +464,7 @@
               pre
                 p.mb-0 
                 p.mb-0  ALGORITMO factorial;
+                p.mb-0 
                 p.mb-0  VAR
                 p.mb-0                   ENTERO contador;
                 p.mb-0                   ENTERO factorial;
@@ -471,14 +472,15 @@
                 p.mb-0  INICIO
                 p.mb-0                   contador = 1;
                 p.mb-0                   factorial = 1;
-                p.mb-0                   ESCRIBIR( "Escriba el número" ) ;
-                p.mb-0                   LEER ( numero ) ;
+                p.mb-0                   ESCRIBIR("Escriba el número");
+                p.mb-0                   LEER (número);
                 p.mb-0  
                 p.mb-0  MIENTRAS
                 p.mb-0                   factorial = factorial * contador;
                 p.mb-0                   contador = contador + 1;
                 p.mb-0                   FINMIENTRAS
-                p.mb-0                   ESCRIBIR( factorial );
+                p.mb-0                   ESCRIBIR(factorial);
+                p.mb-0  
                 p.mb-0  FIN
                 p.mb-0 
 

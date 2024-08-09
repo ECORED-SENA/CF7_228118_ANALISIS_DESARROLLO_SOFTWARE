@@ -21,7 +21,7 @@
           .titulo-sexto.color-acento-contenido.mb-4
             p.mb-0 #[b Figura 1.] Pasos en la algoritmia básica
           figure
-            img(src='@/assets/curso/tema1/img2.png', style='width: 400px', alt='Imagen de un círculo con cuatro secciones etiquetadas como Validación, Análisis, Diseño, e Implementación, y el texto Algoritmia Básica en el centro.').m-auto
+            img(src='@/assets/curso/tema1/img13.svg', style='width: 400px', alt='Imagen de un círculo con cuatro secciones etiquetadas como Validación, Análisis, Diseño, e Implementación, y el texto Algoritmia Básica en el centro.').m-auto
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -235,6 +235,7 @@
             p.mb-0 #[b Figura 3.] Fases para elaborar un programa de computador
           figure
             img(src='@/assets/curso/tema1/img10.svg', style='width: 700px', alt='Diagrama de flujo que muestra cuatro etapas: Analizar el problema, Diseñar un Algoritmo, Traducir el algoritmo, y Depurar el programa, conectadas con flechas.').m-auto
+          figcaption.mt-4 Nota. Tomado y adaptado de Arellano et al. (2022).
     Separador
     #t_1_3
     .titulo-segundo.color-acento-contenido
@@ -388,7 +389,8 @@
           .titulo-sexto.color-acento-contenido.mb-4
             p.mb-0 #[b Figura 4.] Espiral del Pensamiento Creativo diseñada por el Dr. Mitchel Resnick
           figure
-            img(src='@/assets/curso/tema1/img11.svg', style='width: 500px', alt='Imagen de un círculo con cuatro secciones etiquetadas como Validación, Análisis, Diseño, e Implementación, y el texto Algoritmia Básica en el centro.').m-auto
+            img(src='@/assets/curso/tema1/img11.svg', style='width: 500px', alt='Diagrama de ciclo que incluye las etapas imaginar, crear, jugar, compartir, reflexionar, todas conectadas en un bucle continuo.').m-auto
+          figcaption.mt-4 Nota. Tomado y adaptado de Resnick (2007).
     .row
       .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure

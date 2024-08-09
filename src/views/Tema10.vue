@@ -181,13 +181,13 @@
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8.mb-3
         .p-4.bg-c13
-          p.mb-0 #[b Null:] tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra null.
+          p.mb-0 #[b #[i Null]:] tipo primitivo especial que tiene un uso adicional para su valor: si el objeto no se hereda, se muestra #[i null].
       .col-lg-8.mb-3
         .p-4.bg-c35
-          p.mb-0 #[b Object:] tipo estructural especial que no es de datos, pero para cualquier instancia de objeto construido que también se utiliza como estructuras de datos (#[b new Object], #[b new Array], #[b new Map], #[b new Set], #[b new WeakMap], #[b new WeakSet], #[b new Date] y casi todo lo hecho con la palabra clave #[b new]).
+          p.mb-0 #[b #[i Object]:] tipo estructural especial que no es de datos, pero para cualquier instancia de objeto construido que también se utiliza como estructuras de datos (#[b #[i new Object]], #[b #[i new Array]], #[b #[i new Map]], #[b #[i new Set]], #[b #[i new WeakMap]], #[b #[i new WeakSet]], #[b #[i new Date]] y casi todo lo hecho con la palabra clave #[b #[i new]]).
       .col-lg-8
         .p-4.bg-c6
-          p.text-white.mb-0 #[b Function:] una estructura sin datos, aunque también responde al operador t.
+          p.text-white.mb-0 #[b #[i Function]:] una estructura sin datos, aunque también responde al operador t.
     p.mb-5(data-aos="fade-right") #[b.txt-c1 Cuando se declaran variables se debe considerar los siguientes tipos, ya se han usado dos (2) de ellas:]
     .row.justify-content-center.mb-5
       .col-md-10.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
@@ -234,165 +234,169 @@
               p También hay operadores de asignación compuestos que son una abreviatura de las operaciones enumeradas en la siguiente tabla:
               .row
                 .col-lg-8
-                  table(width="100%" style="background-color: #F9F9F9")
-                    tbody
-                      tr
-                        td.text-center #[b Nombre]
-                        td.text-center #[b Operador abreviado]
-                        td.text-center #[b Significado]
-                      tr
-                        td Asignación.
-                        td x = y
-                        td x = y
-                      tr
-                        td Asignación de adición.
-                        td x + = y
-                        td x = x + y
-                      tr
-                        td Asignación de resta.
-                        td x - = y
-                        td x = x - y
-                      tr
-                        td Asignación de multiplicación.
-                        td x * = y
-                        td x = x * y
-                      tr
-                        td Asignación de división.
-                        td x / = y
-                        td x = x / y
-                      tr
-                        td Asignación de residuo.
-                        td x % = y
-                        td x = x % y
-                      tr
-                        td Asignación de exponenciación.
-                        td x ** = y
-                        td x = x ** y
+                  .tabla-j1
+                    table.tabla-j2(width="100%" style="background-color: #F9F9F9")
+                      tbody
+                        tr
+                          td.text-center #[b Nombre]
+                          td.text-center #[b Operador abreviado]
+                          td.text-center #[b Significado]
+                        tr
+                          td Asignación.
+                          td x = y
+                          td x = y
+                        tr
+                          td Asignación de adición.
+                          td x + = y
+                          td x = x + y
+                        tr
+                          td Asignación de resta.
+                          td x - = y
+                          td x = x - y
+                        tr
+                          td Asignación de multiplicación.
+                          td x * = y
+                          td x = x * y
+                        tr
+                          td Asignación de división.
+                          td x / = y
+                          td x = x / y
+                        tr
+                          td Asignación de residuo.
+                          td x % = y
+                          td x = x % y
+                        tr
+                          td Asignación de exponenciación.
+                          td x ** = y
+                          td x = x ** y
           .row(titulo="Operadores de comparación")
             .col-12
               p Son operadores cuya función es comparar dos expresiones y, como resultado de la comparación, devuelven un valor falso o verdadero (booleano) que representa la relación de sus valores comparados. Existen operadores para comparar valores numéricos, pero también operadores para comparar cadenas y otros tipos de datos.
               .row
                 .col-12
-                  table(width="100%" style="background-color: #F9F9F9")
-                    tbody
-                      tr
-                        td.text-center #[b Nombre]
-                        td.text-center(width="60%") #[b Operador abreviado]
-                        td.text-center #[b Significado]
-                      tr
-                        td Igual (==)
-                        td Devuelve true si los operandos son iguales.
-                        td
-                          p.mb-0 3 == var1
-                          p.mb-0 "3" == var1
-                          p.mb-0 3 == '3'
-                      tr
-                        td No es igual (!=)
-                        td Devuelve true si los operandos no son iguales.
-                        td
-                          p.mb-0 var1 != 4
-                          p.mb-0 var2 != "3"
-                      tr
-                        td Estrictamente igual (===)
-                        td Devuelve true si los operandos son iguales y del mismo tipo. Consulta también Object.is y similitud en JS.
-                        td
-                          p.mb-0 3 === var1
-                      tr
-                        td Desigualdad estricta (!==)
-                        td Devuelve true si los operandos son del mismo tipo, pero no iguales, o son de diferente tipo.
-                        td
-                          p.mb-0 var1 !== "3"
-                          p.mb-0 3 !== '3'
-                      tr
-                        td Mayor que (>)
-                        td Devuelve true si el operando izquierdo es mayor que el operando derecho.
-                        td
-                          p.mb-0 var2 > var1
-                          p.mb-0 "12" > 2
-                      tr
-                        td Mayor o igual que (>=)
-                        td Devuelve true si el operando izquierdo es mayor o igual que el operando derecho.
-                        td
-                          p.mb-0 var2 >= var1
-                          p.mb-0 var1 >= 3
-                      tr
-                        td Menor que (<)
-                        td Devuelve true si el operando izquierdo es menor que el operando derecho.
-                        td
-                          p.mb-0 var1 < var2
-                          p.mb-0 "2" < 12
-                      tr
-                        td Menor o igual (<=)
-                        td Devuelve true si el operando izquierdo es menor o igual que el operando derecho.
-                        td
-                          p.mb-0 var1 <= var2
-                          p.mb-0 var2 <= 5
+                  .tabla-j1
+                    table.tabla-j2(width="100%" style="background-color: #F9F9F9")
+                      tbody
+                        tr
+                          td.text-center #[b Nombre]
+                          td.text-center(width="60%") #[b Operador abreviado]
+                          td.text-center #[b Significado]
+                        tr
+                          td Igual (==)
+                          td Devuelve true si los operandos son iguales.
+                          td
+                            p.mb-0 3 == var1
+                            p.mb-0 "3" == var1
+                            p.mb-0 3 == '3'
+                        tr
+                          td No es igual (!=)
+                          td Devuelve true si los operandos no son iguales.
+                          td
+                            p.mb-0 var1 != 4
+                            p.mb-0 var2 != "3"
+                        tr
+                          td Estrictamente igual (===)
+                          td Devuelve true si los operandos son iguales y del mismo tipo. Consulta también Object.is y similitud en JS.
+                          td
+                            p.mb-0 3 === var1
+                        tr
+                          td Desigualdad estricta (!==)
+                          td Devuelve true si los operandos son del mismo tipo, pero no iguales, o son de diferente tipo.
+                          td
+                            p.mb-0 var1 !== "3"
+                            p.mb-0 3 !== '3'
+                        tr
+                          td Mayor que (>)
+                          td Devuelve true si el operando izquierdo es mayor que el operando derecho.
+                          td
+                            p.mb-0 var2 > var1
+                            p.mb-0 "12" > 2
+                        tr
+                          td Mayor o igual que (>=)
+                          td Devuelve true si el operando izquierdo es mayor o igual que el operando derecho.
+                          td
+                            p.mb-0 var2 >= var1
+                            p.mb-0 var1 >= 3
+                        tr
+                          td Menor que (<)
+                          td Devuelve true si el operando izquierdo es menor que el operando derecho.
+                          td
+                            p.mb-0 var1 < var2
+                            p.mb-0 "2" < 12
+                        tr
+                          td Menor o igual (<=)
+                          td Devuelve true si el operando izquierdo es menor o igual que el operando derecho.
+                          td
+                            p.mb-0 var1 <= var2
+                            p.mb-0 var2 <= 5
           .row(titulo="Operadores de aritméticos")
             .col-12
               p Los operadores aritméticos toman valores numéricos (ya sean literales o variables) como sus operandos y devuelven un solo valor numérico. Los operadores aritméticos básicos son suma (+), resta (-), multiplicación (*) y división (/). Estos operadores funcionan como en la mayoría de los otros lenguajes de programación cuando se usan con números de punto flotante, teniendo en cuenta que la división por cero produce un error.
               .row
                 .col-12
-                  table(width="100%" style="background-color: #F9F9F9")
-                    tbody
-                      tr
-                        td.text-center #[b Nombre]
-                        td.text-center(width="60%") #[b Operador abreviado]
-                        td.text-center #[b Significado]
-                      tr
-                        td Residuo (%)
-                        td Operador binario. Devuelve el resto entero de dividir los dos operandos.
-                        td
-                          p.mb-0 12 % 5 devuelve 2
-                      tr
-                        td Incremento (++)
-                        td Operador unario. Agrega uno a su operando. Si se usa como operador prefijo (++x), devuelve el valor de su operando después de agregar uno; si se usa como operador sufijo (x++), devuelve el valor de su operando antes de agregar uno.
-                        td
-                          p.mb-0 Si x es 3, ++x establece x en 4 y devuelve 4, mientras que x++ devuelve 3 y, solo entonces, establece x en 4.
-                      tr
-                        td Decremento (--)
-                        td Operador unario. Resta uno de su operando. El valor de retorno es análogo al del operador de incremento.
-                        td
-                          p.mb-0 Si x es 3, entonces --x establece x en 2 y devuelve 2, mientras que x-- devuelve 3 y, solo entonces, establece x en 2.
-                      tr
-                        td Negación unaria (-)
-                        td Operador unario. Devuelve la negación de su operando.
-                        td
-                          p.mb-0 Si x es 3, entonces -x devuelve -3.
-                      tr
-                        td Positivo unario (+)
-                        td Operador unario. Intenta convertir el operando en un número, si aún no lo es.
-                        td
-                          p.mb-0 +"3" devuelve 3. +true devuelve 1.
-                      tr
-                        td Operador de exponenciación (**)
-                        td Calcula la base a la potencia de exponente, es decir, base exponente.
-                        td
-                          p.mb-0 2 ** 3 retorna 8.
-                          p.mb-0 10 ** -1 retorna 0.1.
+                  .tabla-j1
+                    table.tabla-j2(width="100%" style="background-color: #F9F9F9")
+                      tbody
+                        tr
+                          td.text-center #[b Nombre]
+                          td.text-center(width="60%") #[b Operador abreviado]
+                          td.text-center #[b Significado]
+                        tr
+                          td Residuo (%)
+                          td Operador binario. Devuelve el resto entero de dividir los dos operandos.
+                          td
+                            p.mb-0 12 % 5 devuelve 2
+                        tr
+                          td Incremento (++)
+                          td Operador unario. Agrega uno a su operando. Si se usa como operador prefijo (++x), devuelve el valor de su operando después de agregar uno; si se usa como operador sufijo (x++), devuelve el valor de su operando antes de agregar uno.
+                          td
+                            p.mb-0 Si x es 3, ++x establece x en 4 y devuelve 4, mientras que x++ devuelve 3 y, solo entonces, establece x en 4.
+                        tr
+                          td Decremento (--)
+                          td Operador unario. Resta uno de su operando. El valor de retorno es análogo al del operador de incremento.
+                          td
+                            p.mb-0 Si x es 3, entonces --x establece x en 2 y devuelve 2, mientras que x-- devuelve 3 y, solo entonces, establece x en 2.
+                        tr
+                          td Negación unaria (-)
+                          td Operador unario. Devuelve la negación de su operando.
+                          td
+                            p.mb-0 Si x es 3, entonces -x devuelve -3.
+                        tr
+                          td Positivo unario (+)
+                          td Operador unario. Intenta convertir el operando en un número, si aún no lo es.
+                          td
+                            p.mb-0 +"3" devuelve 3. +true devuelve 1.
+                        tr
+                          td Operador de exponenciación (**)
+                          td Calcula la base a la potencia de exponente, es decir, base exponente.
+                          td
+                            p.mb-0 2 ** 3 retorna 8.
+                            p.mb-0 10 ** -1 retorna 0.1.
           .row(titulo="Operadores lógicos")
             .col-12
               p Con los operadores lógicos, se pueden crear condiciones compuestas. Por ejemplo, cuando se deben cumplir dos o más condiciones para elegir las operaciones a ejecutar. Además, se pueden describir estas combinaciones de condiciones utilizando los operadores lógicos como AND (&&), OR (||), y NOT (!). Estos operadores permiten evaluar múltiples expresiones booleanas en una sola sentencia.
-              table(width="100%" style="background-color: #F9F9F9")
-                tbody
-                  tr
-                    td.text-center #[b Nombre]
-                    td.text-center #[b Operador abreviado]
-                    td.text-center(width="60%") #[b Significado]
-                  tr
-                    td AND Lógico (&&)
-                    td expr1 && expr2
-                    td
-                      p.mb-0 Devuelve #[b expr1] si se puede convertir a #[b false]; de lo contrario, devuelve #[b expr2]. Por lo tanto, cuando se usa con valores booleanos, #[b &&] devuelve #[b true] si ambos operandos son #[b true]; de lo contrario, devuelve #[b false].
-                  tr
-                    td OR lógico (||)
-                    td expr1 || expr2
-                    td
-                      p.mb-0 Devuelve #[b expr1] si se puede convertir a #[b true]; de lo contrario, devuelve #[b expr2]. Por lo tanto, cuando se usa con valores booleanos, #[b ||] devuelve #[b true] si alguno de los operandos es #[b true]; si ambos son falsos, devuelve #[b false].
-                  tr
-                    td NOT lógico (!)
-                    td !expr
-                    td
-                      p.mb-0 Devuelve #[b false] si su único operando se puede convertir a #[b true]; de lo contrario, devuelve #[b true].
+              .tabla-j1
+                table.tabla-j2(width="100%" style="background-color: #F9F9F9")
+                  tbody
+                    tr
+                      td.text-center #[b Nombre]
+                      td.text-center #[b Operador abreviado]
+                      td.text-center(width="60%") #[b Significado]
+                    tr
+                      td AND Lógico (&&)
+                      td expr1 && expr2
+                      td
+                        p.mb-0 Devuelve #[b expr1] si se puede convertir a #[b false]; de lo contrario, devuelve #[b expr2]. Por lo tanto, cuando se usa con valores booleanos, #[b &&] devuelve #[b true] si ambos operandos son #[b true]; de lo contrario, devuelve #[b false].
+                    tr
+                      td OR lógico (||)
+                      td expr1 || expr2
+                      td
+                        p.mb-0 Devuelve #[b expr1] si se puede convertir a #[b true]; de lo contrario, devuelve #[b expr2]. Por lo tanto, cuando se usa con valores booleanos, #[b ||] devuelve #[b true] si alguno de los operandos es #[b true]; si ambos son falsos, devuelve #[b false].
+                    tr
+                      td NOT lógico (!)
+                      td !expr
+                      td
+                        p.mb-0 Devuelve #[b false] si su único operando se puede convertir a #[b true]; de lo contrario, devuelve #[b true].
     .row.mb-4.pt-4(data-aos="fade-down")
       .col-auto.bg-c4
         .px-3.pb-0
@@ -526,9 +530,9 @@
                       p.mb-0  INICIO
                       p.mb-0                 calificacion = 4;
                       p.mb-0                  SI ( calificación >= 3)
-                      p.mb-0                           ESCRIBIR( "Aprobo" ) ;
+                      p.mb-0                           ESCRIBIR("Aprobo");
                       p.mb-0  SINO
-                      p.mb-0                ESCRIBIR( "Reprobo" );
+                      p.mb-0                ESCRIBIR("Reprobo");
                       p.mb-0  FINSI
                       p.mb-0  
                       p.mb-0  FIN
@@ -767,19 +771,20 @@
             .px-4.py-3.bg-c23
               pre
                 p.mb-0  ALGORITMO cálculo de factorial;
+                p.mb-0  
                 p.mb-0  VAR
                 p.mb-0                   ENTERO contador;
                 p.mb-0                   ENTERO factorial;
                 p.mb-0  INICIO
                 p.mb-0                   contador = 1;
                 p.mb-0                   factorial = 1;
-                p.mb-0                   ESCRIBIR ( "Escriba el número" ) ;
-                p.mb-0                   LEER (numero ) ;
+                p.mb-0                   ESCRIBIR ("Escriba el número");
+                p.mb-0                   LEER (numero);
                 p.mb-0                   MIENTRAS contador <= numero HACER
                 p.mb-0                            factorial = factorial * contador;
                 p.mb-0                            contador = contador + 1;
                 p.mb-0                   FINMIENTRAS
-                p.mb-0                   ESCRIBIR ( factorial );
+                p.mb-0                   ESCRIBIR (factorial);
                 p.mb-0  FIN
       .col-lg-6(data-aos="fade-left")
         p De acuerdo con el anterior algoritmo, el resultante para el cálculo de factorial es:
@@ -988,23 +993,24 @@
     p.mb-5(data-aos="fade-right") Las matrices se pueden ver lógicamente como un vector, y cada uno de sus elementos es otro vector, así la representación de la matriz queda codificada como se presenta a continuación:
     .row.align-items-center.justify-content-center.mb-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        table(width="100%")
-          tbody
-            tr
-              td.text-center "Manzana"
-              td.text-center "Pera"
-              td.text-center "Papaya"
-              td.text-center "Piña"
-            tr
-              td.text-center "Papa"
-              td.text-center "Tomate"
-              td.text-center "Yuca"
-              td.text-center "Ajo"
-            tr
-              td.text-center "Arroz"
-              td.text-center "Frijol"
-              td.text-center "Cebada"
-              td.text-center "Garbanzo"
+        .tabla-j1
+          table.tabla-j2(width="100%")
+            tbody
+              tr
+                td.text-center "Manzana"
+                td.text-center "Pera"
+                td.text-center "Papaya"
+                td.text-center "Piña"
+              tr
+                td.text-center "Papa"
+                td.text-center "Tomate"
+                td.text-center "Yuca"
+                td.text-center "Ajo"
+              tr
+                td.text-center "Arroz"
+                td.text-center "Frijol"
+                td.text-center "Cebada"
+                td.text-center "Garbanzo"
       .col-lg-5(data-aos="fade-left")
         .row
           .col-12
@@ -1038,38 +1044,39 @@
             p.mb-0 #[b Tabla 8.] Registros
           .row.justify-content-center.mb-5
             .col-lg-8(data-aos="fade-left")
-              table(width="100%")
-                tbody
-                  tr
-                    td.text-center #[b Nombre]
-                    td.text-center #[b Correo]
-                    td.text-center #[b Edad]
-                    td.text-center #[b Saldo]
-                  tr
-                    td.text-center Juan
-                    td.text-center juan@sindato.com
-                    td.text-center 19
-                    td.text-center 36.234
-                  tr
-                    td.text-center Luis
-                    td.text-center luis@sindato.com
-                    td.text-center 18
-                    td.text-center 23.234
-                  tr
-                    td.text-center Andrea
-                    td.text-center andrea@sindato.com
-                    td.text-center 22
-                    td.text-center 0
-                  tr
-                    td.text-center Pedro
-                    td.text-center pedro@sindato.com
-                    td.text-center 12
-                    td.text-center 65.234
-                  tr
-                    td.text-center Maria
-                    td.text-center maria@sindato.com
-                    td.text-center 16
-                    td.text-center 123
+              .tabla-j1
+                table.tabla-j2(width="100%")
+                  tbody
+                    tr
+                      td.text-center #[b Nombre]
+                      td.text-center #[b Correo]
+                      td.text-center #[b Edad]
+                      td.text-center #[b Saldo]
+                    tr
+                      td.text-center Juan
+                      td.text-center juan@sindato.com
+                      td.text-center 19
+                      td.text-center 36.234
+                    tr
+                      td.text-center Luis
+                      td.text-center luis@sindato.com
+                      td.text-center 18
+                      td.text-center 23.234
+                    tr
+                      td.text-center Andrea
+                      td.text-center andrea@sindato.com
+                      td.text-center 22
+                      td.text-center 0
+                    tr
+                      td.text-center Pedro
+                      td.text-center pedro@sindato.com
+                      td.text-center 12
+                      td.text-center 65.234
+                    tr
+                      td.text-center Maria
+                      td.text-center maria@sindato.com
+                      td.text-center 16
+                      td.text-center 123
           p.mb-5(data-aos="fade-right") Exceptuando el encabezado de la tabla 8, cada fila representa un registro y cada dato de un registro puede tener un tipo de dato diferente. Si se está interesado en codificar la tabla 8, en una estructura con JavaScript el código sería como se tiene en:
           .row.align-items-center.mb-5
             .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")

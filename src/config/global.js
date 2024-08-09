@@ -298,13 +298,6 @@ export default {
     {
       tema: 'Entornos de codificación e instalación JavaScript',
       referencia:
-        'Framebits. (19 de enero de 2020). Descargar e instalar Node Js en Windows 10.',
-      tipo: 'Video',
-      link: 'https://youtu.be/v0x1Ku5Tgac',
-    },
-    {
-      tema: 'Entornos de codificación e instalación JavaScript',
-      referencia:
         'Code Compadre. (30 de junio de 2020). How to Download and Install Visual Studio Code for Windows 10.',
       tipo: 'Video',
       link: 'https://youtu.be/KpzkPlh_HsU',
@@ -421,6 +414,11 @@ export default {
   referencias: [
     {
       referencia:
+        'Arellano, J., Solar, R., Nieva, S., y Canedo, P. (2022). Compilador e intérprete en línea de diagramas de flujo con fines didácticos [Imagen]. RITI Journal, 10(20), 82. ',
+      link: 'https://doi.org/10.36825/RITI.10.20.007',
+    },
+    {
+      referencia:
         'Autodidacta, F. (11 de mayo de 2017). Depurar o hacer debug a JavaScript con Google Chrome. [Video]. ',
       link: 'https://www.youtube.com/watch?v=I388w3wDkjc&t=192s',
     },
@@ -438,17 +436,6 @@ export default {
       referencia:
         'Framebits. (19 de enero de 2020). Descargar e instalar Node Js en Windows 10. [Video]. ',
       link: 'https://youtu.be/v0x1Ku5Tgac',
-    },
-    {
-      referencia:
-        'López, J. (2009). Algoritmos y programación (guía para docentes). ',
-      link:
-        'https://libros.metabiblioteca.org/bitstream/001/169/8/AlgoritmosProgramacion.pdf',
-    },
-    {
-      referencia:
-        'López, J. (2009). Algoritmos y programación (guía para docentes). ',
-      link: '',
     },
     {
       referencia:
@@ -508,8 +495,9 @@ export default {
     },
     {
       referencia:
-        'Rojas A., V. y Ñacato C., J. (1980). Técnica de flujogramas I. Editora Andina. ',
-      link: '',
+        'Resnick, M. (2007). Todo lo que Realmente Necesito Saber (Acerca del Pensamiento Creativo) Lo Aprendí (Estudiando Cómo Aprenden los niños) en el Kindergarten. EDUTEKA. ',
+      link:
+        'https://eduteka.icesi.edu.co/pdfdir/RESNICK_kindergarten-learning-approach.pdf',
     },
     {
       referencia:
@@ -531,13 +519,19 @@ export default {
     },
     {
       referencia:
+        'The Development Stages. (2024). PostgreSQL: Ejercicios prácticos. ',
+      link: 'https://thedevelopmentstages.com/postgresql-ejercicios-practicos/',
+    },
+    {
+      referencia:
         'TOMi.digital. (s.f.). Valores de las tablas de verdad. Colegio Nuestra Señora de las Victorias. ',
       link:
         'https://tomi.digital/es/59552/valores-de-las-tablas-de-verdad?utm_source=google&utm_medium=seo',
     },
     {
       referencia: 'Vázquez, J. (2012). Análisis y diseño de algoritmos. ',
-      link: '',
+      link:
+        'https://www.academia.edu/8646162/An%C3%A1lisis_y_dise%C3%B1o_de_algoritmos',
     },
     {
       referencia: 'Vedia, M. (2018). Cuándo usar Return en JavaScript. ',

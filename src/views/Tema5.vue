@@ -151,7 +151,7 @@
                       p.mb-0               contador <= contador + 1;
                       p.mb-0               contador <= contador + 1;
                       p.mb-0               contador <= contador + 1;
-                      p.mb-0               ESCRIBIR ( contador ) ;
+                      p.mb-0               ESCRIBIR (contador);
                       p.mb-0  FIN
           .row(titulo="Acumuladores")
             .col-12
