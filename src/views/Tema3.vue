@@ -187,10 +187,10 @@
           .row(titulo="Análisis")
             .col-12
               p El programa debe solicitar al usuario que ingrese un número. Luego, recibirá ese número desde el teclado y lo almacenará en una variable. Para ello, se debe definir una variable antes de empezar el algoritmo, reservando un espacio para guardar un número entero.
-              p.mb-0 Una vez definida la variable, se leerá el número ingresado por el usuario y se almacenará en dicha variable.Finalmente, el programa imprimirá el contenido de la variable, concluyendo así el proceso.
+              p.mb-0 Una vez definida la variable, se leerá el número ingresado por el usuario y se almacenará en dicha variable. Finalmente, el programa imprimirá el contenido de la variable, concluyendo así el proceso.
           .row(titulo="Diseño")
             .col-12
-              p En anterior análisis se contemplaron los datos de entrada, datos auxiliares (variable) operaciones (impresión en pantalla, lectura de datos e impresión en pantalla de resultados). Pero son muchas las palabras usadas en el análisis por lo tanto lo abreviamos con el siguiente código que, posteriormente, se explicará.
+              p El anterior análisis se contemplaron los datos de entrada, datos auxiliares (variable), operaciones (impresión en pantalla, lectura de datos e impresión en pantalla de resultados). Pero son muchas las palabras usadas en el análisis por lo tanto lo abreviamos con el siguiente código que, posteriormente, se explicará.
               .row
                 .col-lg-8
                   .px-4.py-3.bg-c22
@@ -307,113 +307,119 @@
               p ESCRIBIR ("Por favor ingrese un número");
               .row
                 .col-lg-8
-                  table(width="100%" style="background-color: #F9F9F9")
-                    tbody
-                      tr
-                        td.text-center #[b Número]
-                        td.text-center #[b Cuadrado]
-                        td.text-center #[b Cubo]
-                        td.text-center #[b Salida]
-                      tr
-                        td.text-center 
-                        td.text-center 
-                        td.text-center 
-                        td.text-center Por favor ingrese un número
+                  .tabla-j1
+                    table.tabla-j2(style="background-color: #F9F9F9")
+                      tbody
+                        tr
+                          td.text-center #[b Número]
+                          td.text-center #[b Cuadrado]
+                          td.text-center #[b Cubo]
+                          td.text-center #[b Salida]
+                        tr
+                          td.text-center 
+                          td.text-center 
+                          td.text-center 
+                          td.text-center Por favor ingrese un número
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-12
             .p-4
               p LEER(entrada);
               .row
                 .col-lg-8
-                  table(width="100%" style="background-color: #F9F9F9")
-                    tbody
-                      tr
-                        td.text-center #[b Número]
-                        td.text-center #[b Cuadrado]
-                        td.text-center #[b Cubo]
-                        td.text-center #[b Salida]
-                      tr
-                        td.text-center 3
-                        td.text-center 
-                        td.text-center 
-                        td.text-center Por favor ingrese un número 3
+                  .tabla-j1
+                    table.tabla-j2(width="100%" style="background-color: #F9F9F9")
+                      tbody
+                        tr
+                          td.text-center #[b Número]
+                          td.text-center #[b Cuadrado]
+                          td.text-center #[b Cubo]
+                          td.text-center #[b Salida]
+                        tr
+                          td.text-center 3
+                          td.text-center 
+                          td.text-center 
+                          td.text-center Por favor ingrese un número 3
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-12
             .p-4
               p cuadrado <= entrada * entrada;
               .row
                 .col-lg-8
-                  table(width="100%" style="background-color: #F9F9F9")
-                    tbody
-                      tr
-                        td.text-center #[b Número]
-                        td.text-center #[b Cuadrado]
-                        td.text-center #[b Cubo]
-                        td.text-center #[b Salida]
-                      tr
-                        td.text-center 3
-                        td.text-center 9
-                        td.text-center 
-                        td.text-center Por favor ingrese un número 3
+                  .tabla-j1
+                    table.tabla-j2(width="100%" style="background-color: #F9F9F9")
+                      tbody
+                        tr
+                          td.text-center #[b Número]
+                          td.text-center #[b Cuadrado]
+                          td.text-center #[b Cubo]
+                          td.text-center #[b Salida]
+                        tr
+                          td.text-center 3
+                          td.text-center 9
+                          td.text-center 
+                          td.text-center Por favor ingrese un número 3
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-12
             .p-4
               p cubo <= entrada * entrada * entrada;
               .row
                 .col-lg-8
-                  table(width="100%" style="background-color: #F9F9F9")
-                    tbody
-                      tr
-                        td.text-center #[b Número]
-                        td.text-center #[b Cuadrado]
-                        td.text-center #[b Cubo]
-                        td.text-center #[b Salida]
-                      tr
-                        td.text-center 3
-                        td.text-center 9
-                        td.text-center 27
-                        td.text-center Por favor ingrese un número 3
+                  .tabla-j1
+                    table.tabla-j2(width="100%" style="background-color: #F9F9F9")
+                      tbody
+                        tr
+                          td.text-center #[b Número]
+                          td.text-center #[b Cuadrado]
+                          td.text-center #[b Cubo]
+                          td.text-center #[b Salida]
+                        tr
+                          td.text-center 3
+                          td.text-center 9
+                          td.text-center 27
+                          td.text-center Por favor ingrese un número 3
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-12
             .p-4
               p ESCRIBIR (cuadrado);
               .row
                 .col-lg-8
-                  table(width="100%" style="background-color: #F9F9F9")
-                    tbody
-                      tr
-                        td.text-center #[b Número]
-                        td.text-center #[b Cuadrado]
-                        td.text-center #[b Cubo]
-                        td.text-center #[b Salida]
-                      tr
-                        td.text-center 3
-                        td.text-center 9
-                        td.text-center 27
-                        td
-                          p.mb-0 Por favor ingrese un número 3
-                          p.mb-0 El cuadrado 9
+                  .tabla-j1
+                    table.tabla-j2(width="100%" style="background-color: #F9F9F9")
+                      tbody
+                        tr
+                          td.text-center #[b Número]
+                          td.text-center #[b Cuadrado]
+                          td.text-center #[b Cubo]
+                          td.text-center #[b Salida]
+                        tr
+                          td.text-center 3
+                          td.text-center 9
+                          td.text-center 27
+                          td
+                            p.mb-0 Por favor ingrese un número 3
+                            p.mb-0 El cuadrado 9
         .row.justify-content-center.align-items-center(titulo="Paso")
           .col-12
             .p-4
               p ESCRIBIR (cuadrado);
               .row
                 .col-lg-8
-                  table(width="100%" style="background-color: #F9F9F9")
-                    tbody
-                      tr
-                        td.text-center #[b Número]
-                        td.text-center #[b Cuadrado]
-                        td.text-center #[b Cubo]
-                        td.text-center #[b Salida]
-                      tr
-                        td.text-center 3
-                        td.text-center 9
-                        td.text-center 27
-                        td
-                          p.mb-0 Por favor ingrese un número 3
-                          p.mb-0 El cuadrado 9
-                          p.mb-0 El cubo 27
+                  .tabla-j1
+                    table.tabla-j2(width="100%" style="background-color: #F9F9F9")
+                      tbody
+                        tr
+                          td.text-center #[b Número]
+                          td.text-center #[b Cuadrado]
+                          td.text-center #[b Cubo]
+                          td.text-center #[b Salida]
+                        tr
+                          td.text-center 3
+                          td.text-center 9
+                          td.text-center 27
+                          td
+                            p.mb-0 Por favor ingrese un número 3
+                            p.mb-0 El cuadrado 9
+                            p.mb-0 El cubo 27
     .row
       .col-12
         .p-4.bg-c6(data-aos="fade-right")

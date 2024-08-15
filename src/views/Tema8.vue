@@ -305,19 +305,20 @@
               pre
                 p.mb-0 
                 p.mb-0  ALGORITMO El mayor de dos números;
+                p.mb-0  
                 p.mb-0  VAR
                 p.mb-0  
                 p.mb-0                                        ENTERO numero1;
                 p.mb-0                                        ENTERO numero2;
                 p.mb-0  INICIO
-                p.mb-0                                        ESCRIBIR ( "Escriba un número" ) ;
+                p.mb-0                                        ESCRIBIR ("Escriba un número");
                 p.mb-0                                        LEER ( numero1 );
-                p.mb-0                                        ESCRIBIR( "Escriba un número" ) ;
-                p.mb-0                                        LEER ( numero2 ) ;
+                p.mb-0                                        ESCRIBIR("Escriba un número");
+                p.mb-0                                        LEER (numero2);
                 p.mb-0                                        numerol > numero2
-                p.mb-0                                        ESCRIBIR( numero1 );
+                p.mb-0                                        ESCRIBIR(numero1);
                 p.mb-0                                        SINO
-                p.mb-0                                                  ESCRIBIR( numero2 );
+                p.mb-0                                                  ESCRIBIR(numero2);
                 p.mb-0                                        FINSI
                 p.mb-0  FIN
                 p.mb-0 
