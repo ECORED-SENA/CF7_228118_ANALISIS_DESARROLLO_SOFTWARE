@@ -150,7 +150,7 @@
           .titulo-sexto.color-acento-contenido.mb-4
             p.mb-0 #[b Figura 5.] Actividades diseño algoritmo
           figure
-            img(src='@/assets/curso/tema3/img7.svg', style='width: 500px', alt='Imagen de un círculo con cuatro secciones etiquetadas como Validación, Análisis, Diseño, e Implementación, y el texto Algoritmia Básica en el centro.').m-auto
+            img(src='@/assets/curso/tema3/img7.svg', style='width: 500px', alt='Diagrama de actividades para el diseño de un algoritmo que incluye: definir las partes del algoritmo, pasos para el desarrollo del algoritmo y la representación del algoritmo mediante notación, diagrama o pseudocódigo.').m-auto
     p.mb-5(data-aos="fade-right") Para la verificación del algoritmo, se aplica una técnica denominada pruebas de escritorio o trazas, que trata de la validación y verificación del algoritmo mediante la ejecución de las sentencias u operaciones que lo componen (proceso), y así determinar sus resultados de salida a partir de una base determinada de elementos en la entrada del proceso.
     .row.mb-5
       .col-12
